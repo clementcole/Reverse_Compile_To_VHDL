@@ -1,0 +1,17 @@
+add xmm15, xmm4
+cvtss2sd xmm15, xmm4
+subsd xmm11, xmm6
+pxor xmm6, xmm6
+cvtsd2ss xmm6, xmm11
+movaps xmm11, xmm0
+movss dword [ss:rsp+arg_1C], xmm6
+movss smm6, dword [ds:0x4b0b48]
+mulss xmm11, xmm6
+mulss xmm11, xmm2
+subss xmm11, xmm10
+movaps xmm10, xmm3
+mulss xmm10, xmm6
+mulss xmm6, xmm12
+movss dword [ss:rsp+arg_20], xmm11
+movaps xmm11, xmm10
+mulss xmm6, xmm2

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ALU.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="compxlib.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/fp_add.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/fp_mult.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/fp_sub.vho" xil_pn:origination="imported"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1476978822" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1476978822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978823" xil_pn:in_ck="-1688847085895355723" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476978822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU_MAIN_32_tb.vhd"/>
+      <outfile xil_pn:name="add_sub_n.vhd"/>
+      <outfile xil_pn:name="alu_main_32.vhd"/>
+      <outfile xil_pn:name="opcodes.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978823" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7781184645502270527" xil_pn:start_ts="1476978823">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978823" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2305984557439171359" xil_pn:start_ts="1476978823">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978824" xil_pn:in_ck="-799583587144829630" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9120499945278446011" xil_pn:start_ts="1476978823">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/add_ready.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/add_ready.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/add_shift.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/add_shift.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/add_sub_32.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/add_sub_32.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fifo.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fifo.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_32.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_32.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_add.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fp_add.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_mult.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fp_mult.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_sub.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fp_sub.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/mult.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/mult.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/mult_counter.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/mult_counter.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978824" xil_pn:in_ck="7508876860706539431" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476978824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU_MAIN_32_tb.vhd"/>
+      <outfile xil_pn:name="add_sub_n.vhd"/>
+      <outfile xil_pn:name="alu_main_32.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/add_ready.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/add_shift.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/add_sub_32.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fifo.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_32.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_add.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_mult.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/fp_sub.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/mult.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/mult_counter.vhd"/>
+      <outfile xil_pn:name="opcodes.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1476978828" xil_pn:in_ck="7508876860706539431" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="6067088567954539090" xil_pn:start_ts="1476978824">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

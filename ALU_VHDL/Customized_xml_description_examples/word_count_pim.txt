@@ -1,0 +1,37 @@
+<!--
+  need an enable that is based on FIFO_not_full flag
+  need an indication of when last character pulled from file
+    which allows pipeline to drain and to notify processor task is finished
+-->
+
+<LDST instance="LDST0", size="8">
+
+<!--  clock 1: compare character to 'a' and 'z', delay character, convert character to upper case  -->
+<IALU instance="ge_a", in_0="LDST0.data", in_1="immed", immed="0x61", funct=sub, cond="ge">
+<IALU instance="le_z", in_0="LDST0.data", in_1="immed", immed="0x7a", funct=sub, cond="le">
+<IALU instance="mkupper", in_0="LDST0.data", in_1="immed", immed="0xdf", funct=and>
+<DLY instance="dly_char", in_0="LDST0.data">
+
+<!--  clock 2:  select either delayed original character or 'upper cased' character  -->
+<LUT instance="lowcase", a="ge_a.cond", b="le_z.cond", equation="a&b">
+<SLCT instance="slctd", in_0="dly_char.data", in_1="mkupper.data", sel="lowcase.q"
+
+<!--  clock 3:  determine if character-in-word (A-Z | ') or not  -->
+<IALU instance="ge_A2", in_0=slctd.data, in_1=immed, immed=0x41, funct=sub, cond=ge>
+<IALU instance="le_Z2", in_0=slctd.data, in_1=immed, immed=0x5a, funct=sub, cond=le>
+<IALU instance=eq_apos, in_0=slctd.data, in_1=immed, immed=0x27, funct=sub, cond=eq>
+
+<!--  clock 4:  update hash val or increment count  -->
+<!--  if not character_in_word and previous_character_in_word, send hash_sum and string_val to table section  -->
+<!--  if not character_in_word, set hash_sum = 0, initialize string buffer
+<!--  if  character_in_word, accumulate to hash_sum, copy to string, increment string pointer
+
+
+
+<!--
+  Hash table implementation:
+    Use a large, sparse hash table with increment for collision resolution
+    rather than linked list
+    Test cases (200k bytes) have 2782-3547 unique words, start with a 40,000 entry
+      hash table and see how many collisions and max collision resolution is required
+-->

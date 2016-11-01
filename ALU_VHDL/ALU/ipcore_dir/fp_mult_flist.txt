@@ -1,0 +1,15 @@
+# Output products list for <fp_mult>
+_xmsgs\pn_parser.xmsgs
+fp_mult.asy
+fp_mult.gise
+fp_mult.ngc
+fp_mult.sym
+fp_mult.vhd
+fp_mult.vho
+fp_mult.xco
+fp_mult.xise
+fp_mult\doc\floating_point_ds335.pdf
+fp_mult\doc\floating_point_v5_0_readme.txt
+fp_mult\doc\floating_point_v5_0_vinfo.html
+fp_mult_flist.txt
+fp_mult_xmdf.tcl

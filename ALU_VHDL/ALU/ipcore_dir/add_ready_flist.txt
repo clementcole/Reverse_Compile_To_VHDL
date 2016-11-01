@@ -1,0 +1,15 @@
+# Output products list for <add_ready>
+_xmsgs\pn_parser.xmsgs
+add_ready.asy
+add_ready.gise
+add_ready.ngc
+add_ready.sym
+add_ready.vhd
+add_ready.vho
+add_ready.xco
+add_ready.xise
+add_ready\doc\c_shift_ram_v11_0_readme.txt
+add_ready\doc\c_shift_ram_v11_0_vinfo.html
+add_ready\doc\ds228_shift_ram.pdf
+add_ready_flist.txt
+add_ready_xmdf.tcl

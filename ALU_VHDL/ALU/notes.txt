@@ -1,0 +1,911 @@
+
+	component add_sub_reg is
+		generic ( bits 	: integer  := 32);
+		port (
+				A				: in signed(31 downto 0);
+				B				: in signed(31 downto 0);
+				clk				:       in std_logic;
+				rst 			:       in std_logic;
+				input_ready : in std_logic;
+				output_ready : out std_logic;
+			Result 	: out std_logic_vector(32 downto 0));
+	end component;
+	
+	component mult_reg is
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(63 downto 0));
+	end component;
+	
+	component or_reg is 	--Completed
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component nor_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+
+	component and_reg is     --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+
+	component xor_reg is     --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component xnor_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component not_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sll_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+  
+	component srl_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sla_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sra_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component ror_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component rol_reg is    --Completed
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component fp_mult_reg is 
+		generic(bits : integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	--component fp_div_reg is 
+	--	generic (bits : integer := 32);
+	--	port ( 
+	--		A 				:		in std_logic_vector(31 downto 0); --input operands
+	--		B				: 		in std_logic_vector(31 downto 0);
+	--		clk				:       in std_logic;
+	--		rst 			:       in std_logic;
+	--		input_ready		:		in std_logic; 
+	--		output_ready	:		out std_logic;
+	--		Result 			: 		out std_logic_vector(31 downto 0));
+	--end component;
+
+	--component fp_add_reg is 
+	--	generic (bits : integer := 32);
+	--	port ( 
+	--		A 				:		in std_logic_vector(31 downto 0); --input operands
+	--		B				: 		in std_logic_vector(31 downto 0);
+	--		clk				:       in std_logic;
+	--		rst 			:       in std_logic;
+	--		input_ready		:		in std_logic; 
+	--		output_ready	:		out std_logic;
+	--		Result 			: 		out std_logic_vector(31 downto 0));
+	--end component; 
+
+	--component fp_sub_reg is 
+	--	generic (bits : integer := 32);
+	--	port ( 
+	--		A 				:		in std_logic_vector(31 downto 0); --input operands
+	--		B				: 		in std_logic_vector(31 downto 0);
+	--		clk				:       in std_logic;
+	--		rst 			:       in std_logic;
+	--		input_ready		:		in std_logic; 
+	--		output_ready	:		out std_logic;
+	--		Result 			: 		out std_logic_vector(31 downto 0));
+	--end component; 
+		
+	--component fp_mult is    --
+	--	port(  
+	--		a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk 	: IN STD_LOGIC;
+	--		result : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+
+	
+
+	--component fp_add     --
+	--	port(	a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk 	: IN STD_LOGIC;
+	--		result 	: OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+	
+	
+	
+	--component fp_sub   --
+	--	port( 	a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk	: IN STD_LOGIC;
+	--		result 	: OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+	
+
+	--PM_GENERIC_COUNTER_SIG  : generic_counter 
+	--	port map(count => count, clk => clk, rst => rst ); --rst_counter is the opposite of input_ready signal
+		
+
+	--PM_FADD_OUTPUT_READY_SIGNAL : shift_reg_fadd
+	--PM_FSUB_OUTPUT_READY_SIGNAL : shift_reg_fsub
+	--PM_FMULT_OUTPUT_READY_SIGNAL : shift_reg_fmult
+	--PM_NOR_OUTPUT_READY_SIGNAL :  shift_reg_nor
+	--	port map( clk => clk, data_in => nor_in_ready,  data_out => nor_result_ready ); 
+	--PM_GENERAL_OUTPUT_READY_SIGNAL : shift_reg 
+	--	port map(clk => clk, input_ready => input_ready, parallel_load => input_ready_signal, output_ready =>  output_ready_signal);
+
+
+	--PM_FMULT : fp_mult	
+	--	port map( a => A, b => B, clk => clk, result => r_fmult);
+
+	--PM_FADD : fp_add
+	--	port map(a => A, b => B, clk => clk, result => r_fadd);
+
+	--PM_FSUB : fp_sub
+	--	port map(a => A, b => B, clk => clk, result => r_fsub); 
+
+	--Previous ALU_CODES
+	----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    08:43:13 07/20/2016 
+-- Design Name: 
+-- Module Name:    alu_main_32 - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_unsigned.all;
+use IEEE.NUMERIC_STD.ALL;
+library work;
+use work.opcodes.all;
+
+
+
+entity AlU_EXPERIMENT_32 is
+	generic(data_width 	:	 	integer := 32);
+	port(   
+		A 				:		in std_logic_vector(31 downto 0); --input operands
+		B				: 		in std_logic_vector(31 downto 0);
+		clk				:       in std_logic;
+		rst 			:       in std_logic;
+		input_ready		:		in std_logic; 
+		output_ready	:		out std_logic;
+		Operation		: 		in std_logic_vector(7 downto 0); --select operation
+		Result 			: 		out std_logic_vector(63 downto 0));
+end;
+
+architecture BEHAVIORAL of ALU_EXPERIMENT_32 is
+--------------------------------------
+--Signals inputs/outputs temporary
+---------------------------------------
+signal inputA, inputB 				: std_logic_vector(data_width-1 downto 0);
+signal op							: std_logic_vector(7 downto 0);
+signal invertB 						: std_logic_vector(31 downto 0);
+signal output, temp 				: std_logic_vector(63 downto 0) := (others => '0');
+signal parallel_load_signals		: std_logic_vector(11 downto 0);
+signal EnableDin, EnableDout		: std_logic;
+signal A_sign						: std_logic;
+signal B_sign						: std_logic;
+signal R_sign						: std_logic;
+signal input_ready_signal			: std_logic;
+signal output_ready_signal 			: std_logic;
+signal r_add_sub 	 				: std_logic_vector(32 downto 0) 	:= (others => '0');
+signal in_ready 					: std_logic_vector(17 downto 0) 	:= (others => '0');
+signal result_ready					: std_logic_vector(17 downto 0)		:= (others => '0'); 
+signal r_or, r_and, r_xnor, r_nor 	: std_logic_vector(31 downto 0) 	:= (others => '0');
+signal r_not, r_xor 				: std_logic_vector(31 downto 0) 	:= (others => '0');
+signal r_sla, r_sra, r_sll 			: std_logic_vector(31 downto 0) 	:= (others => '0');
+signal r_srl 		 				: std_logic_vector(31 downto 0)    := (others => '0');
+signal r_fadd, r_fsub, r_fmult, r_fdiv 		: std_logic_vector(31 downto 0) := (others => '0');
+signal r_ror, r_rol 		: std_logic_vector(31 downto 0)		:= (others => '0');
+signal r_div 			: std_logic_vector(31 downto 0)		:= (others => '0');
+signal r_mult			: std_logic_vector(63 downto 0);
+signal cin 				: std_logic;
+signal cout 			: std_logic;
+signal rst_counter              : std_logic;
+
+
+--function ready_or_not(val : std_logic_vector) return std_logic
+--	is
+--		alias arb : std_logic_vector(val'length downto 0) is val;
+--		variable result : std_logic_vector(arb'range) := arb;
+--		variable output_ready_or_not : std_logic := '1';
+--		begin 
+--	for i in arb'low to arb'high loop
+--			result(i) := (arb(i) or );  --Mutual exclusion
+--			carry := arb(i) and carry;      --And
+--			exit when carry = '0';
+--	end loop;
+--	return output_ready_or_not;
+--end ready_or_not;
+
+
+	constant Period 	: time := 50 ns;
+
+
+	
+	component add_sub_reg is
+		generic ( bits 	: integer  := 32);
+		port (
+				A				: in signed(31 downto 0);
+				B				: in signed(31 downto 0);
+				clk				:       in std_logic;
+				rst 			:       in std_logic;
+				input_ready : in std_logic;
+				output_ready : out std_logic;
+			Result 	: out std_logic_vector(32 downto 0));
+	end component;
+	
+	component mult_reg is
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(63 downto 0));
+	end component;
+	
+	component or_reg is 	--Completed
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component nor_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+
+	component and_reg is     --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+
+	component xor_reg is     --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component xnor_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component not_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sll_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+  
+	component srl_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sla_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component sra_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component ror_reg is    --Completed
+	generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component rol_reg is    --Completed
+		generic(bits 	:	 	integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	component fmult_reg is   --Completed
+		generic(bits : integer := 32);
+		port(   
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component;
+
+	--component fp_div_reg is 
+	--	generic (bits : integer := 32);
+	--	port ( 
+	--		A 				:		in std_logic_vector(31 downto 0); --input operands
+	--		B				: 		in std_logic_vector(31 downto 0);
+	--		clk				:       in std_logic;
+	--		rst 			:       in std_logic;
+	--		input_ready		:		in std_logic; 
+	--		output_ready	:		out std_logic;
+	--		Result 			: 		out std_logic_vector(31 downto 0));
+	--end component;
+
+	component fadd_reg is  --Completed
+		generic (bits : integer := 32);
+		port ( 
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component; 
+
+	component fsub_reg is  --Completed
+		generic (bits : integer := 32);
+		port ( 
+			A 				:		in std_logic_vector(31 downto 0); --input operands
+			B				: 		in std_logic_vector(31 downto 0);
+			clk				:       in std_logic;
+			rst 			:       in std_logic;
+			input_ready		:		in std_logic; 
+			output_ready	:		out std_logic;
+			Result 			: 		out std_logic_vector(31 downto 0));
+	end component; 
+		
+	--component fp_mult is    --
+	--	port(  
+	--		a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk 	: IN STD_LOGIC;
+	--		result : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+
+	
+
+	--component fp_add     --
+	--	port(	a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk 	: IN STD_LOGIC;
+	--		result 	: OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+	
+	
+	
+	--component fp_sub   --
+	--	port( 	a 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		b 	: IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+	--		clk	: IN STD_LOGIC;
+	--		result 	: OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+	--end component;
+	
+	
+	--component shift_reg is
+	--port(	clk      		: in std_logic;
+	--		input_ready		: in std_logic;
+	--     	parallel_load  	: in std_logic_vector(10 downto 0);
+	 --    	output_ready 	: out std_logic);
+	--end component;	
+
+
+	--component generic_counter is
+	--port (  count :  buffer std_logic_vector(5 downto 1);
+	--		clk 	:  in std_logic;
+	--		rst     :  in std_logic);
+	--end component;
+	
+
+
+
+
+
+begin	
+	
+	PM_ADD_SUB : add_sub_reg 
+		generic map (bits => 32)
+		port map (A => signed(A),  B => signed(B), clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(0), std_logic_vector(Result) => r_add_sub ); 
+
+
+	PM_MULT : mult_reg
+		generic map(bits => 32)
+		port map( A => A,  B => B, clk => clk,  rst => rst, input_ready => input_ready, output_ready => result_ready(1), Result => r_mult);
+
+	PM_OR : or_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(2), Result => r_or);
+	
+	PM_NOR : nor_reg 
+		generic map ( bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(3), Result => r_nor);
+
+
+	PM_XOR : xor_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(4), Result => r_xor );
+
+	PM_XNOR : xnor_reg  
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(5), Result => r_xnor );
+
+	PM_NOT :  not_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(6), Result => r_not );
+
+	PM_SLL : sll_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(7), Result => r_sll );
+
+	PM_SRL : srl_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(8), Result => r_srl );
+
+	PM_SLA : sla_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(9), Result => r_sla );
+
+	
+	PM_SRA : sra_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(10), Result => r_sra );
+
+	PM_ROR : ror_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(11), Result => r_ror );
+
+	
+	PM_ROL : rol_reg
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(12), Result => r_rol);
+
+	PM_FADD : fadd_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(13), Result => r_fadd);
+
+
+	PM_FSUB : fsub_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(14), Result => r_fsub);
+
+
+	--PM_FDIV : fdiv_reg 
+	--	generic map(bits => 32)
+	--	port map(A => A, B => B, clk => clk, rst => rst, input_ready => in_ready(3), output_ready => result_ready(3), Result => r_fdiv);
+
+	PM_FMULT : fmult_reg 
+		generic map(bits => 32)
+		port map(A => A, B => B, clk => clk, rst => rst, input_ready => input_ready, output_ready => result_ready(15), Result => r_fmult);
+
+	--PM_GENERIC_COUNTER_SIG  : generic_counter 
+	--	port map(count => count, clk => clk, rst => rst ); --rst_counter is the opposite of input_ready signal
+		
+
+	--PM_FADD_OUTPUT_READY_SIGNAL : shift_reg_fadd
+	--PM_FSUB_OUTPUT_READY_SIGNAL : shift_reg_fsub
+	--PM_FMULT_OUTPUT_READY_SIGNAL : shift_reg_fmult
+	--PM_NOR_OUTPUT_READY_SIGNAL :  shift_reg_nor
+	--	port map( clk => clk, data_in => nor_in_ready,  data_out => nor_result_ready ); 
+	--PM_GENERAL_OUTPUT_READY_SIGNAL : shift_reg 
+	--	port map(clk => clk, input_ready => input_ready, parallel_load => input_ready_signal, output_ready =>  output_ready_signal);
+
+
+	--PM_FMULT : fp_mult	
+	--	port map( a => A, b => B, clk => clk, result => r_fmult);
+
+	--PM_FADD : fp_add
+	--	port map(a => A, b => B, clk => clk, result => r_fadd);
+
+	--PM_FSUB : fp_sub
+	--	port map(a => A, b => B, clk => clk, result => r_fsub); 
+	
+	
+
+	alu_control : process(clk, input_ready,    A, B,  rst) is 
+	begin 
+	--if (rising_edge(clk) and input_ready = '1') then 
+	--if (rst = '1') then 
+	--	result_ready <= (others => '0');
+
+	if( rising_edge(clk) and input_ready = '1') then
+	  if(rst = '1') then 
+	  	in_ready <= (others => '0');
+	  	output <= (others => '0');
+
+
+	  elsif (rst  = '0' ) then 
+		case Operation is
+			--when OPCODE_RESET => 
+			--	output_ready <= '0';	
+			
+
+			when OPCODE_ADD_SUB =>  -- 00001
+				output(32 downto 0) <= r_add_sub;
+				output(63 downto 33) <= (others => '0');
+				
+				
+
+			when OPCODE_MULT => output <= r_mult; -- 00011
+				
+				
+
+			when OPCODE_OR => output(31 downto 0) <= r_or;	--00011
+				output(63 downto 32) <= (others => '0');
+				
+			
+
+							
+
+			when OPCODE_AND => output(31 downto 0) <= r_and;	--
+				output(63 downto 32) <= (others => '0');
+				
+			
+					
+					
+							
+			when OPCODE_XOR => output(31 downto 0) <= r_xor;
+				output(63 downto 32) <= (others => '0');
+				
+			
+
+
+			when OPCODE_XNOR => output(31 downto 0) <= r_xnor;
+				output(63 downto 32) <= (others => '0');
+				
+							
+							
+							
+			when OPCODE_NOT => output(31 downto 0) <= r_not;
+				output(63 downto 32) <= (others => '0');
+				
+
+			when OPCODE_SLA => output(31 downto 0) <= r_sla;
+				output(63 downto 32) <= (others => '0');
+				
+
+			when OPCODE_SRA => output(31 downto 0) <= r_sra;
+				output(63 downto 32) <= (others => '0');
+						
+							
+							
+
+
+			when OPCODE_SLL => output(31 downto 0) <= r_sll;
+				output(63 downto 32) <= (others => '0');
+						
+							
+							
+
+			when OPCODE_SRL => output(31 downto 0) <= r_srl;
+				output(63 downto 32) <= (others => '0');
+								
+
+			when OPCODE_NOR => output(31 downto 0) <= r_nor;
+				output(63 downto 32) <= (others => '0');
+				
+							
+							
+
+			when OPCODE_ROR => output(31 downto 0) <= r_ror;
+				output(63 downto 32) <= (others => '0');
+					
+							
+
+
+			when OPCODE_ROL => output(31 downto 0) <= r_rol;
+				output(63 downto 32) <= (others => '0');
+						
+							
+						
+			when OPCODE_FADD => output(31 downto 0) <= r_fadd;
+				output(63 downto 32) <= (others => '0');
+				
+						
+			when OPCODE_FSUB => output(31 downto 0) <= r_fsub;
+				output(63 downto 32) <= (others => '0');
+								
+							
+
+			when OPCODE_FMULT => output(31 downto 0) <= r_fmult;
+				output(63 downto 32) <= (others => '0');
+								
+							
+
+			when others =>
+				NULL;
+			end case;
+		end if;
+	  end if;
+   end process;
+  Result <= output;
+  output_ready <= result_ready(0) xor result_ready(1);
+  --output_ready <= (result_ready(0)   or result_ready(1) or result_ready(2) 
+  --											or 
+  --				   result_ready(3) or result_ready(4) or result_ready(5) or result_ready(6) 
+  --				   							or 
+  --				   result_ready(7) or result_ready(8) or result_ready(9) or result_ready(10) 
+  --				   							or 
+  --				   result_ready(11) or result_ready(12) or result_ready(13)	or result_ready(14)
+  --				   							or
+  --				  result_ready(15) or result_ready(16) or result_ready(17)	);		
+  							
+end BEHAVIORAL;
+
+************************************************
+** XML FILE FORMATS 
+************************************************
+Here are the XML files for the histogram and word_count benchmarks.  I have also included the DFG for the benchmarks.  The 2nd page of the word_count DFG has LUT blocks that do not show connectivity as it clutters the diagram.  However, you can see the connections in the XML file.
+
+The XML file basically has the standard XML overhead and allows comments.  The main elements name one of the DFPIM block types in all CAPS, such as IALU, LD, LUT, etc.  The next attribute should always be ‘instance’ and be provided with a unique instance name.  You can see the instance names of each block on the DFG.  The remainder of the attributes depend on the block being described.  For example, the IALU includes a size attribute: 8, 16, or 32 (default 32) bits; a latency attribute of 0-3 clocks for the output to be valid (0 clocks is combinatorial output, not clocked), a data_in0 attribute whose value must be the output of another DFG block in the syntax “instance_name.output_name”.  If an ‘immed' attribute is used, that means that the second input to the IALU is the immediate value of the ‘dimmed’ attribute.  The ‘funct’ attribute indicates the operation the IALU is to perform and the ‘cond’ attribute indicates a test condition.
+
+The LUT element is a 6-input lookup table with two combinatorial outputs: y_out, z_out and two registered outputs: yq_out and zq_out.  The ‘y_table' and ‘z_table’ specify the lookup table contents.
+
+Here is a list of inputs and outputs of each DFPIM block currently defined:  (ignore the 'omap nix’ column, it is DFPIM simulator implementation details)
+
+INPUTS:
+
+DLY    data_in, eod_in, ready_in, reset
+FIFO   data_in, eod_in, ready_in, put, reset, take
+FADD   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+FMUL   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+IALU   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+LD     ready_in, reset
+LUT    ctrl_in0, ctrl_in1, ctrl_in2, ctrl_in3, ctrl_in4, ctrl_in5, ctrl_in, reset
+MEM    rd0_adrs, rd0_eod_in, rd0_rdy_in, rd1_adrs, rd1_eod_in, rd1_rdy_in, 
+       wr0_adrs, wr0_data, wr0_eod_in, wr0_rdy_in, wr1_adrs, wr1_data, wr1_eod_in, wr1_rdy_in
+SLCT   select, data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+STMAC  ctrl_in0, ctrl_in1, ctrl_in2, ctrl_in3, ready_in, reset
+
+
+
+OUTPUTS:
+       DLY, FADD,
+omap   FMUL, IALU,
+ndx    LD, SLCT           MEM                STMAC              LUT              FIFO
+----   ----------------   ----------------   ----------------   --------------   ----------
+ 0:    data_out           rd0_data           data_out0          y_out            data_out
+ 1:    eod_out            rd0_eod_out        ctrl_out0          yq_out           eod_out
+ 2:    ready_out          rd0_rdy_out        ctrl_out1          z_out            ready_out
+ 3:    flag (IALU, FADD)                     ctrl_out2          zq_out           empty
+ 4:                       rd1_data           data_out1                           quarter
+ 5:                       rd1_eod_out        ctrl_out3                           half
+ 6:                       rd1_rdy_out        ready_out                           quarter3
+ 7:                       wr0_eod_out        state0                              full
+ 8:                       wr0_rdy_out        state1                              chain_out
+ 9:                       wr1_eod_out        state2                              not_empty
+10:                       wr1_rdy_out        state3
+11:                                          state4
+12:                                          state5
+13:                                          state6
+14:                                          state7
+15:                                          state8
+16:                                          state9
+17:                                          state10
+18:                                          state11
+19:                                          state12
+20:                                          state13
+21:                                          state14
+22:                                          state15
+23:
+24:

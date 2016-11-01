@@ -1,0 +1,140 @@
+$ sudo port install clang-36
+or
+
+$ sudo port install gcc49
+
+How to install gcc49 or c++ 14
+
+passing an object with const means an alias without ownership. The const stands for the fact that the function only mutates the object but doesn't own it so it returns it back to the function that owns it. 
+
+LValues vs RValues
+
+Lvalues:
+	for instance the assignment "int n = 3;", this means we have an object 'n' of type int with a value of 3 which is mutable. So it means n is an expression which value depends on its assigned statement that is "n = 3", if however we do the following, 
+	3 = n, the compiler will generate an error because, 3 is an R value and it is a constant of type int. it is immutable.
+
+	Another example is n = &p; 
+
+
+	Lvalues and Rvalues
+C and C++ enforce subtle differences on the expressions to the left and right of the assignment operator
+
+If you've been programming in either C or C++ for a while, it's likely that you've heard the terms lvalue (pronounced "ELL-value") and rvalue (pronounced "AR-value"), if only because they occasionally appear in compiler error messages. There's also a good chance that you have only a vague understanding of what they are. If so, it's not your fault.
+
+Most books on C or C++ do not explain lvalues and rvalues very well. (I looked in a dozen books and couldn't find one explanation I liked.) This may be due to of the lack of a consistent definition even among the language standards. The 1999 C Standard defines lvalue differently from the 1989 C Standard, and each of those definitions is different from the one in the C++ Standard. And none of the standards is clear.
+
+Given the disparity in the definitions for lvalue and rvalue among the language standards, I'm not prepared to offer precise definitions. However, I can explain the underlying concepts common to the standards.
+
+As is often the case with discussions of esoteric language concepts, it's reasonable for you to ask why you should care. Admittedly, if you program only in C, you can get by without understanding what lvalues and rvalues really are. Many programmers do. But understanding lvalues and rvalues provides valuable insights into the behavior of built-in operators and the code compilers generate to execute those operators. If you program in C++, understanding the built-in operators is essential background for writing well-behaved overloaded operators.
+
+Basic concepts
+Kernighan and Ritchie coined the term lvalue to distinguish certain expressions from others. In The C Programming Language (Prentice-Hall, 1988), they wrote "An object is a manipulatable region of storage; an lvalue is an expression referring to an object....The name 'lvalue' comes from the assignment expression E1 = E2 in which the left operand E1 must be an lvalue expression."
+
+In other words, the left and right operands of an assignment expression are themselves expressions. For the assignment to be valid, the left operand must refer to an object-it must be an lvalue. The right operand can be any expression. It need not be an lvalue. For example:
+
+int n;
+
+declares n as an object of type int. When you use n in an assignment expression such as:
+
+n = 3;
+
+n is an expression (a subexpression of the assignment expression) referring to an int object. The expression n is an lvalue.
+
+Suppose you switch the left and right operands around:
+
+3 = n;
+
+Unless you're a former Fortran programmer, this is obviously a silly thing to do. The assignment is trying to change the value of an integer constant. Fortunately, C and C++ compilers reject it as an error. The basis for the rejection is that, although the assignment's left operand 3 is an expression, it's not an lvalue. It's an rvalue. It doesn't refer to an object; it just represents a value.
+
+I don't know where the term rvalue comes from. Neither edition of the C Standard uses it, other than in a footnote stating "What is sometimes called 'rvalue' is in this standard described as the 'value of an expression.'"
+
+The C++ Standard does use the term rvalue, defining it indirectly with this sentence: "Every expression is either an lvalue or an rvalue." So an rvalue is any expression that is not an lvalue.
+
+Numeric literals, such as 3 and 3.14159, are rvalues. So are character literals, such as 'a'. An identifier that refers to an object is an lvalue, but an identifier that names an enumeration constant is an rvalue. For example:
+
+enum color { red, green, blue };
+color c;
+...
+c = green;    // ok
+blue = green;    // error
+
+The second assignment is an error because blue is an rvalue.
+
+Although you can't use an rvalue as an lvalue, you can use an lvalue as an rvalue. For example, given:
+
+int m, n;
+
+you can assign the value in n to the object designated by m using:
+
+m = n;
+
+This assignment uses the lvalue expression n as an rvalue. Strictly speaking, a compiler performs what the C++ Standard calls an lvalue-to-rvalue conversion to obtain the value stored in the object to which n refers.
+
+Lvalues in other expressions
+Although lvalues and rvalues got their names from their roles in assignment expressions, the concepts apply in all expressions, even those involving other built-in operators.
+
+For example, both operands of the built-in binary operator + must be expressions. Obviously, those expressions must have suitable types. After conversions, both expressions must have the same arithmetic type, or one expression must have a pointer type and the other must have an integer type. But either operand can be either an lvalue or an rvalue. Thus, both x + 2 and 2 + x are valid expressions.
+
+Although the operands of a binary + operator may be lvalues, the result is always an rvalue. For example, given integer objects m and n:
+
+m + 1 = n;
+
+is an error. The + operator has higher precedence than the = operator. Thus, the assignment expression is equivalent to:
+
+(m + 1) = n;    // error
+
+which is an error because m + 1 is an rvalue.
+
+As another example, the unary & (address-of) operator requires an lvalue as its operand. That is, &n is a valid expression only if n is an lvalue. Thus, an expression such as &3 is an error. Again, 3 does not refer to an object, so it's not addressable.
+
+Although the unary & requires an lvalue as its operand, it's result is an rvalue. For example:
+
+int n, *p;
+...
+p = &n;    // ok
+&n = p;    // error: &n is an rvalue
+
+In contrast to unary &, unary * produces an lvalue as its result. A non-null pointer p always points to an object, so *p is an lvalue. For example:
+
+int a[N];
+int *p = a;
+...
+*p = 3;     // ok
+
+Although the result is an lvalue, the operand can be an rvalue, as in:
+
+*(p + 1) = 4;    // ok
+
+Data storage for rvalues
+Conceptually, an rvalue is just a value; it doesn't refer to an object. In practice, it's not that an rvalue can't refer to an object. It's just that an rvalue doesn't necessarily refer to an object. Therefore, both C and C++ insist that you program as if rvalues don't refer to objects.
+
+The assumption that rvalues do not refer to objects gives C and C++ compilers considerable freedom in generating code for rvalue expressions. Consider an assignment such as:
+
+n = 1;
+
+where n is an int. A compiler might generate named data storage initialized with the value 1, as if 1 were an lvalue. It would then generate code to copy from that initialized storage to the storage allocated for n. In assembly language, this might look like:
+
+one: .word 1
+...
+mov (one), n
+
+Many machines provide instructions with immediate operand addressing, in which the source operand can be part of the instruction rather than separate data. In assembly, this might look like:
+
+mov #1, n
+
+In this case, the rvalue 1 never appears as an object in the data space. Rather, it appears as part of an instruction in the code space.
+
+On some machines, the fastest way to put the value 1 into an object is to clear it and then increment it, as in:
+
+clr n
+inc n
+
+Clearing the object sets it to zero. Incrementing adds one. Yet data representing the values 0 and 1 appear nowhere in the object code.
+
+More to come
+Although it's true that rvalues in C do not refer to objects, it's not so in C++. In C++, rvalues of a class type do refer to objects, but they still aren't lvalues. Thus, everything I've said thus far about rvalues is true as long as we're not dealing with rvalues of a class type.
+
+Although lvalues do designate objects, not all lvalues can appear as the left operand of an assignment. I'll pick up with this in my next column.
+
+Dan Saks is a high school track coach and the president of Saks & Associates, a C/C++ training and consulting company. He is also a consulting editor for the C/C++ Users Journal. You can write to him at dsaks@wittenberg.edu.
+

@@ -1,0 +1,299 @@
+/*
+enum Flags : bool{
+			OPENBRACKETSFLAG = true,	CLOSEBRACKETFLAG = true,	EQUALFLAG = true,
+			BEGINFLAG = true,			ENDFLAG = true,				OPENCURLYFLAG = true,
+			CLOSECURLY= true,			
+};
+*/
+/*
+enum ConfigEnums{
+
+};
+*/
+/*
+enum BlockState{
+			READ_BLOCK_TOP_BORDER,				BLOCK_HEADER_BEGIN,
+			BLOCK_COUNT,						BLOCK_COUNT_VALUE,
+			BLOCK_SIZE,							BLOCK_SIZE_VALUE,
+			BLOCK_CYCLES,						BLOCK_CYCLES_VALUE,
+			EOF_BLOCK_HEADER,					READ_INSIDE_BLOCK,
+			READ_BLOCK_LOWER_BORDER,			END_OF_BLOCK,
+};
+*/
+/*
+enum part_of_instruction{
+			BEFORE_PARSING,			BEGIN_PARSING,			PARSING_DASHES,
+			PARSED_DASHES,			PARSING_BLOCK_INFO,		PARSED_BLOCK_INFO,
+			PARSING_ASTERICKS,		PARSED_ASTERICKS,		READ_BLOCK_INFO,
+			NOT_STARTED_INSTR,		BEGIN_INSTR,			ABSOLUTE,
+			RELATIVE,				MACRO,					MICRO,
+			REGISTER,				IMMEDIATE_VALUE,		END_INSTR,
+			END_BLOCK,
+};
+*/
+/*
+	* Class Graph
+*/ 
+
+/*
+			template<typename T>
+			T adder(T v) {
+		  		return v;
+			}
+
+			template<typename T, typename... Args>
+			T adder(T first, Args... args) {
+		  		return first + adder(args...);
+			}
+
+
+			long sum = adder(1, 2, 3, 8, 7);
+
+			std::string s1 = "x", s2 = "aa", s3 = "bb", s4 = "yy";
+			std::string ssum = adder(s1, s2, s3, s4);
+*/
+/*
+			THIS WHOLE POKEMON HUNT IS BY FAR THE STUPIDEST THING I HAVE EVER SEEN
+			AND I HAVE LIVED THROUGH:
+			* HAMMER PANTS
+			* CRYSTAL PEPSI
+			* TRHICKLE DOWN ECONOMICS
+			* THE FIRST PAST THE POST ELECTORAL SYSTEM
+			* PEOPLE TAKING CHRETIEN SERIOUSLY
+			* THE MACARENA
+			* THE "WILL-ENNIUM"
+			* THE PRESIDENCY OF GEORGE W. BUSH
+			* TEN SEASONS OF CSI: MIAMI
+
+			THERE IS A BAR UP THE STREET AND AROUND THE CORNER GO THERE 
+			HAVE A BEER AND SERIOUSLY THINK ABOUT YOUR LIFE CHOICES
+*/
+/*
+			ofstream DotFile("graph.dot");
+
+			struct Decorator {
+		    	// non-trivial destructor
+		    	~Object() { std::cout << "d"; }
+			};
+		 
+			struct Graph_Decorator{
+		    	string micro;
+		    	string dest;
+		    	string src1;
+		    	string src2;
+		    	
+			}; // trivial ctor and dtor
+*/
+/*
+			vector<string> I;
+			vector<string> B;
+			vector<string> l;
+			vector<string> A;
+			vector<string> a;
+			vector<string> M;
+			vector<string> m;
+			vector<string> r1;
+			vector<string> r2;
+			vector<string> r3;
+
+			template<typename T>
+			T adder(T v) {
+		  		return v;
+			}
+
+			template<typename T, typename... Args>
+			T adder(T first, Args... args) {
+		  		return first + adder(args...);
+			}
+
+			long sum = adder(1, 2, 3, 8, 7);
+
+			std::string s1 = "x", s2 = "aa", s3 = "bb", s4 = "yy";
+			std::string ssum = adder(s1, s2, s3, s4);
+
+
+			std::string::size_type sz;   // alias of size_t
+		  	int i_dec = std::stoi (str_dec,&sz);
+
+
+
+		template<typename T>
+		T adder(T v){
+			return v;
+		}
+
+		template<typename T, typename... Args>
+		T adder(T first, Args... args){
+			return first + adder(args...);
+		}
+		TPU Crypto device
+		What about copy of file? does that modify?
+*/
+
+void ADC(vector<string>& Instr){
+void ADCI(vector<string>& Instr){
+void SUB(vector<string>& Instr){
+void SUBI(vector<string>& Instr){
+void MUL1S(vector<string>& Instr){
+void MUL1SI(vector<string>& Instr){
+void MUL1U(vector<string>& Instr){
+void MUL1UI(vector<string>& Instr){
+void MULEL(vector<string>& Instr){
+void MULEH(vector<string>& Instr){
+void OR(vector<string>& Instr){
+void ORI(vector<string>& Instr){
+void XOR(vector<string>& Instr){
+void MXOR(vector<string>& Instr){
+void XORI(vector<string>& Instr){
+void AND(vector<string>& Instr){
+void ANDI(vector<string>& Instr){
+void SLL(vector<string>& Instr){
+void SLLI(vector<string>& Instr){
+void SRL(vector<string>& Instr){
+void SRLI(vector<string>& Instr){
+void SRA(vector<string>& Instr){
+void SRAI(vector<string>& Instr){
+void ROR(vector<string>& Instr){
+void RORI(vector<string>& Instr){
+void RCRI(vector<string>& Instr){
+void ROL(vector<string>& Instr){
+void ROLI(vector<string>& Instr){
+void RCL(vector<string>& Instr){
+void RCLI(vector<string>& Instr){
+void MOV(vector<string>& Instr){
+void MOVSIGN(vector<string>& Instr){
+void MOV2INT(vector<string>& Instr){
+void MCMPI2R(vector<string>& Instr){
+void MOVI(vector<string>& Instr){
+void SEXT(vector<string>& Instr){
+void SEXTI(vector<string>& Instr){
+void ZEXT(vector<string>& Instr){
+void ZEXTI(vector<string>& Instr){
+void RUFLAG(vector<string>& Instr){
+void RUFLAGS(vector<string>& Instr){
+void WRUFLAGS(vector<string>& Instr){
+void WRUFLAGSI(vector<string>& Instr){
+void RDIP(vector<string>& Instr){
+void WRIP(vector<string>& Instr){
+void WRIPI(vector<string>& Instr){
+void LD(vector<string>& Instr){
+void LDFP(vector<string>& Instr){
+void LFPIMM(vector<string>& Instr){
+void LDM(vector<string>& Instr){
+void LDST(vector<string>& Instr){
+void LDSTL(vector<string>& Instr){
+void ST(vector<string>& Instr){
+void STF(vector<string>& Instr){
+void STFP(vector<string>& Instr){
+void STM(vector<string>& Instr){
+void STUPD(vector<string>& Instr){
+void LEA(vector<string>& Instr){
+void CDA(vector<string>& Instr){
+void CDAF(vector<string>& Instr){
+void CIA(vector<string>& Instr){
+void TIA(vector<string>& Instr){
+void LIMM(vector<string>& Instr){
+void MOVFP(vector<string>& Instr){
+void MOV2FP(vector<string>& Instr){
+void XORFP(vector<string>& Instr){
+void ADDFP(vector<string>& Instr){
+void SUBFP(vector<string>& Instr){
+void MULFP(vector<string>& Instr){
+void DIVFP(vector<string>& Instr){
+void COMPFP(vector<string>& Instr){
+void CVTF_I2D(vector<string>& Instr){
+void CVTF_I2D_HI(vector<string>& Instr){
+void CVTF_D2I(vector<string>& Instr){
+void FAULT(vector<string>& Instr){
+void LDDHA(vector<string>& Instr){
+void LDAHA(vector<string>& Instr){
+void BR(vector<string>& Instr){
+void MADDF(vector<string>& Instr){
+void MMULF(vector<string>& Instr){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

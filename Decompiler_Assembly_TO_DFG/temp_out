@@ -1,0 +1,1000 @@
+1 0 0x401153.0 @main+245.0 CMP_M_I limm t2d 0x3e8 0x3e8 
+1 1 0x401153.1 @main+245.1 CMP_M_I ld t1d DS 0 
+1 2 0x401153.2 @main+245.2 CMP_M_I sub t0d t1d t2d 
+1 3 0x40115d.0 @main+255.0 JLE_I rdip t1 0 0 
+1 4 0x40115d.1 @main+255.1 JLE_I limm t2 0xffffffffffffff2e 0xffffffffffffff2e 
+1 5 0x40115d.2 @main+255.2 JLE_I wrip t1 t2 0 
+2 0 0x401091.0 @main+51.0 MOV_R_M ld eax DS 0 
+2 1 0x401097.0 @main+57.0 SUB_R_I limm t1d 0x6 0x6 
+2 2 0x401097.1 @main+57.1 SUB_R_I sub eax eax t1d 
+2 3 0x40109a.0 @main+60.0 MOV_M_R st eax DS 0 
+2 4 0x4010a0.0 @main+66.0 MOV_R_M ld eax DS 0 
+2 5 0x4010a6.0 @main+72.0 SUB_R_I limm t1d 0x1 0x1 
+2 6 0x4010a6.1 @main+72.1 SUB_R_I sub eax eax t1d 
+2 7 0x4010a9.0 @main+75.0 CDQE_R sexti rax rax 0x1f 0x1f 
+2 8 0x4010ab.0 @main+77.0 MOV_R_M ld rax DS 0 
+2 9 0x4010b3.0 @main+85.0 MOV_M_R st rax DS 0 
+2 10 0x4010ba.0 @main+92.0 MOV_M_I limm t1d 0x4 0x4 
+2 11 0x4010ba.1 @main+92.1 MOV_M_I st t1d DS 0 
+2 12 0x4010c4.0 @main+102.0 JMP_I rdip t1 0 0 
+2 13 0x4010c4.1 @main+102.1 JMP_I limm t2 0x4c 0x4c 
+2 14 0x4010c4.2 @main+102.2 JMP_I wrip t1 t2 0 
+2 15 0x401112.0 @main+180.0 MOV_R_M ld eax DS 0 
+2 16 0x401118.0 @main+186.0 CDQE_R sexti rax rax 0x1f 0x1f 
+2 17 0x40111a.0 @main+188.0 CMP_R_M ld t1 DS 0 
+2 18 0x40111a.1 @main+188.1 CMP_R_M sub t0 rax t1 
+2 19 0x401121.0 @main+195.0 JL_I rdip t1 0 0 
+2 20 0x401121.1 @main+195.1 JL_I limm t2 0xffffffffffffffa3 0xffffffffffffffa3 
+2 21 0x401121.2 @main+195.2 JL_I wrip t1 t2 0 
+2 22 0x401123.0 @main+197.0 MOV_R_M ld eax DS 0 
+2 23 0x401129.0 @main+203.0 SUB_R_I limm t1d 0x1 0x1 
+2 24 0x401129.1 @main+203.1 SUB_R_I sub eax eax t1d 
+2 25 0x40112c.0 @main+206.0 MOVSD_XMM_M ldfp %xmm0_low DS 0 
+2 26 0x401134.0 @main+214.0 MULSD_XMM_M ldfp %ufp1 DS 0 
+2 27 0x401134.1 @main+214.1 MULSD_XMM_M mmulf %xmm0_low %xmm0_low %ufp1 
+2 28 0x40113c.0 @main+222.0 CDQE_R sexti rax rax 0x1f 0x1f 
+2 29 0x40113e.0 @main+224.0 MOVSD_M_XMM stfp %xmm0_low DS 0 
+2 30 0x401147.0 @main+233.0 MOV_R_M ld eax DS 0 
+2 31 0x40114d.0 @main+239.0 ADD_M_R ldst t1d DS 0 
+2 32 0x40114d.1 @main+239.1 ADD_M_R add t1d t1d eax 
+2 33 0x40114d.2 @main+239.2 ADD_M_R st t1d DS 0 
+3 0 0x40116a.0 @main+268.0 CMP_M_I limm t2d 0x3e8 0x3e8 
+3 1 0x40116a.1 @main+268.1 CMP_M_I ld t1d DS 0 
+3 2 0x40116a.2 @main+268.2 CMP_M_I sub t0d t1d t2d 
+3 3 0x401174.0 @main+278.0 JLE_I rdip t1 0 0 
+3 4 0x401174.1 @main+278.1 JLE_I limm t2 0xffffffffffffff08 0xffffffffffffff08 
+3 5 0x401174.2 @main+278.2 JLE_I wrip t1 t2 0 
+4 0 0x401082.0 @main+36.0 MOV_M_I limm t1d 0x6 0x6 
+4 1 0x401082.1 @main+36.1 MOV_M_I st t1d DS 0 
+4 2 0x40108c.0 @main+46.0 JMP_I rdip t1 0 0 
+4 3 0x40108c.1 @main+46.1 JMP_I limm t2 0xc2 0xc2 
+4 4 0x40108c.2 @main+46.2 JMP_I wrip t1 t2 0 
+4 5 0x401163.0 @main+261.0 ADD_M_I limm t2d 0x1 0x1 
+4 6 0x401163.1 @main+261.1 ADD_M_I ldst t1d DS 0 
+4 7 0x401163.2 @main+261.2 ADD_M_I add t1d t1d t2d 
+4 8 0x401163.3 @main+261.3 ADD_M_I st t1d DS 0 
+5 0 0x410a70.0 @malloc_consolidate+784.0 ADD_R_I limm t1d 0x1 0x1 
+5 1 0x410a70.1 @malloc_consolidate+784.1 ADD_R_I add edx edx t1d 
+5 2 0x410a73.0 @malloc_consolidate+787.0 MOV_M_R st rax DS 0 
+5 3 0x410a77.0 @malloc_consolidate+791.0 MOV_M_R st rax DS 0 
+5 4 0x410a7b.0 @malloc_consolidate+795.0 ADD_R_I limm t1 0x10 0x10 
+5 5 0x410a7b.1 @malloc_consolidate+795.1 ADD_R_I add rax rax t1 
+5 6 0x410a7f.0 @malloc_consolidate+799.0 CMP_R_I limm t1d 0x80 0x80 
+5 7 0x410a7f.1 @malloc_consolidate+799.1 CMP_R_I sub t0d edx t1d 
+5 8 0x410a85.0 @malloc_consolidate+805.0 JNZ_I rdip t1 0 0 
+5 9 0x410a85.1 @malloc_consolidate+805.1 JNZ_I limm t2 0xffffffffffffffe9 0xffffffffffffffe9 
+5 10 0x410a85.2 @malloc_consolidate+805.2 JNZ_I wrip t1 t2 0 
+6 0 0x4375f8.0 @_dl_aux_init+120.0 SUB_R_I limm t1 0x3 0x3 
+6 1 0x4375f8.1 @_dl_aux_init+120.1 SUB_R_I sub rax rax t1 
+6 2 0x4375fc.0 @_dl_aux_init+124.0 CMP_R_I limm t1 0x1e 0x1e 
+6 3 0x4375fc.1 @_dl_aux_init+124.1 CMP_R_I sub t0 rax t1 
+6 4 0x437600.0 @_dl_aux_init+128.0 JNBE_I rdip t1 0 0 
+6 5 0x437600.1 @_dl_aux_init+128.1 JNBE_I limm t2 0x16 0x16 
+6 6 0x437600.2 @_dl_aux_init+128.2 JNBE_I wrip t1 t2 0 
+6 7 0x437602.0 @_dl_aux_init+130.0 JMP_M ld t1 DS 0 
+6 8 0x437602.1 @_dl_aux_init+130.1 JMP_M wripi t1 0 0 
+6 9 0x437618.0 @_dl_aux_init+152.0 ADD_R_I limm t1 0x10 0x10 
+6 10 0x437618.1 @_dl_aux_init+152.1 ADD_R_I add rdi rdi t1 
+6 11 0x43761c.0 @_dl_aux_init+156.0 MOV_R_M ld rax DS 0 
+6 12 0x43761f.0 @_dl_aux_init+159.0 TEST_R_R and t0 rax rax 
+6 13 0x437622.0 @_dl_aux_init+162.0 JNZ_I rdip t1 0 0 
+6 14 0x437622.1 @_dl_aux_init+162.1 JNZ_I limm t2 0xffffffffffffffd4 0xffffffffffffffd4 
+6 15 0x437622.2 @_dl_aux_init+162.2 JNZ_I wrip t1 t2 0 
+7 0 0x41c200.0 @memset+160.0 MOVDQA_M_XMM stfp %xmm8_low DS 0 
+7 1 0x41c200.1 @memset+160.1 MOVDQA_M_XMM stfp %xmm8_high DS 0 
+7 2 0x41c205.0 @memset+165.0 MOVDQA_M_XMM stfp %xmm8_low DS 0 
+7 3 0x41c205.1 @memset+165.1 MOVDQA_M_XMM stfp %xmm8_high DS 0 
+7 4 0x41c20b.0 @memset+171.0 MOVDQA_M_XMM stfp %xmm8_low DS 0 
+7 5 0x41c20b.1 @memset+171.1 MOVDQA_M_XMM stfp %xmm8_high DS 0 
+7 6 0x41c211.0 @memset+177.0 MOVDQA_M_XMM stfp %xmm8_low DS 0 
+7 7 0x41c211.1 @memset+177.1 MOVDQA_M_XMM stfp %xmm8_high DS 0 
+7 8 0x41c217.0 @memset+183.0 ADD_R_I limm t1 0x40 0x40 
+7 9 0x41c217.1 @memset+183.1 ADD_R_I add rcx rcx t1 
+7 10 0x41c21b.0 @memset+187.0 CMP_R_R sub t0 rdx rcx 
+7 11 0x41c21e.0 @memset+190.0 JNZ_I rdip t1 0 0 
+7 12 0x41c21e.1 @memset+190.1 JNZ_I limm t2 0xffffffffffffffe0 0xffffffffffffffe0 
+7 13 0x41c21e.2 @memset+190.2 JNZ_I wrip t1 t2 0 
+8 0 0x401265.0 @__libc_start_main+213.0 CALL_NEAR_M rdip t7 0 0 
+8 1 0x401265.1 @__libc_start_main+213.1 CALL_NEAR_M ld t1 DS 0 
+8 2 0x401265.2 @__libc_start_main+213.2 CALL_NEAR_M st t7 SS 0 
+8 3 0x401265.3 @__libc_start_main+213.3 CALL_NEAR_M subi rsp rsp 0x8 0x8 
+8 4 0x401265.4 @__libc_start_main+213.4 CALL_NEAR_M wripi t1 0 0 
+8 5 0x401268.0 @__libc_start_main+216.0 ADD_R_I limm t1 0x18 0x18 
+8 6 0x401268.1 @__libc_start_main+216.1 ADD_R_I add rbx rbx t1 
+8 7 0x40126c.0 @__libc_start_main+220.0 MOV_M_R st rax DS 0 
+8 8 0x401270.0 @__libc_start_main+224.0 CMP_R_I limm t1 0x4002b0 0x4002b0 
+8 9 0x401270.1 @__libc_start_main+224.1 CMP_R_I sub t0 rbx t1 
+8 10 0x401277.0 @__libc_start_main+231.0 JB_I rdip t1 0 0 
+8 11 0x401277.1 @__libc_start_main+231.1 JB_I limm t2 0xffffffffffffffdf 0xffffffffffffffdf 
+8 12 0x401277.2 @__libc_start_main+231.2 JB_I wrip t1 t2 0 
+9 0 0x4192b0.0 @strlen.0 PXOR_XMM_XMM mxor %xmm8_low %xmm8_low %xmm8_low 
+9 1 0x4192b0.1 @strlen.1 PXOR_XMM_XMM mxor %xmm8_high %xmm8_high %xmm8_high 
+9 2 0x4192b5.0 @strlen+5.0 PXOR_XMM_XMM mxor %xmm9_low %xmm9_low %xmm9_low 
+9 3 0x4192b5.1 @strlen+5.1 PXOR_XMM_XMM mxor %xmm9_high %xmm9_high %xmm9_high 
+9 4 0x4192ba.0 @strlen+10.0 PXOR_XMM_XMM mxor %xmm10_low %xmm10_low %xmm10_low 
+9 5 0x4192ba.1 @strlen+10.1 PXOR_XMM_XMM mxor %xmm10_high %xmm10_high %xmm10_high 
+9 6 0x4192bf.0 @strlen+15.0 PXOR_XMM_XMM mxor %xmm11_low %xmm11_low %xmm11_low 
+9 7 0x4192bf.1 @strlen+15.1 PXOR_XMM_XMM mxor %xmm11_high %xmm11_high %xmm11_high 
+9 8 0x4192c4.0 @strlen+20.0 MOV_R_R mov rax rax rdi 
+9 9 0x4192c7.0 @strlen+23.0 MOV_R_R mov rcx rcx rdi 
+9 10 0x4192ca.0 @strlen+26.0 AND_R_I limm t1 0xfff 0xfff 
+9 11 0x4192ca.1 @strlen+26.1 AND_R_I and rcx rcx t1 
+9 12 0x4192d1.0 @strlen+33.0 CMP_R_I limm t1 0xfcf 0xfcf 
+9 13 0x4192d1.1 @strlen+33.1 CMP_R_I sub t0 rcx t1 
+9 14 0x4192d8.0 @strlen+40.0 JNBE_I rdip t1 0 0 
+9 15 0x4192d8.1 @strlen+40.1 JNBE_I limm t2 0x66 0x66 
+9 16 0x4192d8.2 @strlen+40.2 JNBE_I wrip t1 t2 0 
+9 17 0x4192da.0 @strlen+42.0 MOVDQU_XMM_M ldfp %xmm12_low DS 0 
+9 18 0x4192da.1 @strlen+42.1 MOVDQU_XMM_M ldfp %xmm12_high DS 0 
+9 19 0x4192df.0 @strlen+47.0 PCMPEQB_XMM_XMM mcmpi2r %xmm12_low %xmm12_low %xmm8_low 
+9 20 0x4192df.1 @strlen+47.1 PCMPEQB_XMM_XMM mcmpi2r %xmm12_high %xmm12_high %xmm8_high 
+9 21 0x4192e4.0 @strlen+52.0 PMOVMSKB_R_XMM limm edx 0 0 
+9 22 0x4192e4.1 @strlen+52.1 PMOVMSKB_R_XMM movsign dl dl %xmm12_low 
+9 23 0x4192e4.2 @strlen+52.2 PMOVMSKB_R_XMM movsign dl dl %xmm12_high 
+9 24 0x4192e9.0 @strlen+57.0 TEST_R_R and t0d edx edx 
+9 25 0x4192eb.0 @strlen+59.0 JZ_I rdip t1 0 0 
+9 26 0x4192eb.1 @strlen+59.1 JZ_I limm t2 0x4 0x4 
+9 27 0x4192eb.2 @strlen+59.2 JZ_I wrip t1 t2 0 
+9 28 0x401258.0 @__libc_start_main+200.0 CMP_M_I limm t2d 0x25 0x25 
+9 29 0x401258.1 @__libc_start_main+200.1 CMP_M_I ld t1d DS 0 
+9 30 0x401258.2 @__libc_start_main+200.2 CMP_M_I sub t0d t1d t2d 
+9 31 0x40125c.0 @__libc_start_main+204.0 MOV_R_M ld rbp DS 0 
+9 32 0x40125f.0 @__libc_start_main+207.0 JNZ_I rdip t1 0 0 
+9 33 0x40125f.1 @__libc_start_main+207.1 JNZ_I limm t2 0x1b2 0x1b2 
+9 34 0x40125f.2 @__libc_start_main+207.2 JNZ_I wrip t1 t2 0 
+10 0 0x407450.0 @getenv.0 PUSH_R st r15 SS 0 
+10 1 0x407450.1 @getenv.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 2 0x407452.0 @getenv+2.0 PUSH_R st r14 SS 0 
+10 3 0x407452.1 @getenv+2.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 4 0x407454.0 @getenv+4.0 PUSH_R st r13 SS 0 
+10 5 0x407454.1 @getenv+4.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 6 0x407456.0 @getenv+6.0 PUSH_R st r12 SS 0 
+10 7 0x407456.1 @getenv+6.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 8 0x407458.0 @getenv+8.0 PUSH_R st rbp SS 0 
+10 9 0x407458.1 @getenv+8.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 10 0x407459.0 @getenv+9.0 PUSH_R st rbx SS 0 
+10 11 0x407459.1 @getenv+9.1 PUSH_R subi rsp rsp 0x8 0x8 
+10 12 0x40745a.0 @getenv+10.0 MOV_R_R mov rbx rbx rdi 
+10 13 0x40745d.0 @getenv+13.0 SUB_R_I limm t1 0x8 0x8 
+10 14 0x40745d.1 @getenv+13.1 SUB_R_I sub rsp rsp t1 
+10 15 0x407461.0 @getenv+17.0 CALL_NEAR_I limm t1 0x11e4a 0x11e4a 
+10 16 0x407461.1 @getenv+17.1 CALL_NEAR_I rdip t7 0 0 
+10 17 0x407461.2 @getenv+17.2 CALL_NEAR_I st t7 SS 0 
+10 18 0x407461.3 @getenv+17.3 CALL_NEAR_I subi rsp rsp 0x8 0x8 
+10 19 0x407461.4 @getenv+17.4 CALL_NEAR_I wrip t7 t1 0 
+10 20 0x407466.0 @getenv+22.0 MOV_R_P rdip t7 0 0 
+10 21 0x407466.1 @getenv+22.1 MOV_R_P ld rbp DS 0 
+10 22 0x40746d.0 @getenv+29.0 TEST_R_R and t0 rbp rbp 
+10 23 0x407470.0 @getenv+32.0 JZ_I rdip t1 0 0 
+10 24 0x407470.1 @getenv+32.1 JZ_I limm t2 0xb2 0xb2 
+10 25 0x407470.2 @getenv+32.2 JZ_I wrip t1 t2 0 
+10 26 0x407476.0 @getenv+38.0 MOV_R_R mov r14 r14 rax 
+10 27 0x407479.0 @getenv+41.0 MOVZX_B_R_M ld DS 0 0 
+10 28 0x407479.1 @getenv+41.1 MOVZX_B_R_M zexti eax t1d 0x7 0x7 
+10 29 0x40747c.0 @getenv+44.0 TEST_R_R and al al 0 
+10 30 0x40747e.0 @getenv+46.0 JZ_I rdip t1 0 0 
+10 31 0x40747e.1 @getenv+46.1 JZ_I limm t2 0xa4 0xa4 
+10 32 0x40747e.2 @getenv+46.2 JZ_I wrip t1 t2 0 
+10 33 0x407484.0 @getenv+52.0 CMP_M_I limm 0 0 0 
+10 34 0x407484.1 @getenv+52.1 CMP_M_I ld DS 0 0 
+10 35 0x407484.2 @getenv+52.2 CMP_M_I sub 0 0 0 
+10 36 0x407488.0 @getenv+56.0 JNZ_I rdip t1 0 0 
+10 37 0x407488.1 @getenv+56.1 JNZ_I limm t2 0x46 0x46 
+10 38 0x407488.2 @getenv+56.2 JNZ_I wrip t1 t2 0 
+10 39 0x4074b6.0 @getenv+102.0 ADD_R_I limm t1 0x8 0x8 
+10 40 0x4074b6.1 @getenv+102.1 ADD_R_I add rsp rsp t1 
+10 41 0x4074ba.0 @getenv+106.0 MOV_R_R mov rax rax rbx 
+10 42 0x4074bd.0 @getenv+109.0 POP_R ld t1 SS 0 
+10 43 0x4074bd.1 @getenv+109.1 POP_R addi rsp rsp 0x8 0x8 
+10 44 0x4074bd.2 @getenv+109.2 POP_R mov rbx rbx t1 
+10 45 0x4074be.0 @getenv+110.0 POP_R ld t1 SS 0 
+10 46 0x4074be.1 @getenv+110.1 POP_R addi rsp rsp 0x8 0x8 
+10 47 0x4074be.2 @getenv+110.2 POP_R mov rbp rbp t1 
+10 48 0x4074bf.0 @getenv+111.0 POP_R ld t1 SS 0 
+10 49 0x4074bf.1 @getenv+111.1 POP_R addi rsp rsp 0x8 0x8 
+10 50 0x4074bf.2 @getenv+111.2 POP_R mov r12 r12 t1 
+10 51 0x4074c1.0 @getenv+113.0 POP_R ld t1 SS 0 
+10 52 0x4074c1.1 @getenv+113.1 POP_R addi rsp rsp 0x8 0x8 
+10 53 0x4074c1.2 @getenv+113.2 POP_R mov r13 r13 t1 
+10 54 0x4074c3.0 @getenv+115.0 POP_R ld t1 SS 0 
+10 55 0x4074c3.1 @getenv+115.1 POP_R addi rsp rsp 0x8 0x8 
+10 56 0x4074c3.2 @getenv+115.2 POP_R mov r14 r14 t1 
+10 57 0x4074c5.0 @getenv+117.0 POP_R ld t1 SS 0 
+10 58 0x4074c5.1 @getenv+117.1 POP_R addi rsp rsp 0x8 0x8 
+10 59 0x4074c5.2 @getenv+117.2 POP_R mov r15 r15 t1 
+10 60 0x4074c7.0 @getenv+119.0 RET_NEAR ld t1 SS 0 
+10 61 0x4074c7.1 @getenv+119.1 RET_NEAR addi rsp rsp 0x8 0x8 
+10 62 0x4074c7.2 @getenv+119.2 RET_NEAR wripi t1 0 0 
+10 63 0x4074d0.0 @getenv+128.0 MOVZX_W_R_M ld DS 0 0 
+10 64 0x4074d0.1 @getenv+128.1 MOVZX_W_R_M zexti t1d 0xf 0xf 
+10 65 0x4074d4.0 @getenv+132.0 LEA_R_M lea r15 DS 0 
+10 66 0x4074d8.0 @getenv+136.0 MOV_R_M ld rbx DS 0 
+10 67 0x4074dc.0 @getenv+140.0 LEA_R_M lea r13 DS 0 
+10 68 0x4074e0.0 @getenv+144.0 TEST_R_R and t0 rbx rbx 
+10 69 0x4074e3.0 @getenv+147.0 JNZ_I rdip t1 0 0 
+10 70 0x4074e3.1 @getenv+147.1 JNZ_I limm t2 0x18 0x18 
+10 71 0x4074e3.2 @getenv+147.2 JNZ_I wrip t1 t2 0 
+10 72 0x4074e5.0 @getenv+149.0 JMP_I rdip t1 0 0 
+10 73 0x4074e5.1 @getenv+149.1 JMP_I limm t2 0xffffffffffffffcf 0xffffffffffffffcf 
+10 74 0x4074e5.2 @getenv+149.2 JMP_I wrip t1 t2 0 
+11 0 0x4192ed.0 @strlen+61.0 BSF_R_R mov t1 t1 t0 
+11 1 0x4192ed.1 @strlen+61.1 BSF_R_R and t1d edx edx 
+11 2 0x4192ed.2 @strlen+61.2 BSF_R_R 0x1d 0x1d 0 
+11 3 0x4192ed.3 @strlen+61.3 BSF_R_R eax eax 0 
+11 4 0x4192ed.4 @strlen+61.4 BSF_R_R subi t2d t1d 0x1 0x1 
+11 5 0x4192ed.5 @strlen+61.5 BSF_R_R xor t1d t2d t1d 
+11 6 0x4192ed.6 @strlen+61.6 BSF_R_R srli t3 t1 0x20 0x20 
+11 7 0x4192ed.7 @strlen+61.7 BSF_R_R ori t4d eax 0x20 0x20 
+11 8 0x4192ed.8 @strlen+61.8 BSF_R_R mov eax eax t4d 
+11 9 0x4192ed.9 @strlen+61.9 BSF_R_R mov t1d t1d t3d 
+11 10 0x4192ed.10 @strlen+61.10 BSF_R_R srli t3 t1 0x10 0x10 
+11 11 0x4192ed.11 @strlen+61.11 BSF_R_R ori t4d eax 0x10 0x10 
+11 12 0x4192ed.12 @strlen+61.12 BSF_R_R mov eax eax t4d 
+11 13 0x4192ed.13 @strlen+61.13 BSF_R_R mov t1d t1d t3d 
+11 14 0x4192ed.14 @strlen+61.14 BSF_R_R srli t3 t1 0x8 0x8 
+11 15 0x4192ed.15 @strlen+61.15 BSF_R_R ori t4d eax 0x8 0x8 
+11 16 0x4192ed.16 @strlen+61.16 BSF_R_R mov eax eax t4d 
+11 17 0x4192ed.17 @strlen+61.17 BSF_R_R mov t1d t1d t3d 
+11 18 0x4192ed.18 @strlen+61.18 BSF_R_R srli t3 t1 0x4 0x4 
+11 19 0x4192ed.19 @strlen+61.19 BSF_R_R ori t4d eax 0x4 0x4 
+11 20 0x4192ed.20 @strlen+61.20 BSF_R_R mov eax eax t4d 
+11 21 0x4192ed.21 @strlen+61.21 BSF_R_R mov t1d t1d t3d 
+11 22 0x4192ed.22 @strlen+61.22 BSF_R_R srli t3 t1 0x2 0x2 
+11 23 0x4192ed.23 @strlen+61.23 BSF_R_R ori t4d eax 0x2 0x2 
+11 24 0x4192ed.24 @strlen+61.24 BSF_R_R mov eax eax t4d 
+11 25 0x4192ed.25 @strlen+61.25 BSF_R_R mov t1d t1d t3d 
+11 26 0x4192ed.26 @strlen+61.26 BSF_R_R srli t3 t1 0x1 0x1 
+11 27 0x4192ed.27 @strlen+61.27 BSF_R_R ori t4d eax 0x1 0x1 
+11 28 0x4192ed.28 @strlen+61.28 BSF_R_R mov eax eax t4d 
+11 29 0x4192ed.29 @strlen+61.29 BSF_R_R fault No Fault 0 
+11 30 0x4192f0.0 @strlen+64.0 RET_NEAR ld t1 SS 0 
+11 31 0x4192f0.1 @strlen+64.1 RET_NEAR addi rsp rsp 0x8 0x8 
+11 32 0x4192f0.2 @strlen+64.2 RET_NEAR wripi t1 0 0 
+12 0 0x41282f.0 @_int_malloc+1263.0 CMP_R_I limm t1 0x3ff 0x3ff 
+12 1 0x41282f.1 @_int_malloc+1263.1 CMP_R_I sub t0 rbp t1 
+12 2 0x412836.0 @_int_malloc+1270.0 JNBE_I rdip t1 0 0 
+12 3 0x412836.1 @_int_malloc+1270.1 JNBE_I limm t2 0x1b3 0x1b3 
+12 4 0x412836.2 @_int_malloc+1270.2 JNBE_I wrip t1 t2 0 
+12 5 0x41283c.0 @_int_malloc+1276.0 LEA_R_M lea ecx DS 0 
+12 6 0x412840.0 @_int_malloc+1280.0 LEA_R_M lea eax DS 0 
+12 7 0x412845.0 @_int_malloc+1285.0 MOV_R_R mov edi edi ecx 
+12 8 0x412847.0 @_int_malloc+1287.0 LEA_R_M lea rdx DS 0 
+12 9 0x41284c.0 @_int_malloc+1292.0 SHR_R_I srli edi edi 0x5 0x5 
+12 10 0x41284f.0 @_int_malloc+1295.0 MOV_R_R mov eax eax edi 
+12 11 0x412851.0 @_int_malloc+1297.0 MOV_R_M ld esi DS 0 
+12 12 0x412858.0 @_int_malloc+1304.0 MOV_R_I limm eax 0x1 0x1 
+12 13 0x41285d.0 @_int_malloc+1309.0 SAL_R_R sll eax eax ecx 
+12 14 0x41285f.0 @_int_malloc+1311.0 TEST_R_R and t0d eax eax 
+12 15 0x412861.0 @_int_malloc+1313.0 0x1 0x1 0 
+12 16 0x412861.1 @_int_malloc+1313.1 0 0 0 
+12 17 0x412865.0 @_int_malloc+1317.0 CMP_R_R sub t0d eax esi 
+12 18 0x412867.0 @_int_malloc+1319.0 cl cl 0x1 0x1 
+12 19 0x412867.1 @_int_malloc+1319.1 cl cl 0 
+12 20 0x41286a.0 @_int_malloc+1322.0 OR_R_R or cl 0 0 
+12 21 0x41286d.0 @_int_malloc+1325.0 JZ_I rdip t1 0 0 
+12 22 0x41286d.1 @_int_malloc+1325.1 JZ_I limm t2 0x109 0x109 
+12 23 0x41286d.2 @_int_malloc+1325.2 JZ_I wrip t1 t2 0 
+12 24 0x412873.0 @_int_malloc+1331.0 LEA_R_M lea eax DS 0 
+12 25 0x412876.0 @_int_malloc+1334.0 CMP_R_I limm t1d 0x3 0x3 
+12 26 0x412876.1 @_int_malloc+1334.1 CMP_R_I sub t0d eax t1d 
+12 27 0x412879.0 @_int_malloc+1337.0 JNBE_I rdip t1 0 0 
+12 28 0x412879.1 @_int_malloc+1337.1 JNBE_I limm t2 0x55 0x55 
+12 29 0x412879.2 @_int_malloc+1337.2 JNBE_I wrip t1 t2 0 
+12 30 0x4128d0.0 @_int_malloc+1424.0 MOV_R_M ld r12 DS 0 
+12 31 0x4128d4.0 @_int_malloc+1428.0 LEA_R_M lea rdx DS 0 
+12 32 0x4128d8.0 @_int_malloc+1432.0 MOV_R_M ld rax DS 0 
+12 33 0x4128dd.0 @_int_malloc+1437.0 MOV_R_R mov r13 r13 rax 
+12 34 0x4128e0.0 @_int_malloc+1440.0 AND_R_I limm t1 0xfffffffffffffff8 0xfffffffffffffff8 
+12 35 0x4128e0.1 @_int_malloc+1440.1 AND_R_I and r13 r13 t1 
+12 36 0x4128e4.0 @_int_malloc+1444.0 CMP_R_R sub t0 r13 rdx 
+12 37 0x4128e7.0 @_int_malloc+1447.0 rdip t1 0 0 
+12 38 0x4128e7.1 @_int_malloc+1447.1 limm t2 0x5eb 0x5eb 
+12 39 0x4128e7.2 @_int_malloc+1447.2 wrip t1 t2 0 
+12 40 0x414470.0 @malloc.0 PUSH_R st rbp SS 0 
+12 41 0x414470.1 @malloc.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 42 0x414471.0 @malloc+1.0 MOV_R_R mov rbp rbp rdi 
+12 43 0x414474.0 @malloc+4.0 PUSH_R st rbx SS 0 
+12 44 0x414474.1 @malloc+4.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 45 0x414475.0 @malloc+5.0 SUB_R_I limm t1 0x8 0x8 
+12 46 0x414475.1 @malloc+5.1 SUB_R_I sub rsp rsp t1 
+12 47 0x414479.0 @malloc+9.0 MOV_R_P rdip t7 0 0 
+12 48 0x414479.1 @malloc+9.1 MOV_R_P ld rax DS 0 
+12 49 0x414480.0 @malloc+16.0 TEST_R_R and t0 rax rax 
+12 50 0x414483.0 @malloc+19.0 JNZ_I rdip t1 0 0 
+12 51 0x414483.1 @malloc+19.1 JNZ_I limm t2 0x111 0x111 
+12 52 0x414483.2 @malloc+19.2 JNZ_I wrip t1 t2 0 
+12 53 0x412340.0 @_int_malloc.0 PUSH_R st r15 SS 0 
+12 54 0x412340.1 @_int_malloc.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 55 0x412342.0 @_int_malloc+2.0 PUSH_R st r14 SS 0 
+12 56 0x412342.1 @_int_malloc+2.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 57 0x412344.0 @_int_malloc+4.0 PUSH_R st r13 SS 0 
+12 58 0x412344.1 @_int_malloc+4.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 59 0x412346.0 @_int_malloc+6.0 PUSH_R st r12 SS 0 
+12 60 0x412346.1 @_int_malloc+6.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 61 0x412348.0 @_int_malloc+8.0 PUSH_R st rbp SS 0 
+12 62 0x412348.1 @_int_malloc+8.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 63 0x412349.0 @_int_malloc+9.0 PUSH_R st rbx SS 0 
+12 64 0x412349.1 @_int_malloc+9.1 PUSH_R subi rsp rsp 0x8 0x8 
+12 65 0x41234a.0 @_int_malloc+10.0 SUB_R_I limm t1 0xa8 0xa8 
+12 66 0x41234a.1 @_int_malloc+10.1 SUB_R_I sub rsp rsp t1 
+12 67 0x412351.0 @_int_malloc+17.0 CMP_R_I limm t1 0xffffffffffffffbf 0xffffffffffffffbf 
+12 68 0x412351.1 @_int_malloc+17.1 CMP_R_I sub t0 rsi t1 
+12 69 0x412355.0 @_int_malloc+21.0 MOV_M_R st rsi DS 0 
+12 70 0x41235a.0 @_int_malloc+26.0 JNBE_I rdip t1 0 0 
+12 71 0x41235a.1 @_int_malloc+26.1 JNBE_I limm t2 0x759 0x759 
+12 72 0x41235a.2 @_int_malloc+26.2 JNBE_I wrip t1 t2 0 
+12 73 0x412360.0 @_int_malloc+32.0 MOV_R_R mov rax rax rsi 
+12 74 0x412363.0 @_int_malloc+35.0 MOV_R_I limm ebp 0x20 0x20 
+12 75 0x412368.0 @_int_malloc+40.0 MOV_R_R mov rbx rbx rdi 
+12 76 0x41236b.0 @_int_malloc+43.0 ADD_R_I limm t1 0x17 0x17 
+12 77 0x41236b.1 @_int_malloc+43.1 ADD_R_I add rax rax t1 
+12 78 0x41236f.0 @_int_malloc+47.0 MOV_R_R mov rdx rdx rax 
+12 79 0x412372.0 @_int_malloc+50.0 AND_R_I limm t1 0xfffffffffffffff0 0xfffffffffffffff0 
+12 80 0x412372.1 @_int_malloc+50.1 AND_R_I and rdx rdx t1 
+12 81 0x412376.0 @_int_malloc+54.0 CMP_R_I limm t1 0x20 0x20 
+12 82 0x412376.1 @_int_malloc+54.1 CMP_R_I sub t0 rax t1 
+12 83 0x41237a.0 @_int_malloc+58.0 mov rbp rbp rbp 
+12 84 0x41237a.1 @_int_malloc+58.1 mov rbp rbp rdx 
+12 85 0x41237e.0 @_int_malloc+62.0 CMP_R_P rdip t7 0 0 
+12 86 0x41237e.1 @_int_malloc+62.1 CMP_R_P ld t1 DS 0 
+12 87 0x41237e.2 @_int_malloc+62.2 CMP_R_P sub t0 rbp t1 
+12 88 0x412385.0 @_int_malloc+69.0 JNBE_I rdip t1 0 0 
+12 89 0x412385.1 @_int_malloc+69.1 JNBE_I limm t2 0x72 0x72 
+12 90 0x412385.2 @_int_malloc+69.2 JNBE_I wrip t1 t2 0 
+12 91 0x4123f9.0 @_int_malloc+185.0 CMP_R_I limm t1 0x3ff 0x3ff 
+12 92 0x4123f9.1 @_int_malloc+185.1 CMP_R_I sub t0 rbp t1 
+12 93 0x412400.0 @_int_malloc+192.0 JNBE_I rdip t1 0 0 
+12 94 0x412400.1 @_int_malloc+192.1 JNBE_I limm t2 0x76 0x76 
+12 95 0x412400.2 @_int_malloc+192.2 JNBE_I wrip t1 t2 0 
+12 96 0x412463.0 @_int_malloc+291.0 ADD_R_I limm t1 0xa8 0xa8 
+12 97 0x412463.1 @_int_malloc+291.1 ADD_R_I add rsp rsp t1 
+12 98 0x41246a.0 @_int_malloc+298.0 MOV_R_R mov rax rax r12 
+12 99 0x41246d.0 @_int_malloc+301.0 POP_R ld t1 SS 0 
+12 100 0x41246d.1 @_int_malloc+301.1 POP_R addi rsp rsp 0x8 0x8 
+12 101 0x41246d.2 @_int_malloc+301.2 POP_R mov rbx rbx t1 
+12 102 0x41246e.0 @_int_malloc+302.0 POP_R ld t1 SS 0 
+12 103 0x41246e.1 @_int_malloc+302.1 POP_R addi rsp rsp 0x8 0x8 
+12 104 0x41246e.2 @_int_malloc+302.2 POP_R mov rbp rbp t1 
+12 105 0x41246f.0 @_int_malloc+303.0 POP_R ld t1 SS 0 
+12 106 0x41246f.1 @_int_malloc+303.1 POP_R addi rsp rsp 0x8 0x8 
+12 107 0x41246f.2 @_int_malloc+303.2 POP_R mov r12 r12 t1 
+12 108 0x412471.0 @_int_malloc+305.0 POP_R ld t1 SS 0 
+12 109 0x412471.1 @_int_malloc+305.1 POP_R addi rsp rsp 0x8 0x8 
+12 110 0x412471.2 @_int_malloc+305.2 POP_R mov r13 r13 t1 
+12 111 0x412473.0 @_int_malloc+307.0 POP_R ld t1 SS 0 
+12 112 0x412473.1 @_int_malloc+307.1 POP_R addi rsp rsp 0x8 0x8 
+12 113 0x412473.2 @_int_malloc+307.2 POP_R mov r14 r14 t1 
+12 114 0x412475.0 @_int_malloc+309.0 POP_R ld t1 SS 0 
+12 115 0x412475.1 @_int_malloc+309.1 POP_R addi rsp rsp 0x8 0x8 
+12 116 0x412475.2 @_int_malloc+309.2 POP_R mov r15 r15 t1 
+12 117 0x412477.0 @_int_malloc+311.0 RET_NEAR ld t1 SS 0 
+12 118 0x412477.1 @_int_malloc+311.1 RET_NEAR addi rsp rsp 0x8 0x8 
+12 119 0x412477.2 @_int_malloc+311.2 RET_NEAR wripi t1 0 0 
+12 120 0x4124b6.0 @_int_malloc+374.0 MOV_R_R mov eax eax ebp 
+12 121 0x4124b8.0 @_int_malloc+376.0 MOV_M_I limm t1 0x1 0x1 
+12 122 0x4124b8.1 @_int_malloc+376.1 MOV_M_I st t1 DS 0 
+12 123 0x4124c1.0 @_int_malloc+385.0 LEA_R_M lea r15 DS 0 
+12 124 0x4124c5.0 @_int_malloc+389.0 SHR_R_I srli eax eax 0x4 0x4 
+12 125 0x4124c8.0 @_int_malloc+392.0 MOV_R_R mov 0 0 0 
+12 126 0x4124cb.0 @_int_malloc+395.0 MOV_M_R st eax DS 0 
+12 127 0x4124cf.0 @_int_malloc+399.0 MOV_R_R mov rax rax rbp 
+12 128 0x4124d2.0 @_int_malloc+402.0 SHR_R_I srli rax rax 0x6 0x6 
+12 129 0x4124d6.0 @_int_malloc+406.0 MOV_M_R st rax DS 0 
+12 130 0x4124db.0 @_int_malloc+411.0 ADD_R_I limm t1d 0x30 0x30 
+12 131 0x4124db.1 @_int_malloc+411.1 ADD_R_I add eax eax t1d 
+12 132 0x4124de.0 @_int_malloc+414.0 MOV_M_R st eax DS 0 
+12 133 0x4124e2.0 @_int_malloc+418.0 MOV_R_R mov rax rax rbp 
+12 134 0x4124e5.0 @_int_malloc+421.0 SHR_R_I srli rax rax 0x9 0x9 
+12 135 0x4124e9.0 @_int_malloc+425.0 MOV_M_R st rax DS 0 
+12 136 0x4124ee.0 @_int_malloc+430.0 ADD_R_I limm t1d 0x5b 0x5b 
+12 137 0x4124ee.1 @_int_malloc+430.1 ADD_R_I add eax eax t1d 
+12 138 0x4124f1.0 @_int_malloc+433.0 MOV_M_R st eax DS 0 
+12 139 0x4124f5.0 @_int_malloc+437.0 MOV_R_R mov rax rax rbp 
+12 140 0x4124f8.0 @_int_malloc+440.0 SHR_R_I srli rax rax 0xc 0xc 
+12 141 0x4124fc.0 @_int_malloc+444.0 MOV_M_R st rax DS 0 
+12 142 0x412501.0 @_int_malloc+449.0 ADD_R_I limm t1d 0x6e 0x6e 
+12 143 0x412501.1 @_int_malloc+449.1 ADD_R_I add eax eax t1d 
+12 144 0x412504.0 @_int_malloc+452.0 MOV_M_R st eax DS 0 
+12 145 0x412508.0 @_int_malloc+456.0 MOV_R_R mov rax rax rbp 
+12 146 0x41250b.0 @_int_malloc+459.0 SHR_R_I srli rax rax 0xf 0xf 
+12 147 0x41250f.0 @_int_malloc+463.0 MOV_M_R st rax DS 0 
+12 148 0x412514.0 @_int_malloc+468.0 ADD_R_I limm t1d 0x77 0x77 
+12 149 0x412514.1 @_int_malloc+468.1 ADD_R_I add eax eax t1d 
+12 150 0x412517.0 @_int_malloc+471.0 MOV_M_R st eax DS 0 
+12 151 0x41251b.0 @_int_malloc+475.0 MOV_R_R mov rax rax rbp 
+12 152 0x41251e.0 @_int_malloc+478.0 SHR_R_I srli rax rax 0x12 0x12 
+12 153 0x41c160.0 @memset.0 %xmm8_low esi 0 
+12 154 0x41c160.1 @memset.1 %xmm8_high 0 0 
+12 155 0x412522.0 @_int_malloc+482.0 MOV_M_R st rax DS 0 
+12 156 0x41c165.0 @memset+5.0 MOV_R_R mov rax rax rdi 
+12 157 0x412527.0 @_int_malloc+487.0 ADD_R_I limm t1d 0x7c 0x7c 
+12 158 0x412527.1 @_int_malloc+487.1 ADD_R_I add eax eax t1d 
+12 159 0x41c168.0 @memset+8.0 %xmm8_high %xmm8_low %xmm8_low 
+12 160 0x41c168.1 @memset+8.1 %xmm8_low %xmm8_low %xmm8_low 
+12 161 0x41252a.0 @_int_malloc+490.0 MOV_M_R st eax DS 0 
+12 162 0x41c16d.0 @memset+13.0 %xmm8_high %xmm8_low %xmm8_low 
+12 163 0x41c16d.1 @memset+13.1 %xmm8_low %xmm8_low %xmm8_low 
+12 164 0x41252e.0 @_int_malloc+494.0 LEA_R_M lea rax DS 0 
+12 165 0x41c172.0 @memset+18.0 %ufp1 %xmm8_low %xmm8_high 
+12 166 0x41c172.1 @memset+18.1 %xmm8_high %xmm8_low %xmm8_high 
+12 167 0x41c172.2 @memset+18.2 %xmm8_low %ufp1 %xmm8_low 
+12 168 0x412536.0 @_int_malloc+502.0 SUB_M_R ldst t1 DS 0 
+12 169 0x412536.1 @_int_malloc+502.1 SUB_M_R sub t1 t1 rax 
+12 170 0x412536.2 @_int_malloc+502.2 SUB_M_R st t1 DS 0 
+12 171 0x41c178.0 @memset+24.0 CMP_R_I limm t1 0x40 0x40 
+12 172 0x41c178.1 @memset+24.1 CMP_R_I sub t0 rdx t1 
+12 173 0x41253b.0 @_int_malloc+507.0 MOV_R_I limm 0x2710 0x2710 0 
+12 174 0x41c17c.0 @memset+28.0 JNBE_I rdip t1 0 0 
+12 175 0x41c17c.1 @memset+28.1 JNBE_I limm t2 0x32 0x32 
+12 176 0x41c17c.2 @memset+28.2 JNBE_I wrip t1 t2 0 
+12 177 0x412541.0 @_int_malloc+513.0 JMP_I rdip t1 0 0 
+12 178 0x412541.1 @_int_malloc+513.1 JMP_I limm t2 0x50 0x50 
+12 179 0x412541.2 @_int_malloc+513.2 JMP_I wrip t1 t2 0 
+12 180 0x412596.0 @_int_malloc+598.0 MOV_R_M ld r12 DS 0 
+12 181 0x41259a.0 @_int_malloc+602.0 CMP_R_R sub t0 r12 r15 
+12 182 0x41259d.0 @_int_malloc+605.0 JZ_I rdip t1 0 0 
+12 183 0x41259d.1 @_int_malloc+605.1 JZ_I limm t2 0x28c 0x28c 
+12 184 0x41259d.2 @_int_malloc+605.2 JZ_I wrip t1 t2 0 
+13 0 0x41287b.0 @_int_malloc+1339.0 MOV_R_R mov edx edx eax 
+13 1 0x41287d.0 @_int_malloc+1341.0 MOV_R_M ld esi DS 0 
+13 2 0x412884.0 @_int_malloc+1348.0 TEST_R_R and t0d esi esi 
+13 3 0x412886.0 @_int_malloc+1350.0 JNZ_I rdip t1 0 0 
+13 4 0x412886.1 @_int_malloc+1350.1 JNZ_I limm t2 0x243 0x243 
+13 5 0x412886.2 @_int_malloc+1350.2 JNZ_I wrip t1 t2 0 
+13 6 0x41288c.0 @_int_malloc+1356.0 LEA_R_M lea eax DS 0 
+13 7 0x41288f.0 @_int_malloc+1359.0 CMP_R_I limm t1d 0x4 0x4 
+13 8 0x41288f.1 @_int_malloc+1359.1 CMP_R_I sub t0d eax t1d 
+13 9 0x412892.0 @_int_malloc+1362.0 JZ_I rdip t1 0 0 
+13 10 0x412892.1 @_int_malloc+1362.1 JZ_I limm t2 0x3c 0x3c 
+13 11 0x412892.2 @_int_malloc+1362.2 JZ_I wrip t1 t2 0 
+13 12 0x412ed8.0 @_int_malloc+2968.0 SUB_R_R sub r13 r13 rbp 
+13 13 0x412edb.0 @_int_malloc+2971.0 xor eax eax eax 
+13 14 0x412edd.0 @_int_malloc+2973.0 CMP_R_I limm t1 0x6c0860 0x6c0860 
+13 15 0x412edd.1 @_int_malloc+2973.1 CMP_R_I sub t0 rbx t1 
+13 16 0x412ee4.0 @_int_malloc+2980.0 al al 0x1 0x1 
+13 17 0x412ee4.1 @_int_malloc+2980.1 al al 0 
+13 18 0x412ee7.0 @_int_malloc+2983.0 LEA_R_M lea rdx DS 0 
+13 19 0x412eeb.0 @_int_malloc+2987.0 OR_R_I limm t1 0x1 0x1 
+13 20 0x412eeb.1 @_int_malloc+2987.1 OR_R_I or rbp rbp t1 
+13 21 0x412eef.0 @_int_malloc+2991.0 SAL_R_I slli rax rax 0x2 0x2 
+13 22 0x412ef3.0 @_int_malloc+2995.0 OR_R_I limm t1 0x1 0x1 
+13 23 0x412ef3.1 @_int_malloc+2995.1 OR_R_I or r13 r13 t1 
+13 24 0x412ef7.0 @_int_malloc+2999.0 OR_R_R or rbp rbp rax 
+13 25 0x412efa.0 @_int_malloc+3002.0 MOV_M_R st rdx DS 0 
+13 26 0x412efe.0 @_int_malloc+3006.0 MOV_M_R st rbp DS 0 
+13 27 0x412f03.0 @_int_malloc+3011.0 MOV_M_R st r13 DS 0 
+13 28 0x412f07.0 @_int_malloc+3015.0 JMP_I rdip t1 0 0 
+13 29 0x412f07.1 @_int_malloc+3015.1 JMP_I limm t2 0xfffffffffffff545 0xfffffffffffff545 
+13 30 0x412f07.2 @_int_malloc+3015.2 JMP_I wrip t1 t2 0 
+13 31 0x45eb20.0 @__brk.0 MOV_R_I limm ecx 0xc 0xc 
+13 32 0x45eb25.0 @__brk+5.0 MOV_R_R mov rsi rsi rdi 
+13 33 0x45eb28.0 @__brk+8.0 MOV_R_R mov eax eax ecx 
+0x45eb2a 0x45eb2a @__brk+10 eax 
+13 35 0x45eb2c.0 @__brk+12.0 CMP_R_I limm t1 0xfffffffffffff000 0xfffffffffffff000 
+13 36 0x45eb2c.1 @__brk+12.1 CMP_R_I sub t0 rax t1 
+13 37 0x45eb32.0 @__brk+18.0 MOV_R_R mov rdx rdx rax 
+13 38 0x45eb35.0 @__brk+21.0 JNBE_I rdip t1 0 0 
+13 39 0x45eb35.1 @__brk+21.1 JNBE_I limm t2 0x2d 0x2d 
+13 40 0x45eb35.2 @__brk+21.2 JNBE_I wrip t1 t2 0 
+13 41 0x45eb37.0 @__brk+23.0 MOV_P_R rdip t7 0 0 
+13 42 0x45eb37.1 @__brk+23.1 MOV_P_R st rax DS 0 
+13 43 0x45eb3e.0 @__brk+30.0 xor eax eax eax 
+13 44 0x45eb40.0 @__brk+32.0 CMP_R_R sub t0 rsi rdx 
+13 45 0x45eb43.0 @__brk+35.0 JNBE_I rdip t1 0 0 
+13 46 0x45eb43.1 @__brk+35.1 JNBE_I limm t2 0xb 0xb 
+13 47 0x45eb43.2 @__brk+35.2 JNBE_I wrip t1 t2 0 
+13 48 0x45eb45.0 @__brk+37.0 RET_NEAR ld t1 SS 0 
+13 49 0x45eb45.1 @__brk+37.1 RET_NEAR addi rsp rsp 0x8 0x8 
+13 50 0x45eb45.2 @__brk+37.2 RET_NEAR wripi t1 0 0 
+13 51 0x437e20.0 @_dl_non_dynamic_init+1680.0 MOV_R_R mov rsi rsi rax 
+13 52 0x437e23.0 @_dl_non_dynamic_init+1683.0 ADD_R_I limm t1 0x38 0x38 
+13 53 0x437e23.1 @_dl_non_dynamic_init+1683.1 ADD_R_I add rax rax t1 
+13 54 0x437e27.0 @_dl_non_dynamic_init+1687.0 CMP_M_I limm t2d 0x6474e551 0x6474e551 
+13 55 0x437e27.1 @_dl_non_dynamic_init+1687.1 CMP_M_I ld t1d DS 0 
+13 56 0x437e27.2 @_dl_non_dynamic_init+1687.2 CMP_M_I sub t0d t1d t2d 
+13 57 0x437e2e.0 @_dl_non_dynamic_init+1694.0 JZ_I rdip t1 0 0 
+13 58 0x437e2e.1 @_dl_non_dynamic_init+1694.1 JZ_I limm t2 0x14c 0x14c 
+13 59 0x437e2e.2 @_dl_non_dynamic_init+1694.2 JZ_I wrip t1 t2 0 
+13 60 0x437e34.0 @_dl_non_dynamic_init+1700.0 ADD_R_I limm t1 0x1 0x1 
+13 61 0x437e34.1 @_dl_non_dynamic_init+1700.1 ADD_R_I add rdx rdx t1 
+13 62 0x437e38.0 @_dl_non_dynamic_init+1704.0 CMP_R_R sub t0 rdx rcx 
+13 63 0x437e3b.0 @_dl_non_dynamic_init+1707.0 JNZ_I rdip t1 0 0 
+13 64 0x437e3b.1 @_dl_non_dynamic_init+1707.1 JNZ_I limm t2 0xffffffffffffffe3 0xffffffffffffffe3 
+13 65 0x437e3b.2 @_dl_non_dynamic_init+1707.2 JNZ_I wrip t1 t2 0 
+13 66 0x461fe2.0 @_dl_init_paths+258.0 MOV_R_M ld rdx DS 0 
+13 67 0x461fe6.0 @_dl_init_paths+262.0 LEA_R_M lea rdi DS 0 
+13 68 0x461fea.0 @_dl_init_paths+266.0 xor esi esi esi 
+13 69 0x461fec.0 @_dl_init_paths+268.0 ADD_R_I limm t1 0x1 0x1 
+13 70 0x461fec.1 @_dl_init_paths+268.1 ADD_R_I add r14 r14 t1 
+13 71 0x461ff0.0 @_dl_init_paths+272.0 MOV_M_R st r9 DS 0 
+13 72 0x461ff4.0 @_dl_init_paths+276.0 MOV_M_R st r10 DS 0 
+13 73 0x461ff8.0 @_dl_init_paths+280.0 CALL_NEAR_I limm t1 0xfffffffffffba163 0xfffffffffffba163 
+13 74 0x461ff8.1 @_dl_init_paths+280.1 CALL_NEAR_I rdip t7 0 0 
+13 75 0x461ff8.2 @_dl_init_paths+280.2 CALL_NEAR_I st t7 SS 0 
+13 76 0x461ff8.3 @_dl_init_paths+280.3 CALL_NEAR_I subi rsp rsp 0x8 0x8 
+13 77 0x461ff8.4 @_dl_init_paths+280.4 CALL_NEAR_I wrip t7 t1 0 
+13 78 0x461ffd.0 @_dl_init_paths+285.0 CMP_R_I limm t1 0x4 0x4 
+13 79 0x461ffd.1 @_dl_init_paths+285.1 CMP_R_I sub t0 r14 t1 
+13 80 0x462001.0 @_dl_init_paths+289.0 MOV_R_M ld r10 DS 0 
+13 81 0x462005.0 @_dl_init_paths+293.0 MOV_R_M ld r9 DS 0 
+13 82 0x462009.0 @_dl_init_paths+297.0 JZ_I rdip t1 0 0 
+13 83 0x462009.1 @_dl_init_paths+297.1 JZ_I limm t2 0xb1 0xb1 
+13 84 0x462009.2 @_dl_init_paths+297.2 JZ_I wrip t1 t2 0 
+13 85 0x414489.0 @malloc+25.0 MOV_R_I limm rax 0xffffffffffffffd0 0xffffffffffffffd0 
+13 86 0x414490.0 @malloc+32.0 MOV_R_M ld rbx FS 0 
+13 87 0x414494.0 @malloc+36.0 TEST_R_R and t0 rbx rbx 
+13 88 0x414497.0 @malloc+39.0 JZ_I rdip t1 0 0 
+13 89 0x414497.1 @malloc+39.1 JZ_I limm t2 0x93 0x93 
+13 90 0x414497.2 @malloc+39.2 JZ_I wrip t1 t2 0 
+13 91 0x41449d.0 @malloc+45.0 MOV_R_I limm esi 0x1 0x1 
+13 92 0x4144a2.0 @malloc+50.0 xor eax eax eax 
+13 93 0x4144a4.0 @malloc+52.0 CMP_P_I limm t2d 0 0 
+13 94 0x4144a4.1 @malloc+52.1 CMP_P_I rdip t7d 0 0 
+13 95 0x4144a4.2 @malloc+52.2 CMP_P_I ld t1d DS 0 
+13 96 0x4144a4.3 @malloc+52.3 CMP_P_I sub t0d t1d t2d 
+13 97 0x4144ab.0 @malloc+59.0 JZ_I rdip t1 0 0 
+13 98 0x4144ab.1 @malloc+59.1 JZ_I limm t2 0xc 0xc 
+13 99 0x4144ab.2 @malloc+59.2 JZ_I wrip t1 t2 0 
+13 100 0x4144b9.0 @malloc+73.0 ldst t1d DS 0 
+13 101 0x4144b9.1 @malloc+73.1 sub t0d eax t1d 
+13 102 0x4144b9.2 @malloc+73.2 mov t1d t1d esi 
+13 103 0x4144b9.3 @malloc+73.3 st t1d DS 0 
+13 104 0x4144b9.4 @malloc+73.4 mov eax eax t1d 
+13 105 0x4144bc.0 @malloc+76.0 JNZ_I rdip t1 0 0 
+13 106 0x4144bc.1 @malloc+76.1 JNZ_I limm t2 0x250d 0x250d 
+13 107 0x4144bc.2 @malloc+76.2 JNZ_I wrip t1 t2 0 
+13 108 0x4144c2.0 @malloc+82.0 MOV_R_R mov rsi rsi rbp 
+13 109 0x4144c5.0 @malloc+85.0 MOV_R_R mov rdi rdi rbx 
+13 110 0x4144c8.0 @malloc+88.0 CALL_NEAR_I limm t1 0xffffffffffffde73 0xffffffffffffde73 
+13 111 0x4144c8.1 @malloc+88.1 CALL_NEAR_I rdip t7 0 0 
+13 112 0x4144c8.2 @malloc+88.2 CALL_NEAR_I st t7 SS 0 
+13 113 0x4144c8.3 @malloc+88.3 CALL_NEAR_I subi rsp rsp 0x8 0x8 
+13 114 0x4144c8.4 @malloc+88.4 CALL_NEAR_I wrip t7 t1 0 
+13 115 0x4144cd.0 @malloc+93.0 TEST_R_R and t0 rax rax 
+13 116 0x4144d0.0 @malloc+96.0 MOV_R_R mov rdx rdx rax 
+13 117 0x4144d3.0 @malloc+99.0 JZ_I rdip t1 0 0 
+13 118 0x4144d3.1 @malloc+99.1 JZ_I limm t2 0x7b 0x7b 
+13 119 0x4144d3.2 @malloc+99.2 JZ_I wrip t1 t2 0 
+13 120 0x4144d5.0 @malloc+101.0 CMP_P_I limm t2d 0 0 
+13 121 0x4144d5.1 @malloc+101.1 CMP_P_I rdip t7d 0 0 
+13 122 0x4144d5.2 @malloc+101.2 CMP_P_I ld t1d DS 0 
+13 123 0x4144d5.3 @malloc+101.3 CMP_P_I sub t0d t1d t2d 
+13 124 0x4144dc.0 @malloc+108.0 JZ_I rdip t1 0 0 
+13 125 0x4144dc.1 @malloc+108.1 JZ_I limm t2 0xb 0xb 
+13 126 0x4144dc.2 @malloc+108.2 JZ_I wrip t1 t2 0 
+13 127 0x4144e9.0 @malloc+121.0 ldst t1d DS 0 
+13 128 0x4144e9.1 @malloc+121.1 subi t1d t1d 0x1 0x1 
+13 129 0x4144e9.2 @malloc+121.2 st t1d DS 0 
+13 130 0x4144eb.0 @malloc+123.0 JNZ_I rdip t1 0 0 
+13 131 0x4144eb.1 @malloc+123.1 JNZ_I limm t2 0x24f9 0x24f9 
+13 132 0x4144eb.2 @malloc+123.2 JNZ_I wrip t1 t2 0 
+13 133 0x4144f1.0 @malloc+129.0 MOV_R_M ld rax DS 0 
+13 134 0x4144f5.0 @malloc+133.0 TEST_R_I limm 0x2 0x2 0 
+13 135 0x4144f5.1 @malloc+133.1 TEST_R_I and al 0 0 
+13 136 0x4144f7.0 @malloc+135.0 JNZ_I rdip t1 0 0 
+13 137 0x4144f7.1 @malloc+135.1 JNZ_I limm t2 0x12 0x12 
+13 138 0x4144f7.2 @malloc+135.2 JNZ_I wrip t1 t2 0 
+13 139 0x4144f9.0 @malloc+137.0 TEST_R_I limm 0x4 0x4 0 
+13 140 0x4144f9.1 @malloc+137.1 TEST_R_I and al 0 0 
+13 141 0x4144fb.0 @malloc+139.0 MOV_R_I limm ecx 0x6c0860 0x6c0860 
+13 142 0x414500.0 @malloc+144.0 JNZ_I rdip t1 0 0 
+13 143 0x414500.1 @malloc+144.1 JNZ_I limm t2 0x16 0x16 
+13 144 0x414500.2 @malloc+144.2 JNZ_I wrip t1 t2 0 
+13 145 0x414502.0 @malloc+146.0 CMP_R_R sub t0 rcx rbx 
+13 146 0x414505.0 @malloc+149.0 JNZ_I rdip t1 0 0 
+13 147 0x414505.1 @malloc+149.1 JNZ_I limm t2 0x99 0x99 
+13 148 0x414505.2 @malloc+149.2 JNZ_I wrip t1 t2 0 
+13 149 0x41450b.0 @malloc+155.0 ADD_R_I limm t1 0x8 0x8 
+13 150 0x41450b.1 @malloc+155.1 ADD_R_I add rsp rsp t1 
+13 151 0x41450f.0 @malloc+159.0 MOV_R_R mov rax rax rdx 
+13 152 0x414512.0 @malloc+162.0 POP_R ld t1 SS 0 
+13 153 0x414512.1 @malloc+162.1 POP_R addi rsp rsp 0x8 0x8 
+13 154 0x414512.2 @malloc+162.2 POP_R mov rbx rbx t1 
+13 155 0x414513.0 @malloc+163.0 POP_R ld t1 SS 0 
+13 156 0x414513.1 @malloc+163.1 POP_R addi rsp rsp 0x8 0x8 
+13 157 0x414513.2 @malloc+163.2 POP_R mov rbp rbp t1 
+13 158 0x414514.0 @malloc+164.0 RET_NEAR ld t1 SS 0 
+13 159 0x414514.1 @malloc+164.1 RET_NEAR addi rsp rsp 0x8 0x8 
+13 160 0x414514.2 @malloc+164.2 RET_NEAR wripi t1 0 0 
+13 161 0x412451.0 @_int_malloc+273.0 MOV_R_P rdip t7d 0 0 
+13 162 0x412451.1 @_int_malloc+273.1 MOV_R_P ld eax DS 0 
+13 163 0x412457.0 @_int_malloc+279.0 ADD_R_I limm t1 0x10 0x10 
+13 164 0x412457.1 @_int_malloc+279.1 ADD_R_I add r12 r12 t1 
+13 165 0x41245b.0 @_int_malloc+283.0 TEST_R_R and t0d eax eax 
+13 166 0x41245d.0 @_int_malloc+285.0 JNZ_I rdip t1 0 0 
+13 167 0x41245d.1 @_int_malloc+285.1 JNZ_I limm t2 0x35b 0x35b 
+13 168 0x41245d.2 @_int_malloc+285.2 JNZ_I wrip t1 t2 0 
+13 169 0x41c17e.0 @memset+30.0 CMP_R_I limm t1 0x10 0x10 
+13 170 0x41c17e.1 @memset+30.1 CMP_R_I sub t0 rdx t1 
+13 171 0x41c182.0 @memset+34.0 JBE_I rdip t1 0 0 
+13 172 0x41c182.1 @memset+34.1 JBE_I limm t2 0x9a 0x9a 
+13 173 0x41c182.2 @memset+34.2 JBE_I wrip t1 t2 0 
+13 174 0x41c222.0 @memset+194.0 rcx rcx 0 
+13 175 0x41c227.0 @memset+199.0 TEST_R_I limm 0x18 0x18 0 
+13 176 0x41c227.1 @memset+199.1 TEST_R_I and dl 0 0 
+13 177 0x41c22a.0 @memset+202.0 JNZ_I rdip t1 0 0 
+13 178 0x41c22a.1 @memset+202.1 JNZ_I limm t2 0x22 0x22 
+13 179 0x41c22a.2 @memset+202.2 JNZ_I wrip t1 t2 0 
+13 180 0x41c22c.0 @memset+204.0 TEST_R_I limm 0x4 0x4 0 
+13 181 0x41c22c.1 @memset+204.1 TEST_R_I and dl 0 0 
+13 182 0x41c22f.0 @memset+207.0 JNZ_I rdip t1 0 0 
+13 183 0x41c22f.1 @memset+207.1 JNZ_I limm t2 0x16 0x16 
+13 184 0x41c22f.2 @memset+207.2 JNZ_I wrip t1 t2 0 
+13 185 0x41c247.0 @memset+231.0 MOV_M_R st ecx DS 0 
+13 186 0x41c249.0 @memset+233.0 MOV_M_R st ecx DS 0 
+13 187 0x41c24d.0 @memset+237.0 RET_NEAR ld t1 SS 0 
+13 188 0x41c24d.1 @memset+237.1 RET_NEAR addi rsp rsp 0x8 0x8 
+13 189 0x41c24d.2 @memset+237.2 RET_NEAR wripi t1 0 0 
+13 190 0x4015b9.0 @__libc_setup_tls+73.0 CMP_M_I limm t2d 0x7 0x7 
+13 191 0x4015b9.1 @__libc_setup_tls+73.1 CMP_M_I ld t1d DS 0 
+13 192 0x4015b9.2 @__libc_setup_tls+73.2 CMP_M_I sub t0d t1d t2d 
+13 193 0x4015bc.0 @__libc_setup_tls+76.0 JNZ_I rdip t1 0 0 
+13 194 0x4015bc.1 @__libc_setup_tls+76.1 JNZ_I limm t2 0xfffffffffffffff2 0xfffffffffffffff2 
+13 195 0x4015bc.2 @__libc_setup_tls+76.2 JNZ_I wrip t1 t2 0 
+14 0 0x412894.0 @_int_malloc+1364.0 MOV_R_R mov edx edx eax 
+14 1 0x412896.0 @_int_malloc+1366.0 MOV_R_M ld esi DS 0 
+14 2 0x41289d.0 @_int_malloc+1373.0 TEST_R_R and t0d esi esi 
+14 3 0x41289f.0 @_int_malloc+1375.0 JNZ_I rdip t1 0 0 
+14 4 0x41289f.1 @_int_malloc+1375.1 JNZ_I limm t2 0x22a 0x22a 
+14 5 0x41289f.2 @_int_malloc+1375.2 JNZ_I wrip t1 t2 0 
+14 6 0x4128a5.0 @_int_malloc+1381.0 LEA_R_M lea eax DS 0 
+14 7 0x4128a8.0 @_int_malloc+1384.0 CMP_R_I limm t1d 0x4 0x4 
+14 8 0x4128a8.1 @_int_malloc+1384.1 CMP_R_I sub t0d eax t1d 
+14 9 0x4128ab.0 @_int_malloc+1387.0 JZ_I rdip t1 0 0 
+14 10 0x4128ab.1 @_int_malloc+1387.1 JZ_I limm t2 0x23 0x23 
+14 11 0x4128ab.2 @_int_malloc+1387.2 JZ_I wrip t1 t2 0 
+14 12 0x4128ad.0 @_int_malloc+1389.0 MOV_R_R mov edx edx eax 
+14 13 0x4128af.0 @_int_malloc+1391.0 MOV_R_M ld esi DS 0 
+14 14 0x4128b6.0 @_int_malloc+1398.0 TEST_R_R and t0d esi esi 
+14 15 0x4128b8.0 @_int_malloc+1400.0 JNZ_I rdip t1 0 0 
+14 16 0x4128b8.1 @_int_malloc+1400.1 JNZ_I limm t2 0x211 0x211 
+14 17 0x4128b8.2 @_int_malloc+1400.2 JNZ_I wrip t1 t2 0 
+14 18 0x4128be.0 @_int_malloc+1406.0 TEST_R_R and t0d edi edi 
+14 19 0x4128c0.0 @_int_malloc+1408.0 JZ_I rdip t1 0 0 
+14 20 0x4128c0.1 @_int_malloc+1408.1 JZ_I limm t2 0xe 0xe 
+14 21 0x4128c0.2 @_int_malloc+1408.2 JZ_I wrip t1 t2 0 
+14 22 0x438468.0 @_dl_discover_osversion+40.0 ld DS 0 0 
+14 23 0x438468.1 @_dl_discover_osversion+40.1 sexti esi t1d 0x7 0x7 
+14 24 0x43846b.0 @_dl_discover_osversion+43.0 LEA_R_M lea edx DS 0 
+14 25 0x43846e.0 @_dl_discover_osversion+46.0 CMP_R_I limm 0x9 0x9 0 
+14 26 0x43846e.1 @_dl_discover_osversion+46.1 CMP_R_I sub dl 0 0 
+14 27 0x438471.0 @_dl_discover_osversion+49.0 JNBE_I rdip t1 0 0 
+14 28 0x438471.1 @_dl_discover_osversion+49.1 JNBE_I limm t2 0x5c 0x5c 
+14 29 0x438471.2 @_dl_discover_osversion+49.2 JNBE_I wrip t1 t2 0 
+14 30 0x438473.0 @_dl_discover_osversion+51.0 ld DS 0 0 
+14 31 0x438473.1 @_dl_discover_osversion+51.1 sexti edx t1d 0x7 0x7 
+14 32 0x438477.0 @_dl_discover_osversion+55.0 LEA_R_M lea rcx DS 0 
+14 33 0x43847b.0 @_dl_discover_osversion+59.0 SUB_R_I limm t1d 0x30 0x30 
+14 34 0x43847b.1 @_dl_discover_osversion+59.1 SUB_R_I sub esi esi t1d 
+14 35 0x43847e.0 @_dl_discover_osversion+62.0 LEA_R_M lea edi DS 0 
+14 36 0x438481.0 @_dl_discover_osversion+65.0 CMP_R_I limm 0x9 0x9 0 
+14 37 0x438481.1 @_dl_discover_osversion+65.1 CMP_R_I sub 0 0 0 
+14 38 0x438485.0 @_dl_discover_osversion+69.0 JNBE_I rdip t1 0 0 
+14 39 0x438485.1 @_dl_discover_osversion+69.1 JNBE_I limm t2 0x20 0x20 
+14 40 0x438485.2 @_dl_discover_osversion+69.2 JNBE_I wrip t1 t2 0 
+14 41 0x4384a7.0 @_dl_discover_osversion+103.0 SAL_R_I slli eax eax 0x8 0x8 
+14 42 0x4384aa.0 @_dl_discover_osversion+106.0 ADD_R_I limm t1d 0x1 0x1 
+14 43 0x4384aa.1 @_dl_discover_osversion+106.1 ADD_R_I add t1d 0 0 
+14 44 0x4384ae.0 @_dl_discover_osversion+110.0 LEA_R_M lea rdi DS 0 
+14 45 0x4384b2.0 @_dl_discover_osversion+114.0 OR_R_R or eax eax esi 
+14 46 0x4384b4.0 @_dl_discover_osversion+116.0 CMP_R_I limm 0x2e 0x2e 0 
+14 47 0x4384b4.1 @_dl_discover_osversion+116.1 CMP_R_I sub dl 0 0 
+14 48 0x4384b7.0 @_dl_discover_osversion+119.0 JNZ_I rdip t1 0 0 
+14 49 0x4384b7.1 @_dl_discover_osversion+119.1 JNZ_I limm t2 0x10 0x10 
+14 50 0x4384b7.2 @_dl_discover_osversion+119.2 JNZ_I wrip t1 t2 0 
+14 51 0x46200f.0 @_dl_init_paths+303.0 MOV_R_M ld rdx DS 0 
+14 52 0x462017.0 @_dl_init_paths+311.0 MOV_R_M ld rcx DS 0 
+14 53 0x46201b.0 @_dl_init_paths+315.0 LEA_R_M lea rax DS 0 
+14 54 0x46201f.0 @_dl_init_paths+319.0 MOV_M_R st rbx DS 0 
+14 55 0x462022.0 @_dl_init_paths+322.0 MOV_M_R st rbx DS 0 
+14 56 0x462025.0 @_dl_init_paths+325.0 MOV_M_I limm t1 0x4a982c 0x4a982c 
+14 57 0x462025.1 @_dl_init_paths+325.1 MOV_M_I st t1 DS 0 
+14 58 0x46202d.0 @_dl_init_paths+333.0 MOV_M_I limm t1 0 0 
+14 59 0x46202d.1 @_dl_init_paths+333.1 MOV_M_I st t1 DS 0 
+14 60 0x462035.0 @_dl_init_paths+341.0 MOV_M_R st rdx DS 0 
+14 61 0x462039.0 @_dl_init_paths+345.0 MOV_M_R st r9 DS 0 
+14 62 0x46203d.0 @_dl_init_paths+349.0 ADD_R_R add r15 r15 rcx 
+14 63 0x462040.0 @_dl_init_paths+352.0 ADD_R_R add rbx rbx rcx 
+14 64 0x462043.0 @_dl_init_paths+355.0 CMP_M_I limm 0x2f 0x2f 0 
+14 65 0x462043.1 @_dl_init_paths+355.1 CMP_M_I ld DS 0 0 
+14 66 0x462043.2 @_dl_init_paths+355.2 CMP_M_I sub 0 0 0 
+14 67 0x462047.0 @_dl_init_paths+359.0 LEA_R_M lea rdx DS 0 
+14 68 0x46204c.0 @_dl_init_paths+364.0 JNZ_I rdip t1 0 0 
+14 69 0x46204c.1 @_dl_init_paths+364.1 JNZ_I limm t2 0x19f 0x19f 
+14 70 0x46204c.2 @_dl_init_paths+364.2 JNZ_I wrip t1 t2 0 
+14 71 0x462052.0 @_dl_init_paths+370.0 MOV_R_R mov r13 r13 r10 
+14 72 0x462055.0 @_dl_init_paths+373.0 MOV_R_R mov r9 r9 rdx 
+14 73 0x462058.0 @_dl_init_paths+376.0 MOV_R_R mov r10 r10 rax 
+14 74 0x46205b.0 @_dl_init_paths+379.0 JMP_I rdip t1 0 0 
+14 75 0x46205b.1 @_dl_init_paths+379.1 JMP_I limm t2 0xffffffffffffff85 0xffffffffffffff85 
+14 76 0x46205b.2 @_dl_init_paths+379.2 JMP_I wrip t1 t2 0 
+14 77 0x40c9a6.0 @_IO_cleanup+102.0 MOV_R_M ld edx DS 0 
+14 78 0x40c9ac.0 @_IO_cleanup+108.0 MOV_P_R rdip t7 0 0 
+14 79 0x40c9ac.1 @_IO_cleanup+108.1 MOV_P_R st rbx DS 0 
+14 80 0x40c9b3.0 @_IO_cleanup+115.0 TEST_R_R and t0d edx edx 
+14 81 0x40c9b5.0 @_IO_cleanup+117.0 JLE_I rdip t1 0 0 
+14 82 0x40c9b5.1 @_IO_cleanup+117.1 JLE_I limm t2 0x11d 0x11d 
+14 83 0x40c9b5.2 @_IO_cleanup+117.2 JLE_I wrip t1 t2 0 
+14 84 0x40c9cc.0 @_IO_cleanup+140.0 MOV_P_I rdip t7 0 0 
+14 85 0x40c9cc.1 @_IO_cleanup+140.1 MOV_P_I limm t1 0 0 
+14 86 0x40c9cc.2 @_IO_cleanup+140.2 MOV_P_I st t1 DS 0 
+14 87 0x40c9d7.0 @_IO_cleanup+151.0 MOV_R_R mov edx edx ebp 
+14 88 0x40c9d9.0 @_IO_cleanup+153.0 MOV_R_M ld rbx DS 0 
+14 89 0x40c9dd.0 @_IO_cleanup+157.0 MOV_R_R mov ebp ebp edx 
+14 90 0x40c9df.0 @_IO_cleanup+159.0 TEST_R_R and t0 rbx rbx 
+14 91 0x40c9e2.0 @_IO_cleanup+162.0 JNZ_I rdip t1 0 0 
+14 92 0x40c9e2.1 @_IO_cleanup+162.1 JNZ_I limm t2 0xffffffffffffffc2 0xffffffffffffffc2 
+14 93 0x40c9e2.2 @_IO_cleanup+162.2 JNZ_I wrip t1 t2 0 
+14 94 0x40ca00.0 @_IO_cleanup+192.0 MOV_R_M ld edx DS 0 
+14 95 0x40ca02.0 @_IO_cleanup+194.0 TEST_R_I limm 0x2 0x2 0 
+14 96 0x40ca02.1 @_IO_cleanup+194.1 TEST_R_I and dl 0 0 
+14 97 0x40ca05.0 @_IO_cleanup+197.0 JNZ_I rdip t1 0 0 
+14 98 0x40ca05.1 @_IO_cleanup+197.1 JNZ_I limm t2 0xa5 0xa5 
+14 99 0x40ca05.2 @_IO_cleanup+197.2 JNZ_I wrip t1 t2 0 
+14 100 0x40cab0.0 @_IO_cleanup+368.0 MOV_M_I limm t1d 0xffffffffffffffff 0xffffffffffffffff 
+14 101 0x40cab0.1 @_IO_cleanup+368.1 MOV_M_I st t1d DS 0 
+14 102 0x40caba.0 @_IO_cleanup+378.0 MOV_R_M ld rbx DS 0 
+14 103 0x40cabe.0 @_IO_cleanup+382.0 TEST_R_R and t0 rbx rbx 
+14 104 0x40cac1.0 @_IO_cleanup+385.0 JNZ_I rdip t1 0 0 
+14 105 0x40cac1.1 @_IO_cleanup+385.1 JNZ_I limm t2 0xffffffffffffff39 0xffffffffffffff39 
+14 106 0x40cac1.2 @_IO_cleanup+385.2 JNZ_I wrip t1 t2 0 
+14 107 0x40cad8.0 @_IO_cleanup+408.0 MOV_R_M ld rax DS 0 
+14 108 0x40cadc.0 @_IO_cleanup+412.0 CMP_M_R ld t1 DS 0 
+14 109 0x40cadc.1 @_IO_cleanup+412.1 CMP_M_R sub t0 t1 rax 
+14 110 0x40cae0.0 @_IO_cleanup+416.0 JNBE_I rdip t1 0 0 
+14 111 0x40cae0.1 @_IO_cleanup+416.1 JNBE_I limm t2 0xfffffffffffffe82 0xfffffffffffffe82 
+14 112 0x40cae0.2 @_IO_cleanup+416.2 JNBE_I wrip t1 t2 0 
+14 113 0x40cae6.0 @_IO_cleanup+422.0 JMP_I rdip t1 0 0 
+14 114 0x40cae6.1 @_IO_cleanup+422.1 JMP_I limm t2 0xfffffffffffffee1 0xfffffffffffffee1 
+14 115 0x40cae6.2 @_IO_cleanup+422.2 JMP_I wrip t1 t2 0 
+14 116 0x412402.0 @_int_malloc+194.0 MOV_R_R mov ebp 0 0 
+14 117 0x412405.0 @_int_malloc+197.0 SHR_R_I srli 0x4 0x4 0 
+14 118 0x412409.0 @_int_malloc+201.0 LEA_R_M lea eax DS 0 
+14 119 0x41240e.0 @_int_malloc+206.0 LEA_R_M lea rax DS 0 
+14 120 0x412413.0 @_int_malloc+211.0 MOV_R_M ld r12 DS 0 
+14 121 0x412417.0 @_int_malloc+215.0 CMP_R_R sub t0 r12 rax 
+14 122 0x41241a.0 @_int_malloc+218.0 JZ_I rdip t1 0 0 
+14 123 0x41241a.1 @_int_malloc+218.1 JZ_I limm t2 0x96 0x96 
+14 124 0x41241a.2 @_int_malloc+218.2 JZ_I wrip t1 t2 0 
+14 125 0x434980.0 @__sbrk.0 PUSH_R st rbp SS 0 
+14 126 0x434980.1 @__sbrk.1 PUSH_R subi rsp rsp 0x8 0x8 
+14 127 0x434981.0 @__sbrk+1.0 MOV_R_R mov rbp rbp rdi 
+14 128 0x434984.0 @__sbrk+4.0 PUSH_R st rbx SS 0 
+14 129 0x434984.1 @__sbrk+4.1 PUSH_R subi rsp rsp 0x8 0x8 
+14 130 0x434985.0 @__sbrk+5.0 SUB_R_I limm t1 0x8 0x8 
+14 131 0x434985.1 @__sbrk+5.1 SUB_R_I sub rsp rsp t1 
+14 132 0x434989.0 @__sbrk+9.0 MOV_R_P rdip t7 0 0 
+14 133 0x434989.1 @__sbrk+9.1 MOV_R_P ld rbx DS 0 
+14 134 0x434990.0 @__sbrk+16.0 TEST_R_R and t0 rbx rbx 
+14 135 0x434993.0 @__sbrk+19.0 JZ_I rdip t1 0 0 
+14 136 0x434993.1 @__sbrk+19.1 JZ_I limm t2 0x33 0x33 
+14 137 0x434993.2 @__sbrk+19.2 JZ_I wrip t1 t2 0 
+14 138 0x43499f.0 @__sbrk+31.0 CMP_R_I limm t1 0 0 
+14 139 0x43499f.1 @__sbrk+31.1 CMP_R_I sub t0 rbp t1 
+14 140 0x4349a3.0 @__sbrk+35.0 JZ_I rdip t1 0 0 
+14 141 0x4349a3.1 @__sbrk+35.1 JZ_I limm t2 0x14 0x14 
+14 142 0x4349a3.2 @__sbrk+35.2 JZ_I wrip t1 t2 0 
+14 143 0x4349a5.0 @__sbrk+37.0 JLE_I rdip t1 0 0 
+14 144 0x4349a5.1 @__sbrk+37.1 JLE_I limm t2 0x49 0x49 
+14 145 0x4349a5.2 @__sbrk+37.2 JLE_I wrip t1 t2 0 
+14 146 0x4349a7.0 @__sbrk+39.0 MOV_R_R mov rdi rdi rbp 
+14 147 0x4349aa.0 @__sbrk+42.0 ADD_R_R add rdi rdi rbx 
+14 148 0x4349ad.0 @__sbrk+45.0 JB_I rdip t1 0 0 
+14 149 0x4349ad.1 @__sbrk+45.1 JB_I limm t2 0x2b 0x2b 
+14 150 0x4349ad.2 @__sbrk+45.2 JB_I wrip t1 t2 0 
+0x4349af 0x4349af @__sbrk+47 14 152 0x4349b0.0 @__sbrk+48.0 CALL_NEAR_I limm t1 0x2a16b 0x2a16b 
+14 153 0x4349b0.1 @__sbrk+48.1 CALL_NEAR_I rdip t7 0 0 
+14 154 0x4349b0.2 @__sbrk+48.2 CALL_NEAR_I st t7 SS 0 
+14 155 0x4349b0.3 @__sbrk+48.3 CALL_NEAR_I subi rsp rsp 0x8 0x8 
+14 156 0x4349b0.4 @__sbrk+48.4 CALL_NEAR_I wrip t7 t1 0 
+14 157 0x4349b5.0 @__sbrk+53.0 TEST_R_R and t0d eax eax 
+14 158 0x4349b7.0 @__sbrk+55.0 rdip t1 0 0 
+14 159 0x4349b7.1 @__sbrk+55.1 limm t2 0x21 0x21 
+14 160 0x4349b7.2 @__sbrk+55.2 wrip t1 t2 0 
+14 161 0x4349b9.0 @__sbrk+57.0 ADD_R_I limm t1 0x8 0x8 
+14 162 0x4349b9.1 @__sbrk+57.1 ADD_R_I add rsp rsp t1 
+14 163 0x4349bd.0 @__sbrk+61.0 MOV_R_R mov rax rax rbx 
+14 164 0x4349c0.0 @__sbrk+64.0 POP_R ld t1 SS 0 
+14 165 0x4349c0.1 @__sbrk+64.1 POP_R addi rsp rsp 0x8 0x8 
+14 166 0x4349c0.2 @__sbrk+64.2 POP_R mov rbx rbx t1 
+14 167 0x4349c1.0 @__sbrk+65.0 POP_R ld t1 SS 0 
+14 168 0x4349c1.1 @__sbrk+65.1 POP_R addi rsp rsp 0x8 0x8 
+14 169 0x4349c1.2 @__sbrk+65.2 POP_R mov rbp rbp t1 
+14 170 0x4349c2.0 @__sbrk+66.0 RET_NEAR ld t1 SS 0 
+14 171 0x4349c2.1 @__sbrk+66.1 RET_NEAR addi rsp rsp 0x8 0x8 
+14 172 0x4349c2.2 @__sbrk+66.2 RET_NEAR wripi t1 0 0 
+14 173 0x4015b0.0 @__libc_setup_tls+64.0 ADD_R_I limm t1 0x38 0x38 
+14 174 0x4015b0.1 @__libc_setup_tls+64.1 ADD_R_I add rcx rcx t1 
+14 175 0x4015b4.0 @__libc_setup_tls+68.0 CMP_R_R sub t0 rcx rax 
+14 176 0x4015b7.0 @__libc_setup_tls+71.0 rdip t1 0 0 
+14 177 0x4015b7.1 @__libc_setup_tls+71.1 limm t2 0x27 0x27 
+14 178 0x4015b7.2 @__libc_setup_tls+71.2 wrip t1 t2 0 
+15 0 0x467f58.0 @_dl_get_origin+200.0 LEA_R_M lea eax DS 0 
+15 1 0x467f5b.0 @_dl_get_origin+203.0 sexti rdx rax 0x1f 0x1f 
+15 2 0x467f5e.0 @_dl_get_origin+206.0 CMP_M_I limm 0x2f 0x2f 0 
+15 3 0x467f5e.1 @_dl_get_origin+206.1 CMP_M_I ld SS 0 0 
+15 4 0x467f5e.2 @_dl_get_origin+206.2 CMP_M_I sub 0 0 0 
+15 5 0x467f62.0 @_dl_get_origin+210.0 JZ_I rdip t1 0 0 
+15 6 0x467f62.1 @_dl_get_origin+210.1 JZ_I limm t2 0x44 0x44 
+15 7 0x467f62.2 @_dl_get_origin+210.2 JZ_I wrip t1 t2 0 
+15 8 0x467f66.0 @_dl_get_origin+214.0 CMP_R_I limm t1d 0x1 0x1 
+15 9 0x467f66.1 @_dl_get_origin+214.1 CMP_R_I sub t0d ebx t1d 
+15 10 0x467f69.0 @_dl_get_origin+217.0 JNZ_I rdip t1 0 0 
+15 11 0x467f69.1 @_dl_get_origin+217.1 JNZ_I limm t2 0xffffffffffffffed 0xffffffffffffffed 
+15 12 0x467f69.2 @_dl_get_origin+217.2 JNZ_I wrip t1 t2 0 
+15 13 0x401868.0 @__libc_csu_init+104.0 MOV_R_R mov rdx rdx r13 
+15 14 0x40186b.0 @__libc_csu_init+107.0 MOV_R_R mov rsi rsi r12 
+15 15 0x40186e.0 @__libc_csu_init+110.0 MOV_R_R mov edi edi ebp 
+15 16 0x401870.0 @__libc_csu_init+112.0 CALL_NEAR_M rdip t7 0 0 
+15 17 0x401870.1 @__libc_csu_init+112.1 CALL_NEAR_M ld t1 DS 0 
+15 18 0x401870.2 @__libc_csu_init+112.2 CALL_NEAR_M st t7 SS 0 
+15 19 0x401870.3 @__libc_csu_init+112.3 CALL_NEAR_M subi rsp rsp 0x8 0x8 
+15 20 0x401870.4 @__libc_csu_init+112.4 CALL_NEAR_M wripi t1 0 0 
+15 21 0x401877.0 @__libc_csu_init+119.0 ADD_R_I limm t1 0x1 0x1 
+15 22 0x401877.1 @__libc_csu_init+119.1 ADD_R_I add rbx rbx t1 
+15 23 0x40187b.0 @__libc_csu_init+123.0 CMP_R_R sub t0 rbx r14 
+15 24 0x40187e.0 @__libc_csu_init+126.0 JNZ_I rdip t1 0 0 
+15 25 0x40187e.1 @__libc_csu_init+126.1 JNZ_I limm t2 0xffffffffffffffe8 0xffffffffffffffe8 
+15 26 0x40187e.2 @__libc_csu_init+126.2 JNZ_I wrip t1 t2 0 
+15 27 0x4129ef.0 @_int_malloc+1711.0 LEA_R_M lea eax DS 0 
+15 28 0x4129f4.0 @_int_malloc+1716.0 LEA_R_M lea rax DS 0 
+15 29 0x4129f9.0 @_int_malloc+1721.0 MOV_R_M ld rdx DS 0 
+15 30 0x4129fd.0 @_int_malloc+1725.0 CMP_R_R sub t0 rdx rax 
+15 31 0x412a00.0 @_int_malloc+1728.0 JZ_I rdip t1 0 0 
+15 32 0x412a00.1 @_int_malloc+1728.1 JZ_I limm t2 0xfffffffffffffe36 0xfffffffffffffe36 
+15 33 0x412a00.2 @_int_malloc+1728.2 JZ_I wrip t1 t2 0 
+15 34 0x4018b0.0 @__libc_csu_fini+32.0 CALL_NEAR_M rdip t7 0 0 
+15 35 0x4018b0.1 @__libc_csu_fini+32.1 CALL_NEAR_M ld t1 DS 0 
+15 36 0x4018b0.2 @__libc_csu_fini+32.2 CALL_NEAR_M st t7 SS 0 
+15 37 0x4018b0.3 @__libc_csu_fini+32.3 CALL_NEAR_M subi rsp rsp 0x8 0x8 
+15 38 0x4018b0.4 @__libc_csu_fini+32.4 CALL_NEAR_M wripi t1 0 0 
+15 39 0x4018b7.0 @__libc_csu_fini+39.0 SUB_R_I limm t1 0x1 0x1 
+15 40 0x4018b7.1 @__libc_csu_fini+39.1 SUB_R_I sub rbx rbx t1 
+15 41 0x4018bb.0 @__libc_csu_fini+43.0 JNZ_I rdip t1 0 0 
+15 42 0x4018bb.1 @__libc_csu_fini+43.1 JNZ_I limm t2 0xfffffffffffffff3 0xfffffffffffffff3 
+15 43 0x4018bb.2 @__libc_csu_fini+43.2 JNZ_I wrip t1 t2 0 
+15 44 0x421cf0.0 @memcpy.0 CMP_R_I limm t1 0x20 0x20 
+15 45 0x421cf0.1 @memcpy.1 CMP_R_I sub t0 rdx t1 
+15 46 0x421cf4.0 @memcpy+4.0 MOV_R_R mov rax rax rdi 
+15 47 0x421cf7.0 @memcpy+7.0 rdip t1 0 0 
+15 48 0x421cf7.1 @memcpy+7.1 limm t2 0x77 0x77 
+15 49 0x421cf7.2 @memcpy+7.2 wrip t1 t2 0 
+15 50 0x407560.0 @__run_exit_handlers+48.0 MOV_R_M ld rax DS 0 
+15 51 0x407564.0 @__run_exit_handlers+52.0 MOV_R_R mov rdx rdx rax 
+15 52 0x407567.0 @__run_exit_handlers+55.0 SAL_R_I slli rdx rdx 0x5 0x5 
+15 53 0x40756b.0 @__run_exit_handlers+59.0 TEST_R_R and t0 rax rax 
+15 54 0x40756e.0 @__run_exit_handlers+62.0 LEA_R_M lea rcx DS 0 
+15 55 0x407573.0 @__run_exit_handlers+67.0 JZ_I rdip t1 0 0 
+15 56 0x407573.1 @__run_exit_handlers+67.1 JZ_I limm t2 0x2a 0x2a 
+15 57 0x407573.2 @__run_exit_handlers+67.2 JZ_I wrip t1 t2 0 
+15 58 0x4384b9.0 @_dl_discover_osversion+121.0 CMP_R_I limm t1d 0x3 0x3 
+15 59 0x4384b9.1 @_dl_discover_osversion+121.1 CMP_R_I sub t0d t1d 0 
+15 60 0x4384bd.0 @_dl_discover_osversion+125.0 JNZ_I rdip t1 0 0 
+15 61 0x4384bd.1 @_dl_discover_osversion+125.1 JNZ_I limm t2 0xffffffffffffffa9 0xffffffffffffffa9 
+15 62 0x4384bd.2 @_dl_discover_osversion+125.2 JNZ_I wrip t1 t2 0 
+15 63 0x40ca0b.0 @_IO_cleanup+203.0 AND_R_I limm t1d 0x1008 0x1008 
+15 64 0x40ca0b.1 @_IO_cleanup+203.1 AND_R_I and edx edx t1d 
+15 65 0x40ca11.0 @_IO_cleanup+209.0 CMP_R_I limm t1d 0x8 0x8 
+15 66 0x40ca11.1 @_IO_cleanup+209.1 CMP_R_I sub t0d edx t1d 
+15 67 0x40ca14.0 @_IO_cleanup+212.0 JZ_I rdip t1 0 0 
+15 68 0x40ca14.1 @_IO_cleanup+212.1 JZ_I limm t2 0x96 0x96 
+15 69 0x40ca14.2 @_IO_cleanup+212.2 JZ_I wrip t1 t2 0 
+15 70 0x4192f1.0 @strlen+65.0 AND_R_I limm t1 0xfffffffffffffff0 0xfffffffffffffff0 
+15 71 0x4192f1.1 @strlen+65.1 AND_R_I and rax rax t1 
+15 72 0x4192fb.0 @strlen+75.0 PCMPEQB_XMM_M ldfp %ufp1 DS 0 
+15 73 0x4192fb.1 @strlen+75.1 PCMPEQB_XMM_M ldfp %ufp2 DS 0 
+15 74 0x4192fb.2 @strlen+75.2 PCMPEQB_XMM_M mcmpi2r %xmm10_low %xmm10_low %ufp1 
+15 75 0x4192fb.3 @strlen+75.3 PCMPEQB_XMM_M mcmpi2r %xmm10_high %xmm10_high %ufp2 
+15 76 0x419301.0 @strlen+81.0 PCMPEQB_XMM_M ldfp %ufp1 DS 0 
+15 77 0x419301.1 @strlen+81.1 PCMPEQB_XMM_M ldfp %ufp2 DS 0 
+15 78 0x419301.2 @strlen+81.2 PCMPEQB_XMM_M mcmpi2r %xmm11_low %xmm11_low %ufp1 
+15 79 0x419301.3 @strlen+81.3 PCMPEQB_XMM_M mcmpi2r %xmm11_high %xmm11_high %ufp2 
+15 80 0x419307.0 @strlen+87.0 PMOVMSKB_R_XMM limm edx 0 0 
+15 81 0x419307.1 @strlen+87.1 PMOVMSKB_R_XMM movsign dl dl %xmm9_low 
+15 82 0x419307.2 @strlen+87.2 PMOVMSKB_R_XMM movsign dl dl %xmm9_high 
+15 83 0x41930c.0 @strlen+92.0 PMOVMSKB_R_XMM limm 0 0 0 
+15 84 0x41930c.1 @strlen+92.1 PMOVMSKB_R_XMM movsign %xmm10_low 0 0 
+15 85 0x41930c.2 @strlen+92.2 PMOVMSKB_R_XMM movsign %xmm10_high 0 0 
+15 86 0x419316.0 @strlen+102.0 SAL_R_I slli rdx rdx 0x10 0x10 
+15 87 0x41931a.0 @strlen+106.0 SAL_R_I slli rcx rcx 0x10 0x10 
+15 88 0x41931e.0 @strlen+110.0 OR_R_R or rcx rcx r8 
+15 89 0x419321.0 @strlen+113.0 SAL_R_I slli rcx rcx 0x20 0x20 
+15 90 0x419328.0 @strlen+120.0 MOV_R_R mov rcx rcx rdi 
+15 91 0x41932e.0 @strlen+126.0 AND_R_I limm t1 0xffffffffffffffc0 0xffffffffffffffc0 
+15 92 0x41932e.1 @strlen+126.1 AND_R_I and rax rax t1 
+15 93 0x419335.0 @strlen+133.0 TEST_R_R and t0 rdx rdx 
+15 94 0x419338.0 @strlen+136.0 JZ_I rdip t1 0 0 
+15 95 0x419338.1 @strlen+136.1 JZ_I limm t2 0x76 0x76 
+15 96 0x419338.2 @strlen+136.2 JZ_I wrip t1 t2 0 
+15 97 0x41933a.0 @strlen+138.0 BSF_R_R mov t1 t1 t0 
+15 98 0x41933a.1 @strlen+138.1 BSF_R_R and t1 rdx rdx 
+15 99 0x41933a.2 @strlen+138.2 BSF_R_R 0x1d 0x1d 0 
+15 100 0x41933a.3 @strlen+138.3 BSF_R_R rax rax 0 
+15 101 0x41933a.4 @strlen+138.4 BSF_R_R subi t2 t1 0x1 0x1 
+15 102 0x41933a.5 @strlen+138.5 BSF_R_R xor t1 t2 t1 
+15 103 0x41933a.6 @strlen+138.6 BSF_R_R srli t3 t1 0x20 0x20 
+15 104 0x41933a.7 @strlen+138.7 BSF_R_R ori t4 rax 0x20 0x20 
+15 105 0x41933a.8 @strlen+138.8 BSF_R_R mov rax rax t4 
+15 106 0x41933a.9 @strlen+138.9 BSF_R_R mov t1 t1 t3 
+15 107 0x41933a.10 @strlen+138.10 BSF_R_R srli t3 t1 0x10 0x10 
+15 108 0x41933a.11 @strlen+138.11 BSF_R_R ori t4 rax 0x10 0x10 
+15 109 0x41933a.12 @strlen+138.12 BSF_R_R mov rax rax t4 
+15 110 0x41933a.13 @strlen+138.13 BSF_R_R mov t1 t1 t3 
+15 111 0x41933a.14 @strlen+138.14 BSF_R_R srli t3 t1 0x8 0x8 
+15 112 0x41933a.15 @strlen+138.15 BSF_R_R ori t4 rax 0x8 0x8 
+15 113 0x41933a.16 @strlen+138.16 BSF_R_R mov rax rax t4 
+15 114 0x41933a.17 @strlen+138.17 BSF_R_R mov t1 t1 t3 
+15 115 0x41933a.18 @strlen+138.18 BSF_R_R srli t3 t1 0x4 0x4 
+15 116 0x41933a.19 @strlen+138.19 BSF_R_R ori t4 rax 0x4 0x4 
+15 117 0x41933a.20 @strlen+138.20 BSF_R_R mov rax rax t4 
+15 118 0x41933a.21 @strlen+138.21 BSF_R_R mov t1 t1 t3 
+15 119 0x41933a.22 @strlen+138.22 BSF_R_R srli t3 t1 0x2 0x2 
+15 120 0x41933a.23 @strlen+138.23 BSF_R_R ori t4 rax 0x2 0x2 
+15 121 0x41933a.24 @strlen+138.24 BSF_R_R mov rax rax t4 
+15 122 0x41933a.25 @strlen+138.25 BSF_R_R mov t1 t1 t3 
+15 123 0x41933a.26 @strlen+138.26 BSF_R_R srli t3 t1 0x1 0x1 
+15 124 0x41933a.27 @strlen+138.27 BSF_R_R ori t4 rax 0x1 0x1 
+15 125 0x41933a.28 @strlen+138.28 BSF_R_R mov rax rax t4 
+15 126 0x41933a.29 @strlen+138.29 BSF_R_R fault No Fault 0 
+15 127 0x41933e.0 @strlen+142.0 RET_NEAR ld t1 SS 0 
+15 128 0x41933e.1 @strlen+142.1 RET_NEAR addi rsp rsp 0x8 0x8 
+15 129 0x41933e.2 @strlen+142.2 RET_NEAR wripi t1 0 0 
+15 130 0x416ca0.0 @__default_morecore.0 SUB_R_I limm t1 0x8 0x8 
+15 131 0x416ca0.1 @__default_morecore.1 SUB_R_I sub rsp rsp t1 
+15 132 0x416ca4.0 @__default_morecore+4.0 CALL_NEAR_I limm t1 0x1dcd7 0x1dcd7 
+15 133 0x416ca4.1 @__default_morecore+4.1 CALL_NEAR_I rdip t7 0 0 
+15 134 0x416ca4.2 @__default_morecore+4.2 CALL_NEAR_I st t7 SS 0 
+15 135 0x416ca4.3 @__default_morecore+4.3 CALL_NEAR_I subi rsp rsp 0x8 0x8 
+15 136 0x416ca4.4 @__default_morecore+4.4 CALL_NEAR_I wrip t7 t1 0 
+15 137 0x416ca9.0 @__default_morecore+9.0 xor edx edx edx 
+15 138 0x416cab.0 @__default_morecore+11.0 CMP_R_I limm t1 0xffffffffffffffff 0xffffffffffffffff 
+15 139 0x416cab.1 @__default_morecore+11.1 CMP_R_I sub t0 rax t1 
+15 140 0x416caf.0 @__default_morecore+15.0 mov rdx rdx rdx 
+15 141 0x416caf.1 @__default_morecore+15.1 mov rdx rdx rax 
+15 142 0x416cb3.0 @__default_morecore+19.0 ADD_R_I limm t1 0x8 0x8 
+15 143 0x416cb3.1 @__default_morecore+19.1 ADD_R_I add rsp rsp t1 
+15 144 0x416cb7.0 @__default_morecore+23.0 MOV_R_R mov rax rax rdx 
+15 145 0x416cba.0 @__default_morecore+26.0 RET_NEAR ld t1 SS 0 
+15 146 0x416cba.1 @__default_morecore+26.1 RET_NEAR addi rsp rsp 0x8 0x8 
+15 147 0x416cba.2 @__default_morecore+26.2 RET_NEAR wripi t1 0 0 
+15 148 0x412387.0 @_int_malloc+71.0 MOV_R_R mov ebp 0 0 
+15 149 0x41238a.0 @_int_malloc+74.0 SHR_R_I srli 0x4 0x4 0 
+15 150 0x41238e.0 @_int_malloc+78.0 SUB_R_I limm t1d 0x2 0x2 
+15 151 0x41238e.1 @_int_malloc+78.1 SUB_R_I sub t1d 0 0 
+15 152 0x412392.0 @_int_malloc+82.0 MOV_R_R mov eax eax 0 
+15 153 0x412395.0 @_int_malloc+85.0 MOV_R_M ld rcx DS 0 
+15 154 0x41239a.0 @_int_malloc+90.0 LEA_R_M lea rsi DS 0 
+15 155 0x41239e.0 @_int_malloc+94.0 LEA_R_M lea rdx DS 0 
+15 156 0x4123a2.0 @_int_malloc+98.0 TEST_R_R and t0 rcx rcx 
+15 157 0x4123a5.0 @_int_malloc+101.0 JZ_I rdip t1 0 0 
+15 158 0x4123a5.1 @_int_malloc+101.1 JZ_I limm t2 0x52 0x52 
+15 159 0x4123a5.2 @_int_malloc+101.2 JZ_I wrip t1 t2 0 
+15 160 0x412478.0 @_int_malloc+312.0 MOV_R_R mov r9 r9 rbp 
+15 161 0x41247b.0 @_int_malloc+315.0 SHR_R_I srli r9 r9 0x6 0x6 
+15 162 0x41247f.0 @_int_malloc+319.0 CMP_R_I limm t1 0x30 0x30 
+15 163 0x41247f.1 @_int_malloc+319.1 CMP_R_I sub t0 r9 t1 
+15 164 0x412483.0 @_int_malloc+323.0 JBE_I rdip t1 0 0 
+15 165 0x412483.1 @_int_malloc+323.1 JBE_I limm t2 0x627 0x627 
+15 166 0x412483.2 @_int_malloc+323.2 JBE_I wrip t1 t2 0 
+15 167 0x41249e.0 @_int_malloc+350.0 TEST_M_I ld DS 0 0 
+15 168 0x41249e.1 @_int_malloc+350.1 TEST_M_I limm 0x1 0x1 0 
+15 169 0x41249e.2 @_int_malloc+350.2 TEST_M_I and 0 0 0 
+15 170 0x4124a2.0 @_int_malloc+354.0 JNZ_I rdip t1 0 0 
+15 171 0x4124a2.1 @_int_malloc+354.1 JNZ_I limm t2 0x12 0x12 
+15 172 0x4124a2.2 @_int_malloc+354.2 JNZ_I wrip t1 t2 0 
+15 173 0x434995.0 @__sbrk+21.0 MOV_R_P rdip t7d 0 0 
+15 174 0x434995.1 @__sbrk+21.1 MOV_R_P ld eax DS 0 
+15 175 0x43499b.0 @__sbrk+27.0 TEST_R_R and t0d eax eax 
+15 176 0x43499d.0 @__sbrk+29.0 JNZ_I rdip t1 0 0 
+15 177 0x43499d.1 @__sbrk+29.1 JNZ_I limm t2 0x29 0x29 
+15 178 0x43499d.2 @__sbrk+29.2 JNZ_I wrip t1 t2 0 
+16 0 0x4192f5.0 @strlen+69.0 PCMPEQB_XMM_M ldfp %ufp1 DS 0 
+16 1 0x4192f5.1 @strlen+69.1 PCMPEQB_XMM_M ldfp %ufp2 DS 0 
+16 2 0x4192f5.2 @strlen+69.2 PCMPEQB_XMM_M mcmpi2r %xmm9_low %xmm9_low %ufp1 
+16 3 0x4192f5.3 @strlen+69.3 PCMPEQB_XMM_M mcmpi2r %xmm9_high %xmm9_high %ufp2 
+16 4 0x419311.0 @strlen+97.0 PMOVMSKB_R_XMM limm ecx 0 0 
+16 5 0x419311.1 @strlen+97.1 PMOVMSKB_R_XMM movsign cl cl %xmm11_low 
+16 6 0x419311.2 @strlen+97.2 PMOVMSKB_R_XMM movsign cl cl %xmm11_high 
+16 7 0x419325.0 @strlen+117.0 OR_R_R or rdx rdx rcx 
+16 8 0x41932b.0 @strlen+123.0 xor rcx rcx rax 
+16 9 0x419332.0 @strlen+130.0 sra rdx rdx rcx 

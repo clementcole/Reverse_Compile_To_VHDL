@@ -1,0 +1,737 @@
+C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_add
+-- Compiling architecture arc of shift_reg_add
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_sll
+-- Compiling architecture arc of shift_reg_sll
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity or_reg
+-- Compiling architecture behavioral of or_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Components.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Components.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package opcodes
+-- Compiling package Components
+-- Compiling package body Components
+-- Loading package Components
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity alu_32_tb
+-- Compiling architecture testbench of alu_32_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fifo_32
+-- Compiling architecture fifo_32_a of fifo_32
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity fifo_generator_v9_3_bhv_as
+-- Loading entity fifo_generator_v9_3_bhv_ss
+-- Loading entity fifo_generator_v9_3_conv
+-- Loading entity fifo_generator_v9_3
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_fmult
+-- Compiling architecture arc of shift_reg_fmult
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_or
+-- Compiling architecture arc of shift_reg_or
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity sla_n
+-- Compiling architecture behave of sla_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_rol
+-- Compiling architecture arc of shift_reg_rol
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_sra
+-- Compiling architecture arc of shift_reg_sra
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_nor
+-- Compiling architecture arc of shift_reg_nor
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity AlU_EXPERIMENT_32
+-- Compiling architecture BEHAVIORAL of ALU_EXPERIMENT_32
+-- Loading entity or_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity rol_n
+-- Compiling architecture behave of rol_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_not
+-- Compiling architecture arc of shift_reg_not
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Loading package Components
+-- Compiling entity MATH_EXPRESSION_3
+-- Compiling architecture arch of MATH_EXPRESSION_3
+-- Loading entity AlU_EXPERIMENT_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity xnor_n
+-- Compiling architecture behave of xnor_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_ror
+-- Compiling architecture arc of shift_reg_ror
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity not_n
+-- Compiling architecture behave of not_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity add_sub_reg
+-- Compiling architecture behavioral of add_sub_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_sla
+-- Compiling architecture arc of shift_reg_sla
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/mult.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mult
+-- Compiling architecture mult_a of mult
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package mult_gen_pkg_v11_2
+-- Loading entity mult_gen_v11_2
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_fsub
+-- Compiling architecture arc of shift_reg_fsub
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity sra_reg
+-- Compiling architecture behavioral of sra_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity xnor_reg
+-- Compiling architecture behavioral of xnor_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_and
+-- Compiling architecture arc of shift_reg_and
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Shift_Counter
+-- Compiling architecture behavioral of Shift_Counter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity or_n
+-- Compiling architecture behave of or_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity add_sub_n
+-- Compiling architecture behave of add_sub_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Loading package Components
+-- Compiling entity Difference_Of_Products
+-- Compiling architecture arch of Difference_Of_Products
+-- Loading entity AlU_EXPERIMENT_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg
+-- Compiling architecture arc of shift_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity sra_n
+-- Compiling architecture behave of sra_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity test_counter
+-- Compiling architecture only of test_counter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity generic_counter
+-- Compiling architecture arch of generic_counter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity fifo_32_tb
+-- Compiling architecture behaviorial of fifo_32_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity sla_reg
+-- Compiling architecture behavioral of sla_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity xor_reg
+-- Compiling architecture BEHAVIORAL of xor_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity srl_reg
+-- Compiling architecture behavioral of srl_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity mult_reg
+-- Compiling architecture BEHAVIORAL of mult_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity mult_add_unbalanced_tb
+-- Compiling architecture testbench of mult_add_unbalanced_tb
+-- Loading package Components
+-- Loading entity mult_add_unbalanced_eq
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity counter
+-- Compiling architecture only of counter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity sll_n
+-- Compiling architecture behave of sll_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity shift_reg_mult_tb
+-- Compiling architecture testbench of shift_reg_mult_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_mult
+-- Compiling architecture arc of shift_reg_mult
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity Difference_Of_Products_tb
+-- Compiling architecture testbench of Difference_Of_Products_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity sll_reg
+-- Compiling architecture behavioral of sll_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_fadd
+-- Compiling architecture arc of shift_reg_fadd
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Loading package Components
+-- Compiling entity math_expression_2
+-- Compiling architecture nodes of math_expression_2
+-- Loading entity AlU_EXPERIMENT_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity nor_n
+-- Compiling architecture behave of nor_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling package opcodes
+-- Compiling package body opcodes
+-- Loading package opcodes
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity math_expression_3_tb
+-- Compiling architecture testbench of math_expression_3_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ror_n
+-- Compiling architecture behave of ror_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity rol_reg
+-- Compiling architecture behavioral of rol_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/alu_main_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity AlU_MAIN_32
+-- Compiling architecture BEHAVIORAL of ALU_MAIN_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_srl
+-- Compiling architecture arc of shift_reg_srl
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_xor
+-- Compiling architecture arc of shift_reg_xor
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity nor_reg
+-- Compiling architecture behavioral of nor_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity not_reg
+-- Compiling architecture behavioral of not_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity xor_n
+-- Compiling architecture behave of xor_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add_sub_32
+-- Compiling architecture add_sub_32_a of add_sub_32
+-- Loading package NUMERIC_STD
+-- Loading package xbip_addsub_v2_0_comp
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package bip_usecase_utils_pkg_v2_0
+-- Loading package c_addsub_pkg_v11_0
+-- Loading package xbip_pipe_v2_0_xst_comp
+-- Loading entity c_addsub_v11_0
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity srl_n
+-- Compiling architecture behave of srl_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity ALU_EXPERIMENT_32_TB
+-- Compiling architecture testbench of ALU_EXPERIMENT_32_TB
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity math_expression_2_tb
+-- Compiling architecture testbench of math_expression_2_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity ror_reg
+-- Compiling architecture behavioral of ror_reg
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_reg_xnor
+-- Compiling architecture arc of shift_reg_xnor
+
+} {} {}}

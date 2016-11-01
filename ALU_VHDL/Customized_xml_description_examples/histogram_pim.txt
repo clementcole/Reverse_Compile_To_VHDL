@@ -1,0 +1,36 @@
+<!--  Histogram DFPIM implementation  -->
+
+<LDST instance="LDST0", size="24">
+
+<!--  stage 1: shift r, g data; delay b data  -->
+
+<IALU instance="red", in_0="LDST0.data",
+    in_1="immed", immed="16", funct="srl">
+<IALU instance="grn", in_0="LDST0.data",
+    in_1="immed", immed="8", funct="srl">
+<DLY  instance="blu", in="LDST0.data">
+
+<!--  stage 2: mask values to 8 bits each  -->
+
+<IALU instance="red2", in_0="red.data",
+    in_1="immed", immed="0xff", funct="and">
+<IALU instance="grn2", in_0="grn.data",
+    in_1="immed", immed="0xff", funct="and">
+<IALU instance="blu2", in_0="blu.data",
+    in_1="immed", immed="0xff", funct="and">
+
+<!--  stage 3: read histogram counts, increment, write back  -->
+
+<MEM512b  instance=red_hist, rd_adrs="red2.data", rd_enable="1",
+    latency="0", wr_adrs="red2.data", wr_data="red_incr.data">
+<MEM512b  instance=grn_hist, rd_adrs="grn2.data", rd_enable="1",
+    latency="0", wr_adrs="grn2.data", wr_data="grn_incr.data">
+<MEM512b  instance=blu_hist, rd_adrs="blu2.data", rd_enable="1",
+    latency="0", wr_adrs="blu2.data", wr_data="blu_incr.data">
+
+<IALU instance="red_incr", in_0="red_hist.data",
+    in_1="immed", immed="1", funct="add", latency="0">
+<IALU instance="grn_incr", in_0="grn_hist.data",
+    in_1="immed", immed="1", funct="add", latency="0">
+<IALU instance="blu_incr", in_0="blu_hist.data",
+    in_1="immed", immed="1", funct="add", latency="0">

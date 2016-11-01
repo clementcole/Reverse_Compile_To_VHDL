@@ -1,0 +1,1 @@
+vhdtdtfi -prj ALU -o C:/Modeltech_pe_edu_10.4a/ALU/alu_32_tb.tfi -lib work C:/Modeltech_pe_edu_10.4a/ALU//ALU_MAIN_32_tb.vhd -module alu_32_tb -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,15 @@
+# Output products list for <mult_counter>
+_xmsgs\pn_parser.xmsgs
+mult_counter.asy
+mult_counter.gise
+mult_counter.ngc
+mult_counter.sym
+mult_counter.vhd
+mult_counter.vho
+mult_counter.xco
+mult_counter.xise
+mult_counter\doc\c_shift_ram_v11_0_readme.txt
+mult_counter\doc\c_shift_ram_v11_0_vinfo.html
+mult_counter\doc\ds228_shift_ram.pdf
+mult_counter_flist.txt
+mult_counter_xmdf.tcl

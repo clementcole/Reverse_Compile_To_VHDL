@@ -1,0 +1,15 @@
+# Output products list for <add_sub_32>
+_xmsgs\pn_parser.xmsgs
+add_sub_32.asy
+add_sub_32.gise
+add_sub_32.ngc
+add_sub_32.sym
+add_sub_32.vhd
+add_sub_32.vho
+add_sub_32.xco
+add_sub_32.xise
+add_sub_32\doc\c_addsub_v11_0_readme.txt
+add_sub_32\doc\c_addsub_v11_0_vinfo.html
+add_sub_32\doc\ds214_addsub.pdf
+add_sub_32_flist.txt
+add_sub_32_xmdf.tcl

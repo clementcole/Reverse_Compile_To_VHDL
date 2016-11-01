@@ -1,0 +1,9 @@
+A = 32'h00000000
+B = 32'h00000000
+clk = 1
+rst = 1
+input_ready = 0
+output_ready = 0
+Operation = 8'hFE
+Result = 64'h0000000000000000
+Period = 10 ns

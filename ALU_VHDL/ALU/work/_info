@@ -1,0 +1,3419 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.4a/ALU
+Eadd_sub_32
+Z1 w1470253962
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd
+Z5 FC:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd
+l0
+L43
+VQJHMg@<k[7:::?:@KkEh`2
+!s100 Kb:I1HQ<6gb5PKgn0FeCZ2
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1477273304
+!i10b 1
+Z8 !s108 1477273304.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd|
+Z10 !s107 C:/Modeltech_pe_edu_10.4a/ALU/add_sub_32.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Aadd_sub_32_a
+DPx13 xilinxcorelib 23 xbip_pipe_v2_0_xst_comp 0 22 GLeToj@0>lJEEWJHQMUB60
+DPx13 xilinxcorelib 18 c_addsub_pkg_v11_0 0 22 7K>>^ghm>9W2^^KBlWl_a2
+Z13 DPx13 xilinxcorelib 18 bip_utils_pkg_v2_0 0 22 :[90Y[:8DzaQIDSm09Og91
+DPx13 xilinxcorelib 26 bip_usecase_utils_pkg_v2_0 0 22 Y33YXC0i8TT>hj@mT`0K10
+DPx13 xilinxcorelib 21 xbip_addsub_v2_0_comp 0 22 PCa7Dk8dMWlDIh4lWZLHH0
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+DEx13 xilinxcorelib 14 c_addsub_v11_0 0 22 P3noWYlGogaaAi[8L50]H0
+R2
+R3
+DEx4 work 10 add_sub_32 0 22 QJHMg@<k[7:::?:@KkEh`2
+l94
+L52
+VN:0giZSnZBh;UzMe]::P91
+!s100 n<?8dBIVk63<6JLMWk?4_0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadd_sub_n
+Z15 w1472766874
+R14
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z18 8C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd
+Z19 FC:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd
+l0
+L9
+V:c64o_2mV5N9^co63TNKi3
+!s100 ]UR;jkKL56?`ZS=Fl^c@X3
+R6
+32
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd|
+Z21 !s107 C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 9 add_sub_n 0 22 :c64o_2mV5N9^co63TNKi3
+l32
+L20
+VEoa=U;J@BI:j9`76;4QcF0
+!s100 Oh?R7@7>DJU;J>OJ7ULP93
+R6
+32
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12
+Eadd_sub_reg
+Z22 w1473798306
+Z23 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z24 DPx4 work 7 opcodes 0 22 i]O_T6XE88Co:fQ9@E1Qf2
+R14
+R16
+R17
+R2
+R3
+R0
+Z25 8C:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd
+Z26 FC:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd
+l0
+L28
+VR>ZEjLn9oPGMO7K2>ib<R2
+!s100 eHdK<ZaV5Xnb`R^I5@^1X2
+R6
+32
+Z27 !s110 1477273307
+!i10b 1
+Z28 !s108 1477273307.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd|
+Z30 !s107 C:/Modeltech_pe_edu_10.4a/ALU/add_sub_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 11 add_sub_reg 0 22 R>ZEjLn9oPGMO7K2>ib<R2
+l59
+L41
+Ve4[7P`nWOEXP[mIhG[3UC2
+!s100 lPIC^LChU4`k0a22Qb8;a0
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Ealu_32_tb
+Z31 w1470866431
+R23
+R24
+Z32 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R14
+R16
+R17
+R2
+R3
+R0
+Z33 8C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd
+Z34 FC:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd
+l0
+L13
+Vmg:[ESGgnCGcGLoD=LzF:3
+!s100 dC04oX0746d>QKNbB<:M=2
+R6
+32
+Z35 !s110 1477273305
+!i10b 1
+Z36 !s108 1477273305.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd|
+Z38 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ALU_MAIN_32_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 9 alu_32_tb 0 22 mg:[ESGgnCGcGLoD=LzF:3
+l44
+L16
+V<;TGDO;8TR]Z5KjJB7zcY1
+!s100 b8X_@`Y`1<];^UCMeU<]d3
+R6
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R11
+R12
+Ealu_experiment_32
+Z39 w1474325924
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z40 8C:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd
+Z41 FC:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd
+l0
+L29
+Vm<V1b:OS52J>>b8;QfXi>0
+!s100 zk;K=OCHCbz[0eIe6FKJV2
+R6
+32
+R7
+!i10b 1
+R8
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd|
+Z43 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ALU_EXPERIMENT.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+Z44 DEx4 work 6 or_reg 0 22 bhCFlOW=I>GbUID]9=Ob=3
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+Z45 DEx4 work 17 alu_experiment_32 0 22 m<V1b:OS52J>>b8;QfXi>0
+l317
+L43
+Vn;nN0CPRX]KL<;4BOP0UQ2
+!s100 0m^UWj]B=zJPLUAFnn7hh0
+R6
+32
+R7
+!i10b 1
+R8
+R42
+R43
+!i113 1
+R11
+R12
+Ealu_experiment_32_tb
+Z46 w1473803912
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z47 8C:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd
+Z48 FC:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd
+l0
+L12
+V@2eZ^8eeRzUISYlP2dJfh3
+!s100 76iG8Z:AJ7:kUO@<`9MF_0
+R6
+32
+R7
+!i10b 1
+R8
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd|
+Z50 !s107 C:/Modeltech_pe_edu_10.4a/ALU/alu_experiment_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 20 alu_experiment_32_tb 0 22 @2eZ^8eeRzUISYlP2dJfh3
+l48
+L15
+VVzVnMHf3Hz;ER_4KMdk?02
+!s100 J=0RnOlYNVhg0DjYQo5CS0
+R6
+32
+R7
+!i10b 1
+R8
+R49
+R50
+!i113 1
+R11
+R12
+Ealu_main_32
+Z51 w1469026963
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z52 8C:/Modeltech_pe_edu_10.4a/ALU/alu_main_32.vhd
+Z53 FC:/Modeltech_pe_edu_10.4a/ALU/alu_main_32.vhd
+l0
+L9
+V[2DENFa6l1bYZ?TCFbT6A3
+!s100 ;<o<bd_nzTk4i;9QKHbDf2
+R6
+32
+R35
+!i10b 1
+R36
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/alu_main_32.vhd|
+Z55 !s107 C:/Modeltech_pe_edu_10.4a/ALU/alu_main_32.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 11 alu_main_32 0 22 [2DENFa6l1bYZ?TCFbT6A3
+l216
+L19
+VdVZZWO^ec9UhUKAKWJQCC0
+!s100 he>M9nmeF31;YY=>^lE>10
+R6
+32
+R35
+!i10b 1
+R36
+R54
+R55
+!i113 1
+R11
+R12
+Pcomponents
+R24
+R14
+R23
+R16
+R17
+R2
+R3
+Z56 w1469727659
+R0
+Z57 8C:/Modeltech_pe_edu_10.4a/ALU/Components.vhd
+Z58 FC:/Modeltech_pe_edu_10.4a/ALU/Components.vhd
+l0
+L32
+V7:cHY8WDoG0RZSKZ:[Z8]3
+!s100 fEXhDFU[[6A4m_4_?fTA80
+R6
+32
+R35
+!i10b 1
+R36
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Components.vhd|
+Z60 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Components.vhd|
+!i113 1
+R11
+R12
+Bbody
+Z61 DPx4 work 10 components 0 22 7:cHY8WDoG0RZSKZ:[Z8]3
+R24
+R14
+R23
+R16
+R17
+R2
+R3
+l0
+L97
+VI4b2QMbl25XOzYi:AI<zC0
+!s100 f__G^4X883T3mB`49bKX31
+R6
+32
+R35
+!i10b 1
+R36
+R59
+R60
+!i113 1
+R11
+R12
+Z62 nbody
+Ecounter
+Z63 w1428435538
+R0
+Z64 8C:/Modeltech_pe_edu_10.4a/ALU/counter.vhd
+Z65 FC:/Modeltech_pe_edu_10.4a/ALU/counter.vhd
+l0
+L10
+V7ACfAkC^1aCRINY3^dF7G2
+!s100 [3YB00WOScZ[1n5QzB5>K2
+R6
+32
+R35
+!i10b 1
+R36
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/counter.vhd|
+Z67 !s107 C:/Modeltech_pe_edu_10.4a/ALU/counter.vhd|
+!i113 1
+R11
+R12
+Aonly
+DEx4 work 7 counter 0 22 7ACfAkC^1aCRINY3^dF7G2
+l34
+L16
+VRT5AgWb7bZgbigbmLP^QR3
+!s100 ^Tk8L<z6nzL>X;n;9<^FD1
+R6
+32
+R35
+!i10b 1
+R36
+R66
+R67
+!i113 1
+R11
+R12
+Edemux_1_to_2
+Z68 w1476985851
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z69 8C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2.vhd
+Z70 FC:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2.vhd
+l0
+L28
+V?bjIn3ClP0gHO2<V9eDM62
+!s100 LHZ3<lXSc3gOOMIVFWXYZ2
+R6
+32
+Z71 !s110 1477273316
+!i10b 1
+Z72 !s108 1477273316.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2.vhd|
+Z74 !s107 C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+Z75 DEx4 work 12 demux_1_to_2 0 22 ?bjIn3ClP0gHO2<V9eDM62
+l41
+L40
+VVC:@9E?TXdfbXl<_CSFWQ2
+!s100 VbPDncEjA1HDU6?R6CL:W3
+R6
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R11
+R12
+Edemux_1_to_2_tb
+Z76 w1477273298
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z77 8C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2_tb.vhd
+Z78 FC:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2_tb.vhd
+l0
+L28
+V_Yh]^47[?DS?6^CRD9=GN3
+!s100 R[`4cSN7ZAiXmEhdEDlg:3
+R6
+32
+R71
+!i10b 1
+R72
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2_tb.vhd|
+Z80 !s107 C:/Modeltech_pe_edu_10.4a/ALU/demux_1_to_2_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R75
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+Z81 DEx4 work 15 demux_1_to_2_tb 0 22 _Yh]^47[?DS?6^CRD9=GN3
+l36
+L32
+VBHCASIi[?:3G2C[:EkgdG3
+!s100 ^O=iECF7L:OXj8ddSi?Ci3
+R6
+32
+R71
+!i10b 1
+R72
+R79
+R80
+!i113 1
+R11
+R12
+Edifference_of_product
+w1473185163
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z82 8C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd
+Z83 FC:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd
+l0
+L12
+VbQe_3E0k[n@<4Vd<Sl4Z=1
+!s100 TEK@@gT2_c9ROkd>MF[aB2
+R6
+32
+!s110 1473185638
+!i10b 1
+!s108 1473185638.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd|
+Z85 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products.vhd|
+!i113 1
+R11
+R12
+Edifference_of_product_tb
+w1473185455
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z86 8C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd
+Z87 FC:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd
+l0
+L11
+V68>F_`03EPWQiBA:D12i93
+!s100 0AHjlO1N57d4aP@QV^PD[1
+R6
+32
+!s110 1473185637
+!i10b 1
+!s108 1473185637.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd|
+Z89 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Difference_Of_Products_tb.vhd|
+!i113 1
+R11
+R12
+Edifference_of_products
+Z90 w1473185935
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+R82
+R83
+l0
+L12
+VQO3f122b_MI3QfD_FGe[J0
+!s100 @Y;2zEm?M`[Fj?b>A;l:50
+R6
+32
+Z91 !s110 1477273315
+!i10b 1
+Z92 !s108 1477273315.000000
+R84
+R85
+!i113 1
+R11
+R12
+Aarch
+R45
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 22 difference_of_products 0 22 QO3f122b_MI3QfD_FGe[J0
+l48
+L37
+VE]mXP_[YaDgWFO[NZb2eo1
+!s100 O]kNgb1YZcNkMk2CX>BRh1
+R6
+32
+R91
+!i10b 1
+R92
+R84
+R85
+!i113 1
+R11
+R12
+Edifference_of_products_tb
+Z93 w1473810202
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+R86
+R87
+l0
+L11
+VCbKNc9]G^n<>@ESEoJ:X73
+!s100 Nm90hzQMd3V@=4;LZ_Ghn1
+R6
+32
+R91
+!i10b 1
+R92
+R88
+R89
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 25 difference_of_products_tb 0 22 CbKNc9]G^n<>@ESEoJ:X73
+l52
+L16
+V1o=3mc=Yk8kL0E@O4bN?23
+!s100 Ei4gEUim8jU[iV;Y0z9[Z2
+R6
+32
+R91
+!i10b 1
+R92
+R88
+R89
+!i113 1
+R11
+R12
+Efifo_32
+Z94 w1473277646
+R2
+R3
+R0
+Z95 8C:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd
+Z96 FC:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd
+l0
+L43
+VD01Q[naIHQT4S8LT;TLhl1
+!s100 fSP?cEe9]FKgWn_R_HWRz3
+R6
+32
+R27
+!i10b 1
+R28
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd|
+Z98 !s107 C:/Modeltech_pe_edu_10.4a/ALU/fifo_32.vhd|
+!i113 1
+R11
+R12
+Afifo_32_a
+R17
+R16
+DEx13 xilinxcorelib 19 fifo_generator_v9_3 0 22 3Ka;D[R2Pd>m@_hPQcHI91
+R2
+R3
+DEx4 work 7 fifo_32 0 22 D01Q[naIHQT4S8LT;TLhl1
+l265
+L56
+VBg<>D;bO5CCWIOb:T6j3a2
+!s100 =cZO^Y1]=eH8>Ml1Y^BNE3
+R6
+32
+R27
+!i10b 1
+R28
+R97
+R98
+!i113 1
+R11
+R12
+Efifo_32_tb
+Z99 w1473468167
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z100 8C:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd
+Z101 FC:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd
+l0
+L10
+VHP5fJNd7KM>naPbG`:6[J0
+!s100 0K8M]ndk7gETi`m`ROfW71
+R6
+32
+Z102 !s110 1477273308
+!i10b 1
+R28
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd|
+Z104 !s107 C:/Modeltech_pe_edu_10.4a/ALU/fifo_32_tb.vhd|
+!i113 1
+R11
+R12
+Abehaviorial
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 10 fifo_32_tb 0 22 HP5fJNd7KM>naPbG`:6[J0
+l43
+L14
+Vh4UT8kWSbIc7iDiX9Q1Sm3
+!s100 >T6c=bE7ddbA^?LPQHK542
+R6
+32
+R102
+!i10b 1
+R28
+R103
+R104
+!i113 1
+R11
+R12
+Efp_add
+Z105 w1469039717
+R2
+R3
+R0
+Z106 8C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd
+Z107 FC:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd
+l0
+L43
+V2z5_K3TlP;VQLETobYAh93
+!s100 ZJlY0@a3d`CQfe[lJG=3;3
+R6
+32
+Z108 !s110 1469108273
+!i10b 1
+Z109 !s108 1469108273.000000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd|
+Z111 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd|
+!i113 1
+R11
+R12
+Afp_add_a
+R13
+R14
+Z112 DPx13 xilinxcorelib 23 floating_point_pkg_v5_0 0 22 @oZ:WWTN]nVkM3T97MgD>3
+Z113 DPx13 xilinxcorelib 26 floating_point_v5_0_consts 0 22 1Lk?e4MggQ02WkaCdUjA^2
+R16
+Z114 DEx13 xilinxcorelib 19 floating_point_v5_0 0 22 a@5Wk8R6G]OkGU5?`6bCl1
+R2
+R3
+DEx4 work 6 fp_add 0 22 2z5_K3TlP;VQLETobYAh93
+l111
+L52
+VkgjIL[z[4hT1jZiPWdb2z2
+!s100 ?V4:Em]3e1;4K5GO^zPI:0
+R6
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R11
+R12
+Efp_mult
+Z115 w1469084030
+R2
+R3
+R0
+Z116 8C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd
+Z117 FC:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd
+l0
+L43
+Vo9Thdj<:FccB89OdWIn]E1
+!s100 S9WnO]AeMJdaHH8GIT;Q33
+R6
+32
+R108
+!i10b 1
+R109
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd|
+Z119 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd|
+!i113 1
+R11
+R12
+Afp_mult_a
+R13
+R14
+R112
+R113
+R16
+R114
+R2
+R3
+DEx4 work 7 fp_mult 0 22 o9Thdj<:FccB89OdWIn]E1
+l111
+L52
+V_BEOdeO;5<DWW5`OV0VYV2
+!s100 EKP4kC1iIiefY]5Fb;g3O1
+R6
+32
+R108
+!i10b 1
+R109
+R118
+R119
+!i113 1
+R11
+R12
+Efp_sub
+Z120 w1469087939
+R2
+R3
+R0
+Z121 8C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd
+Z122 FC:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd
+l0
+L43
+V[V0;j;6OKfH0UoXS4h9]e2
+!s100 2_?`^mBNY<>Xn4Le1WNDz1
+R6
+32
+R108
+!i10b 1
+R109
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd|
+Z124 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd|
+!i113 1
+R11
+R12
+Afp_sub_a
+R13
+R14
+R112
+R113
+R16
+R114
+R2
+R3
+DEx4 work 6 fp_sub 0 22 [V0;j;6OKfH0UoXS4h9]e2
+l111
+L52
+VM^d12Fj28Um]Uo0g8i2>l2
+!s100 LSLbkP[]DYV2ZH@T?am4a1
+R6
+32
+R108
+!i10b 1
+R109
+R123
+R124
+!i113 1
+R11
+R12
+Egeneric_counter
+Z125 w1471052711
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z126 8C:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd
+Z127 FC:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd
+l0
+L9
+V]QS^GDMf5<0_hLH7f=_9n0
+!s100 L9cEeGoQ=2=838_RRT=Z^3
+R6
+32
+Z128 !s110 1477273306
+!i10b 1
+R36
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd|
+Z130 !s107 C:/Modeltech_pe_edu_10.4a/ALU/generic_counter.vhd|
+!i113 1
+R11
+R12
+Aarch
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 15 generic_counter 0 22 ]QS^GDMf5<0_hLH7f=_9n0
+l36
+L16
+VRzMU<`<f0zZZnb0f54X9M3
+!s100 9867jTfI]1KLQb5`X8eY:3
+R6
+32
+R128
+!i10b 1
+R36
+R129
+R130
+!i113 1
+R11
+R12
+vglbl
+R108
+!i10b 1
+!s100 <zc]<>FPoecFBL39iHYG20
+IRaV^@3GB_7JD[:hG10fBW1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1469039383
+8C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v
+FC:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v
+L0 10850
+OP;L;10.4a;61
+r1
+!s85 0
+31
+R109
+!s107 C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v|
+!s101 -O0
+!i113 1
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Emath_expression
+w1469085286
+R23
+Z131 DPx4 work 7 opcodes 0 22 gdZG^h142I;`E9YYomD?g3
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z132 8C:\Modeltech_pe_edu_10.4a\ALU\Math_expression.vhd
+Z133 FC:\Modeltech_pe_edu_10.4a\ALU\Math_expression.vhd
+l0
+L12
+VhBhFAKE1XLomVI=76_kOR2
+!s100 1NGV8NAh?Ui=oe_hX5`Z@1
+R6
+32
+!s110 1469087688
+!i10b 1
+!s108 1469087688.000000
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Modeltech_pe_edu_10.4a\ALU\Math_expression.vhd|
+Z135 !s107 C:\Modeltech_pe_edu_10.4a\ALU\Math_expression.vhd|
+!i113 1
+R11
+R12
+Atestbench
+DEx4 work 11 alu_main_32 0 22 8@Ya9G@;7hANg@9[<]PET3
+R23
+R131
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 15 math_expression 0 22 4D85fNlc[@U33bCO9`<Uk0
+l60
+L15
+VLSzAHeXNZgCl<W>X<Jf[92
+!s100 mI7CHnL<X]4QMCON;Y_[f3
+R6
+32
+!s110 1469084408
+!i10b 1
+!s108 1469084408.000000
+R134
+R135
+!i113 1
+R11
+R12
+w1469054333
+Emath_expression_2
+Z136 w1473470518
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z137 8C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd
+Z138 FC:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd
+l0
+L12
+VbL9OSMgWQE7Yce7gdlLo10
+!s100 <mdMDK?>f9c^ZE^KOJoPD2
+R6
+32
+R128
+!i10b 1
+Z139 !s108 1477273306.000000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd|
+Z141 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd|
+!i113 1
+R11
+R12
+Anodes
+R45
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 17 math_expression_2 0 22 bL9OSMgWQE7Yce7gdlLo10
+l74
+L46
+V90<QER_UWD<lJ<4DmHY[P1
+!s100 T5SEcYZkk9O=mYWiaGQ7;0
+R6
+32
+R128
+!i10b 1
+R139
+R140
+R141
+!i113 1
+R11
+R12
+Emath_expression_2_tb
+Z142 w1473470846
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z143 8C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd
+Z144 FC:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd
+l0
+L12
+VHoDX^6]Z`bVQNWffnmkh>0
+!s100 j6F@z<Ol0fOjiLcX]NQ<m0
+R6
+32
+R128
+!i10b 1
+R139
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd|
+Z146 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 20 math_expression_2_tb 0 22 HoDX^6]Z`bVQNWffnmkh>0
+l72
+L17
+VYFz0884;IIM0]SfVSBclk1
+!s100 OcD2Ak=>9:?Gl5nEC6z_H2
+R6
+32
+R128
+!i10b 1
+R139
+R145
+R146
+!i113 1
+R11
+R12
+Emath_expression_3
+Z147 w1473183500
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z148 8C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd
+Z149 FC:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd
+l0
+L12
+V<R>TH^akTGOzc?FW]nbDf1
+!s100 Lj2_Gj4`]HPlKKkWDQNA61
+R6
+32
+R27
+!i10b 1
+R28
+Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd|
+Z151 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3.vhd|
+!i113 1
+R11
+R12
+Aarch
+R45
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 17 math_expression_3 0 22 <R>TH^akTGOzc?FW]nbDf1
+l48
+L37
+VNU1eW7<U@`]BNflegAj9W2
+!s100 RWgJSUJDY3gQ4eXzoiX>z3
+R6
+32
+R27
+!i10b 1
+R28
+R150
+R151
+!i113 1
+R11
+R12
+Atestbench
+Z152 DEx4 work 17 alu_experiment_32 0 22 Ji@VD<NOKK^95NPR>M>>73
+R61
+R23
+Z153 DPx4 work 7 opcodes 0 22 iTV9f<0T6c^U8>9=[0_;60
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 17 math_expression_3 0 22 GIgPdaoB9E>i@j9^f`@TF0
+l48
+L37
+VLnRcGkDS?XFmhCKXXSjdo1
+!s100 BO@^KO[3OaMiQ1_K2oUeO3
+R6
+32
+!s110 1471984333
+!i10b 1
+!s108 1471984333.000000
+R150
+R151
+!i113 1
+R11
+R12
+w1471984136
+Ae
+R152
+R61
+R23
+R153
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 17 math_expression_3 0 22 TJ0clDLdVCQoZ<m9[4[Ll1
+l93
+L31
+V93gZ8GP>Ei@X=gQ@RJ`HV3
+!s100 Gl]ObaeF1cTA:XTbLH7F]1
+R6
+32
+!s110 1471974675
+!i10b 1
+!s108 1471974674.000000
+R150
+R151
+!i113 1
+R11
+R12
+w1471762017
+Emath_expression_3_tb
+Z154 w1473535990
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z155 8C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd
+Z156 FC:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd
+l0
+L12
+V_IL8C=eaUSn51VV9o6CeU2
+!s100 ^gQ5<DbUk87K@dFQOPLOd1
+R6
+32
+R128
+!i10b 1
+R139
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd|
+Z158 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_3_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 20 math_expression_3_tb 0 22 _IL8C=eaUSn51VV9o6CeU2
+l53
+L17
+V3R@g;cCZ[`KOcnLmI7jWC1
+!s100 <NE109EO7BV<5[lj7H]M72
+R6
+32
+R128
+!i10b 1
+R139
+R157
+R158
+!i113 1
+R11
+R12
+Emult
+Z159 w1469104198
+R2
+R3
+R0
+Z160 8C:/Modeltech_pe_edu_10.4a/ALU/mult.vhd
+Z161 FC:/Modeltech_pe_edu_10.4a/ALU/mult.vhd
+l0
+L43
+V?cV_AUZ<g7QhhUZ:P3WoE3
+!s100 HVz4aHNjhAm53H@cP10Kc0
+R6
+32
+R128
+!i10b 1
+R139
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/mult.vhd|
+Z163 !s107 C:/Modeltech_pe_edu_10.4a/ALU/mult.vhd|
+!i113 1
+R11
+R12
+Amult_a
+DPx13 xilinxcorelib 18 mult_gen_pkg_v11_2 0 22 <X=7`f3Vn<GC7n:bIGFVz1
+R13
+R14
+R16
+R23
+DEx13 xilinxcorelib 14 mult_gen_v11_2 0 22 >Td9N6gROT>bBRdCKknW11
+R2
+R3
+DEx4 work 4 mult 0 22 ?cV_AUZ<g7QhhUZ:P3WoE3
+l88
+L52
+V4kkg<3W9lh7o_DZ1K;Ocb2
+!s100 `UXm?WzcIb6a;SZdnYoj82
+R6
+32
+R128
+!i10b 1
+R139
+R162
+R163
+!i113 1
+R11
+R12
+Emult_add_unbalanced_eq
+Z164 w1474327556
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z165 8C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq.vhd
+Z166 FC:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq.vhd
+l0
+L12
+VL1kdGiG4K90OV^OnDiPT42
+!s100 BUijCC7@AJ6<T>@KWY:GS0
+R6
+32
+R71
+!i10b 1
+R72
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq.vhd|
+Z168 !s107 C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq.vhd|
+!i113 1
+R11
+R12
+Aarch
+R45
+R61
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+Z169 DEx4 work 22 mult_add_unbalanced_eq 0 22 L1kdGiG4K90OV^OnDiPT42
+l45
+L37
+VFI9nn9Yb92NDz6V4jSHQ12
+!s100 bC_^EWmn0a?SHOP`R7PcR3
+R6
+32
+R71
+!i10b 1
+R72
+R167
+R168
+!i113 1
+R11
+R12
+Emult_add_unbalanced_tb
+Z170 w1474327204
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z171 8C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd
+Z172 FC:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd
+l0
+L11
+VBmGE=5]g1>AP6h:9A4mBd2
+!s100 KKK7QF>mX`D3c_dQX`dj[1
+R6
+32
+R71
+!i10b 1
+R72
+Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd|
+Z174 !s107 C:/Modeltech_pe_edu_10.4a/ALU/mult_add_unbalanced_eq_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R61
+R169
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 22 mult_add_unbalanced_tb 0 22 BmGE=5]g1>AP6h:9A4mBd2
+l30
+L16
+V]8^i62RBo<2PSEW1jaeG]2
+!s100 LIG`1U[Z8BU`mP_7YWDPZ3
+R6
+32
+R71
+!i10b 1
+R72
+R173
+R174
+!i113 1
+R11
+R12
+Emult_reg
+Z175 w1473474445
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z176 8C:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd
+Z177 FC:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd
+l0
+L30
+VQzj9gf=7eNQ`?ZzQ=KcO>0
+!s100 ZWl71gWB_jB>Qb3?hc8g;2
+R6
+32
+Z178 !s110 1477273313
+!i10b 1
+Z179 !s108 1477273313.000000
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd|
+Z181 !s107 C:/Modeltech_pe_edu_10.4a/ALU/mult_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 8 mult_reg 0 22 Qzj9gf=7eNQ`?ZzQ=KcO>0
+l62
+L43
+V6z7:YZKBz]T9l3la?gL@U1
+!s100 QT5jeUV8`LPQW_cZ?miU22
+R6
+32
+R178
+!i10b 1
+R179
+R180
+R181
+!i113 1
+R11
+R12
+Enor_n
+Z182 w1472765740
+R14
+R16
+R17
+R2
+R3
+R0
+Z183 8C:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd
+Z184 FC:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd
+l0
+L8
+VT<eB4Ig?f3B0`;L>V^;dc2
+!s100 lVMXSGoBdSQ^hN7>[i?VU3
+R6
+32
+Z185 !s110 1477273312
+!i10b 1
+Z186 !s108 1477273312.000000
+Z187 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd|
+Z188 !s107 C:/Modeltech_pe_edu_10.4a/ALU/nor_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 nor_n 0 22 T<eB4Ig?f3B0`;L>V^;dc2
+l26
+L17
+VfDK:S6iH[G;f6aoU9lGCM3
+!s100 ^n?ND_?bh>Xh4FOlLKRLD0
+R6
+32
+R185
+!i10b 1
+R186
+R187
+R188
+!i113 1
+R11
+R12
+Enor_reg
+Z189 w1472767516
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z190 8C:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd
+Z191 FC:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd
+l0
+L28
+Vajfgz5B7@AW]k<KJ[j7]B0
+!s100 XSYPjP0>Fi<V?;e2RW44W3
+R6
+32
+R178
+!i10b 1
+R179
+Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd|
+Z193 !s107 C:/Modeltech_pe_edu_10.4a/ALU/nor_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 nor_reg 0 22 ajfgz5B7@AW]k<KJ[j7]B0
+l59
+L41
+VcQ4:nl3_K12O6liKgP[b_1
+!s100 2egJ`6MT;^IjY:HmaW?L;2
+R6
+32
+R178
+!i10b 1
+R179
+R192
+R193
+!i113 1
+R11
+R12
+Enot_n
+Z194 w1472766831
+R14
+R16
+R17
+R2
+R3
+R0
+Z195 8C:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd
+Z196 FC:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd
+l0
+L8
+VAR`LaFTd<?`bR4eHUfLhD0
+!s100 3<]kE1VQ>B>5:9k=1=UXz3
+R6
+32
+R178
+!i10b 1
+R179
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd|
+Z198 !s107 C:/Modeltech_pe_edu_10.4a/ALU/not_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 not_n 0 22 AR`LaFTd<?`bR4eHUfLhD0
+l20
+L19
+V1Q`dXzR^JfQ6WZHCK:[b60
+!s100 ]igc6E^7ZYcRaEXbdjSCT2
+R6
+32
+R178
+!i10b 1
+R179
+R197
+R198
+!i113 1
+R11
+R12
+Enot_reg
+Z199 w1472775202
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z200 8C:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd
+Z201 FC:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd
+l0
+L28
+Vj9J4XikQlA6X:1PMLm<O83
+!s100 R>M4LBLM`o96oS5FUo1KL1
+R6
+32
+R178
+!i10b 1
+R179
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd|
+Z203 !s107 C:/Modeltech_pe_edu_10.4a/ALU/not_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 not_reg 0 22 j9J4XikQlA6X:1PMLm<O83
+l59
+L41
+VZ7Zh<=E6IE7JVQSei1b4Q3
+!s100 @z;l17;@ZF_<a9G4[NJ4R1
+R6
+32
+R178
+!i10b 1
+R179
+R202
+R203
+!i113 1
+R11
+R12
+Popcodes
+R14
+R23
+R16
+R17
+R2
+R3
+Z204 w1473172787
+R0
+Z205 8C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd
+Z206 FC:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd
+l0
+L33
+Vi]O_T6XE88Co:fQ9@E1Qf2
+!s100 Z28Cmf`Fo7?`AhZ8gme?b2
+R6
+32
+b1
+R27
+!i10b 1
+R28
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd|
+Z208 !s107 C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd|
+!i113 1
+R11
+R12
+Bbody
+R24
+R14
+R23
+R16
+R17
+R2
+R3
+l0
+L80
+V=fUYMOKekW04kOzNh510Z1
+!s100 >clfD`f:45`FURDTKYZGm2
+R6
+32
+R27
+!i10b 1
+R28
+R207
+R208
+!i113 1
+R11
+R12
+R62
+Eor_n
+Z209 w1473477492
+R14
+R16
+R17
+R2
+R3
+R0
+Z210 8C:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd
+Z211 FC:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd
+l0
+L8
+V]oDe>]1l=jzKn3T<`RCo91
+!s100 7z39EPi0Xo0lHCSEdXkRA3
+R6
+32
+Z212 !s110 1477273314
+!i10b 1
+R179
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd|
+Z214 !s107 C:/Modeltech_pe_edu_10.4a/ALU/or_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 4 or_n 0 22 ]oDe>]1l=jzKn3T<`RCo91
+l31
+L19
+VZSIc[7LG19dJneZkJ7=H[3
+!s100 f>RQlKnPli9F`O8:OPeo@2
+R6
+32
+R212
+!i10b 1
+R179
+R213
+R214
+!i113 1
+R11
+R12
+Eor_reg
+Z215 w1472774594
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z216 8C:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd
+Z217 FC:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd
+l0
+L28
+VbhCFlOW=I>GbUID]9=Ob=3
+!s100 fjB:Vb6V8QaFbIFbHTI6d1
+R6
+32
+R212
+!i10b 1
+Z218 !s108 1477273314.000000
+Z219 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd|
+Z220 !s107 C:/Modeltech_pe_edu_10.4a/ALU/or_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R44
+l59
+L41
+VjTEgHbgn=IjakHf7AK<BN3
+!s100 k7P_dHQ4VOBGFQDkBAOYH1
+R6
+32
+R212
+!i10b 1
+R218
+R219
+R220
+!i113 1
+R11
+R12
+Erol_n
+Z221 w1472767022
+R14
+R16
+R17
+R2
+R3
+R0
+Z222 8C:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd
+Z223 FC:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd
+l0
+L8
+V6Q0OMG6];C8eXW;@zCK]A2
+!s100 L6T>02OG0hAZTcB=Ak1@z1
+R6
+32
+R212
+!i10b 1
+R218
+Z224 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd|
+Z225 !s107 C:/Modeltech_pe_edu_10.4a/ALU/rol_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 rol_n 0 22 6Q0OMG6];C8eXW;@zCK]A2
+l20
+L19
+V4KnZ;AbW=;O8z;fmfk2R53
+!s100 QE4I@lPlaEKMOF_Y9dYNL2
+R6
+32
+R212
+!i10b 1
+R218
+R224
+R225
+!i113 1
+R11
+R12
+Erol_reg
+Z226 w1472768888
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z227 8C:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd
+Z228 FC:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd
+l0
+L28
+V<=6kmjF<O>64b?iigj8@`0
+!s100 L>Id9M5blb0hb3S1RZSW^0
+R6
+32
+R212
+!i10b 1
+R218
+Z229 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd|
+Z230 !s107 C:/Modeltech_pe_edu_10.4a/ALU/rol_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 rol_reg 0 22 <=6kmjF<O>64b?iigj8@`0
+l59
+L41
+Va>l@8=K`oO?]Q2?Db_nf^0
+!s100 Tm9bXH=0?aizf`cK@E5l93
+R6
+32
+R212
+!i10b 1
+R218
+R229
+R230
+!i113 1
+R11
+R12
+Eror_n
+Z231 w1472766995
+R14
+R16
+R17
+R2
+R3
+R0
+Z232 8C:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd
+Z233 FC:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd
+l0
+L8
+Vg[B^?lE=FenW3]5MnAYXd0
+!s100 YaCIjTW0HKkkLSDHNb?_83
+R6
+32
+R212
+!i10b 1
+R218
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd|
+Z235 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ror_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 ror_n 0 22 g[B^?lE=FenW3]5MnAYXd0
+l31
+L19
+VeK20D<Zb@25XEKHiBl2[F1
+!s100 L8GJfnHmzzQV;5Dj1j`BC3
+R6
+32
+R212
+!i10b 1
+R218
+R234
+R235
+!i113 1
+R11
+R12
+Eror_reg
+Z236 w1472774525
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z237 8C:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd
+Z238 FC:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd
+l0
+L28
+V?@:PIVXHiLKW]@]YH?<]m3
+!s100 gLZCnco<bU`;Hoal<3[NN0
+R6
+32
+R91
+!i10b 1
+R218
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd|
+Z240 !s107 C:/Modeltech_pe_edu_10.4a/ALU/ror_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 ror_reg 0 22 ?@:PIVXHiLKW]@]YH?<]m3
+l59
+L41
+VaMS9FCf70CL7eXe`NJIoN1
+!s100 Q66ZU09el`E8d`UD3k0jO0
+R6
+32
+R91
+!i10b 1
+R218
+R239
+R240
+!i113 1
+R11
+R12
+Eshift_counter
+Z241 w1469946262
+R14
+R2
+R3
+R0
+Z242 8C:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd
+Z243 FC:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd
+l0
+L6
+V<h^[zZb<>@OCG?YH:b2f[3
+!s100 Z=]bFO>blIMkF[Ez<DB7A0
+R6
+32
+R7
+!i10b 1
+Z244 !s108 1477273303.000000
+Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd|
+Z246 !s107 C:/Modeltech_pe_edu_10.4a/ALU/Shift_Counter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+DEx4 work 13 shift_counter 0 22 <h^[zZb<>@OCG?YH:b2f[3
+l23
+L17
+V>JY1HaV8g1IYABM7hUYlf3
+!s100 Q7Cjeo=WJV`FOI^jOzaCU3
+R6
+32
+R7
+!i10b 1
+R244
+R245
+R246
+!i113 1
+R11
+R12
+Eshift_reg
+Z247 w1470884608
+R2
+R3
+R0
+Z248 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd
+Z249 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd
+l0
+L4
+VYFF2jT_K9BJ?D4;7CDieW0
+!s100 WmdlIM9`liaLIc?l[R16`2
+R6
+32
+Z250 !s110 1477273303
+!i10b 1
+R244
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd|
+Z252 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 9 shift_reg 0 22 YFF2jT_K9BJ?D4;7CDieW0
+l15
+L11
+Vnecj2U`H8M]HS91A:FFMW2
+!s100 ;MXI>XFSST4z2f8nVB>7a1
+R6
+32
+R250
+!i10b 1
+R244
+R251
+R252
+!i113 1
+R11
+R12
+Eshift_reg_add
+Z253 w1473475599
+R2
+R3
+R0
+Z254 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd
+Z255 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd
+l0
+L4
+VQ_bcG^:?bA@^`TV<^<f6W2
+!s100 jE0U<nIIFNh4]RN=0k1K;3
+R6
+32
+R250
+!i10b 1
+R244
+Z256 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd|
+Z257 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_add.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_add 0 22 Q_bcG^:?bA@^`TV<^<f6W2
+l14
+L11
+VUecb:AemHNIkQ^7G42n`02
+!s100 5@TO]5YYbfe]S3YKaP<=A2
+R6
+32
+R250
+!i10b 1
+R244
+R256
+R257
+!i113 1
+R11
+R12
+Eshift_reg_and
+Z258 w1472776698
+R2
+R3
+R0
+Z259 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd
+Z260 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd
+l0
+L4
+VK[jOKS>=jMLWF[_aii>Y]3
+!s100 C^[LH]VDP[23Ek>GXma[i0
+R6
+32
+R250
+!i10b 1
+R244
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd|
+Z262 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_and.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_and 0 22 K[jOKS>=jMLWF[_aii>Y]3
+l14
+L11
+V<F5PEWXeO4_:Y?1CL[k212
+!s100 ozVenidFV<eh>]z6ZJ`9h0
+R6
+32
+R250
+!i10b 1
+R244
+R261
+R262
+!i113 1
+R11
+R12
+Eshift_reg_fadd
+Z263 w1472775512
+R2
+R3
+R0
+Z264 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd
+Z265 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd
+l0
+L4
+Vh96SzX;ZfO^S>5lE]^M1D3
+!s100 3WlWljHDPz5<G?;?SaoRa1
+R6
+32
+R102
+!i10b 1
+Z266 !s108 1477273308.000000
+Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd|
+Z268 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fadd.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 14 shift_reg_fadd 0 22 h96SzX;ZfO^S>5lE]^M1D3
+l14
+L11
+VkEYLzhUBj97B2o6T=5VF20
+!s100 7SDIN@5i?=CS8]4Xn@C^a0
+R6
+32
+R102
+!i10b 1
+R266
+R267
+R268
+!i113 1
+R11
+R12
+Eshift_reg_fmult
+Z269 w1472772244
+R2
+R3
+R0
+Z270 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd
+Z271 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd
+l0
+L4
+Vj@D[J1]`g2FDBcO_A0QS[1
+!s100 :icP`;jb8K]36o7PDK>1Q1
+R6
+32
+R102
+!i10b 1
+R266
+Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd|
+Z273 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fmult.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 15 shift_reg_fmult 0 22 j@D[J1]`g2FDBcO_A0QS[1
+l14
+L11
+VEncY`H>F4dll_eYm`?5Bj2
+!s100 ZlekfOUK?o`[b49_jJgYK1
+R6
+32
+R102
+!i10b 1
+R266
+R272
+R273
+!i113 1
+R11
+R12
+Eshift_reg_fsub
+Z274 w1472776472
+R2
+R3
+R0
+Z275 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd
+Z276 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd
+l0
+L4
+Vz>abi6A2k[CTjlNdH7Z9T0
+!s100 d:QW6TX5WM;ZeoQJn>MhH0
+R6
+32
+R102
+!i10b 1
+R266
+Z277 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd|
+Z278 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_fsub.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 14 shift_reg_fsub 0 22 z>abi6A2k[CTjlNdH7Z9T0
+l14
+L11
+VLOQm_K`0LMa;AXkMD;1241
+!s100 IX@JV]SY9=J908fNEz2>Y0
+R6
+32
+R102
+!i10b 1
+R266
+R277
+R278
+!i113 1
+R11
+R12
+Eshift_reg_mult
+Z279 w1474326314
+R2
+R3
+R0
+Z280 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd
+Z281 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd
+l0
+L4
+V]7dP8>Teek0E;>;`=NX370
+!s100 :j@4F^Qn_g?WRnSDNT?m70
+R6
+32
+R250
+!i10b 1
+R244
+Z282 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd|
+Z283 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 14 shift_reg_mult 0 22 ]7dP8>Teek0E;>;`=NX370
+l14
+L11
+V:gb;9c:g_M1[U>:f3EmLi2
+!s100 o6oN[MRhJVVPY]FTI^3<A2
+R6
+32
+R250
+!i10b 1
+R244
+R282
+R283
+!i113 1
+R11
+R12
+Eshift_reg_mult_tb
+Z284 w1473172121
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+R0
+Z285 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd
+Z286 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd
+l0
+L12
+VXenJcf7BBa?;2Kz@Lh^[K2
+!s100 l^Z<Tg09@gWd=mTVTWB]e1
+R6
+32
+R250
+!i10b 1
+R244
+Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd|
+Z288 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_mult_tb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R23
+R24
+R32
+R14
+R16
+R17
+R2
+R3
+DEx4 work 17 shift_reg_mult_tb 0 22 XenJcf7BBa?;2Kz@Lh^[K2
+l29
+L15
+V_304^mS@5EQNTcBlNFEYb2
+!s100 Ei:QXjc8f4ibfzUenLTLZ0
+R6
+32
+R250
+!i10b 1
+R244
+R287
+R288
+!i113 1
+R11
+R12
+Eshift_reg_nor
+Z289 w1473478370
+R2
+R3
+R0
+Z290 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd
+Z291 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd
+l0
+L4
+V5kTQ3aZ3e7XlV]b?WHV993
+!s100 88iP[I>ACPhhKZJ0i3l;A0
+R6
+32
+Z292 !s110 1477273309
+!i10b 1
+Z293 !s108 1477273309.000000
+Z294 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd|
+Z295 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_nor.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_nor 0 22 5kTQ3aZ3e7XlV]b?WHV993
+l14
+L11
+VeLS<4`Ll<ne2_?^SUOjh21
+!s100 8QXC[e`0U`ASQDIUP46W72
+R6
+32
+R292
+!i10b 1
+R293
+R294
+R295
+!i113 1
+R11
+R12
+Eshift_reg_not
+Z296 w1473478626
+R2
+R3
+R0
+Z297 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd
+Z298 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd
+l0
+L4
+V6f_BliVe>c8?_i0QKffe62
+!s100 5kD273dHgd60CQ]l_20C_0
+R6
+32
+R91
+!i10b 1
+R92
+Z299 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd|
+Z300 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_not.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_not 0 22 6f_BliVe>c8?_i0QKffe62
+l14
+L11
+VGIJI^Hf40QMG?iLI=_J2i0
+!s100 DbNh[V26MX9?a]hbV]FB@2
+R6
+32
+R91
+!i10b 1
+R92
+R299
+R300
+!i113 1
+R11
+R12
+Eshift_reg_or
+Z301 w1473478193
+R2
+R3
+R0
+Z302 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd
+Z303 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd
+l0
+L4
+VgORd:]R_I9e]AAkoaAOzU0
+!s100 1ZOMgJ_FDPS85PhBlz[BA2
+R6
+32
+Z304 !s110 1477273310
+!i10b 1
+Z305 !s108 1477273310.000000
+Z306 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd|
+Z307 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_or.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 12 shift_reg_or 0 22 gORd:]R_I9e]AAkoaAOzU0
+l14
+L11
+VDCb[h@]kKfG1ofd]com;X3
+!s100 1cY6N6k>llXJHOBJnS0F`1
+R6
+32
+R304
+!i10b 1
+R305
+R306
+R307
+!i113 1
+R11
+R12
+Eshift_reg_rol
+Z308 w1473478400
+R2
+R3
+R0
+Z309 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd
+Z310 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd
+l0
+L4
+VmioP[hC=LC<fSPHjS`WD82
+!s100 D8;TBTVfVWA@BZ@:?2cY;2
+R6
+32
+R304
+!i10b 1
+R293
+Z311 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd|
+Z312 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_rol.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_rol 0 22 mioP[hC=LC<fSPHjS`WD82
+l14
+L11
+V`j3<G9jFd<LG79dabSG9Z2
+!s100 nKM>R]VnkQ40f5<;Yi`UK0
+R6
+32
+R304
+!i10b 1
+R293
+R311
+R312
+!i113 1
+R11
+R12
+Eshift_reg_ror
+Z313 w1473478414
+R2
+R3
+R0
+Z314 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd
+Z315 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd
+l0
+L4
+Vilfjza0W8ND>aimIOd:QL2
+!s100 c5gf4:ZPPe^IQz2A@@9z_2
+R6
+32
+R292
+!i10b 1
+R293
+Z316 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd|
+Z317 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_ror.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_ror 0 22 ilfjza0W8ND>aimIOd:QL2
+l14
+L11
+VRLkN1j:=`@K20@jaWnQ1Y3
+!s100 2`:V@2IJbKXF?7>dPIA1;2
+R6
+32
+R292
+!i10b 1
+R293
+R316
+R317
+!i113 1
+R11
+R12
+Eshift_reg_sla
+Z318 w1473478828
+R2
+R3
+R0
+Z319 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd
+Z320 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd
+l0
+L4
+V5L:;<AO:A>nd3BIQIPQ5S1
+!s100 oEn5Bzd<SiBimeX_SRF8F1
+R6
+32
+R292
+!i10b 1
+R293
+Z321 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd|
+Z322 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sla.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_sla 0 22 5L:;<AO:A>nd3BIQIPQ5S1
+l14
+L11
+VOSzTfDCF==V94?WUZI6z@3
+!s100 zc1@2cJXn>PGSeciSfWYd0
+R6
+32
+R292
+!i10b 1
+R293
+R321
+R322
+!i113 1
+R11
+R12
+Eshift_reg_sll
+Z323 w1473478442
+R2
+R3
+R0
+Z324 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd
+Z325 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd
+l0
+L4
+Vz:f2hITJ5Z]Gc7ZaC7Mfi1
+!s100 jneSFIOMSNJ=TTlYN4k@X1
+R6
+32
+R304
+!i10b 1
+R305
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd|
+Z327 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sll.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_sll 0 22 z:f2hITJ5Z]Gc7ZaC7Mfi1
+l14
+L11
+Vb9^V03nEc38In1M>o0j6c2
+!s100 Wo7YZ9V?1cbO4]D>6IAk20
+R6
+32
+R304
+!i10b 1
+R305
+R326
+R327
+!i113 1
+R11
+R12
+Eshift_reg_sra
+Z328 w1473478931
+R2
+R3
+R0
+Z329 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd
+Z330 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd
+l0
+L4
+VAMC]DUgQRRHYOio8JJc<f3
+!s100 =mX^];InL=:T1z98SIFPh1
+R6
+32
+R292
+!i10b 1
+R293
+Z331 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd|
+Z332 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_sra.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_sra 0 22 AMC]DUgQRRHYOio8JJc<f3
+l14
+L11
+VMigdQ7?^>DUI_OgED^8NU2
+!s100 D>z7[39:jkN0EEZ5nkPjJ1
+R6
+32
+R292
+!i10b 1
+R293
+R331
+R332
+!i113 1
+R11
+R12
+Eshift_reg_srl
+Z333 w1473478469
+R2
+R3
+R0
+Z334 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd
+Z335 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd
+l0
+L4
+Vo<=iePBd6?YNaN=VV6?I=3
+!s100 mfH_eEF_]:b:nl=VWj@e]0
+R6
+32
+R292
+!i10b 1
+R293
+Z336 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd|
+Z337 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_srl.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_srl 0 22 o<=iePBd6?YNaN=VV6?I=3
+l14
+L11
+V18]:[CWaUHKOXL0IzRbFM1
+!s100 11HYI?AH:@ZJ6b7;]hC>71
+R6
+32
+R292
+!i10b 1
+R293
+R336
+R337
+!i113 1
+R11
+R12
+Eshift_reg_xnor
+Z338 w1473478484
+R2
+R3
+R0
+Z339 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd
+Z340 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd
+l0
+L4
+V8I4iGS9hPc:^a^QRMPjDI0
+!s100 1MBAT3c0f6l3m<YhEUHil1
+R6
+32
+R102
+!i10b 1
+R266
+Z341 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd|
+Z342 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xnor.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 14 shift_reg_xnor 0 22 8I4iGS9hPc:^a^QRMPjDI0
+l14
+L11
+VA]aa1B<:0ONFDW>Vc<5Z53
+!s100 _gVZQlzk5jfBXWPIBg1]a0
+R6
+32
+R102
+!i10b 1
+R266
+R341
+R342
+!i113 1
+R11
+R12
+Eshift_reg_xor
+Z343 w1473478498
+R2
+R3
+R0
+Z344 8C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd
+Z345 FC:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd
+l0
+L4
+V_Q@Qed`0ILhWG=@FA9Rco0
+!s100 Va]JJML3MOBiIE_1@]Nzl0
+R6
+32
+R102
+!i10b 1
+R266
+Z346 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd|
+Z347 !s107 C:/Modeltech_pe_edu_10.4a/ALU/shift_reg_xor.vhd|
+!i113 1
+R11
+R12
+Aarc
+R2
+R3
+DEx4 work 13 shift_reg_xor 0 22 _Q@Qed`0ILhWG=@FA9Rco0
+l14
+L11
+ViXkRNPF=O3J^ThhJ9OCSO0
+!s100 iijb:][cXBQ`09Bd3m4X[0
+R6
+32
+R102
+!i10b 1
+R266
+R346
+R347
+!i113 1
+R11
+R12
+Esla_n
+Z348 w1472766951
+R14
+R16
+R17
+R2
+R3
+R0
+Z349 8C:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd
+Z350 FC:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd
+l0
+L7
+Vn90?]8=3`D>XfnWG]TkXN0
+!s100 T^k4R24NcCXP52D?=bV_=0
+R6
+32
+R304
+!i10b 1
+R305
+Z351 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd|
+Z352 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sla_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 sla_n 0 22 n90?]8=3`D>XfnWG]TkXN0
+l30
+L18
+Ve>^clg<Wk[JGdETV6B1AP3
+!s100 `JDg10DPFX2B9V[GP2?nf1
+R6
+32
+R304
+!i10b 1
+R305
+R351
+R352
+!i113 1
+R11
+R12
+Esla_reg
+Z353 w1472775470
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z354 8C:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd
+Z355 FC:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd
+l0
+L28
+V2I0?D[dg]8^Zl?9ZSzW1D0
+!s100 5BM_b12T2GCe49ajoDiEb1
+R6
+32
+R304
+!i10b 1
+R305
+Z356 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd|
+Z357 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sla_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 sla_reg 0 22 2I0?D[dg]8^Zl?9ZSzW1D0
+l59
+L41
+VikVBk_XHI:dG`3CBi81?P1
+!s100 Rd@MOgO_9i:]WA9;1aMEf2
+R6
+32
+R304
+!i10b 1
+R305
+R356
+R357
+!i113 1
+R11
+R12
+Esll_n
+Z358 w1472766909
+R14
+R16
+R17
+R2
+R3
+R0
+Z359 8C:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd
+Z360 FC:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd
+l0
+L7
+VeiM`>;VXC75HYVWX>7^ln1
+!s100 L83nDP`Q85FfFYQFeEjUV3
+R6
+32
+Z361 !s110 1477273311
+!i10b 1
+R305
+Z362 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd|
+Z363 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sll_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 sll_n 0 22 eiM`>;VXC75HYVWX>7^ln1
+l30
+L18
+VX@iYT3T4S9A`d3Gm]RaX=3
+!s100 CP1]c?;E955`GTz37X4<W0
+R6
+32
+R361
+!i10b 1
+R305
+R362
+R363
+!i113 1
+R11
+R12
+Esll_reg
+Z364 w1473479090
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z365 8C:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd
+Z366 FC:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd
+l0
+L28
+V?FkU4^f@3Zjm4PzS6>W?>3
+!s100 iAOHP]7AiB<nc>:H<^;=E2
+R6
+32
+R361
+!i10b 1
+Z367 !s108 1477273311.000000
+Z368 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd|
+Z369 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sll_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 sll_reg 0 22 ?FkU4^f@3Zjm4PzS6>W?>3
+l59
+L41
+V7Ua]7:Q2Oi?WoFJ[[`3911
+!s100 aeoi2>i^Ih:iHCIR19C?X2
+R6
+32
+R361
+!i10b 1
+R367
+R368
+R369
+!i113 1
+R11
+R12
+Esra_n
+Z370 w1472766967
+R14
+R16
+R17
+R2
+R3
+R0
+Z371 8C:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd
+Z372 FC:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd
+l0
+L8
+V2BldA?hI6[3>JSQIZQUdG2
+!s100 AZ^?0aH;Ibg0;Hc;4efIC1
+R6
+32
+R361
+!i10b 1
+R367
+Z373 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd|
+Z374 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sra_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 sra_n 0 22 2BldA?hI6[3>JSQIZQUdG2
+l31
+L19
+VmL`4BC>=jBdj5PQ?>4MEh0
+!s100 118Lo06?KRo6m:D`3Tb3U2
+R6
+32
+R361
+!i10b 1
+R367
+R373
+R374
+!i113 1
+R11
+R12
+Esra_reg
+Z375 w1473479083
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z376 8C:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd
+Z377 FC:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd
+l0
+L9
+VaHbfXMWQ@P9o]8SkgGmch2
+!s100 V3BGTn3FFmR^Be82]CYbA0
+R6
+32
+R91
+!i10b 1
+R92
+Z378 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd|
+Z379 !s107 C:/Modeltech_pe_edu_10.4a/ALU/sra_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 sra_reg 0 22 aHbfXMWQ@P9o]8SkgGmch2
+l40
+L22
+VJmn44N2QE6E404]5::Kfn2
+!s100 ?^m1FIR_UV[m8g`fPO_5G3
+R6
+32
+R91
+!i10b 1
+R92
+R378
+R379
+!i113 1
+R11
+R12
+Esrl_n
+Z380 w1472768095
+R14
+R16
+R17
+R2
+R3
+R0
+Z381 8C:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd
+Z382 FC:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd
+l0
+L8
+VD_8_k`o=7PY<llaB`Z[980
+!s100 =@QY=J9OF<=d;UaU9EZIT2
+R6
+32
+R361
+!i10b 1
+R367
+Z383 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd|
+Z384 !s107 C:/Modeltech_pe_edu_10.4a/ALU/srl_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 srl_n 0 22 D_8_k`o=7PY<llaB`Z[980
+l31
+L19
+Vh8LcOidIooBXhS9ieP?oV3
+!s100 MhT]c<im1i;_0Na[lFXDJ0
+R6
+32
+R361
+!i10b 1
+R367
+R383
+R384
+!i113 1
+R11
+R12
+Esrl_reg
+Z385 w1472767691
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z386 8C:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd
+Z387 FC:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd
+l0
+L28
+V68:aj]hC63iVCZ?dS:S173
+!s100 QPKDc=:3PQNSON7XmL=4J1
+R6
+32
+R361
+!i10b 1
+R367
+Z388 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd|
+Z389 !s107 C:/Modeltech_pe_edu_10.4a/ALU/srl_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 srl_reg 0 22 68:aj]hC63iVCZ?dS:S173
+l59
+L41
+V=`<1=MPMa6?G]1jgPK:@12
+!s100 BWiGzbW0eCIgXlEO2Ij^30
+R6
+32
+R361
+!i10b 1
+R367
+R388
+R389
+!i113 1
+R11
+R12
+Etest_counter
+Z390 w1473538446
+R0
+Z391 8C:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd
+Z392 FC:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd
+l0
+L10
+VTMnaC6>:ePAOTNi64YDd>3
+!s100 4H1USZMHB7cgmkGOZ:ClI0
+R6
+32
+Z393 !s110 1477273302
+!i10b 1
+Z394 !s108 1477273302.000000
+Z395 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd|
+Z396 !s107 C:/Modeltech_pe_edu_10.4a/ALU/tcounter.vhd|
+!i113 1
+R11
+R12
+Aonly
+DEx4 work 12 test_counter 0 22 TMnaC6>:ePAOTNi64YDd>3
+l25
+L14
+V`hC3K=MIcWVW`_zc:4Z;51
+!s100 GWn18Y`M^WdDSBha21A9n3
+R6
+32
+R393
+!i10b 1
+R394
+R395
+R396
+!i113 1
+R11
+R12
+Exnor_n
+Z397 w1472766838
+R14
+R16
+R17
+R2
+R3
+R0
+Z398 8C:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd
+Z399 FC:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd
+l0
+L9
+V:Dz<;0iQKeaOdjdzV=W1N3
+!s100 MeK5<AQ1jLC@Uf9<4Y>0g0
+R6
+32
+R185
+!i10b 1
+R186
+Z400 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd|
+Z401 !s107 C:/Modeltech_pe_edu_10.4a/ALU/xnor_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 6 xnor_n 0 22 :Dz<;0iQKeaOdjdzV=W1N3
+l32
+L20
+ViH45[gF6Onlg]dZAfn__o2
+!s100 YPbNo8fR<5on83XAO1Lg]2
+R6
+32
+R185
+!i10b 1
+R186
+R400
+R401
+!i113 1
+R11
+R12
+Exnor_reg
+Z402 w1472775436
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z403 8C:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd
+Z404 FC:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd
+l0
+L28
+VznETO5HX_W4R`OUKTz5ZS1
+!s100 oH9MGg1B20KI_lRzHK[NK2
+R6
+32
+R185
+!i10b 1
+R186
+Z405 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd|
+Z406 !s107 C:/Modeltech_pe_edu_10.4a/ALU/xnor_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 8 xnor_reg 0 22 znETO5HX_W4R`OUKTz5ZS1
+l59
+L41
+VDk[<b:iT`0z?Z]GI1CzPH0
+!s100 ;SQLTc:TI<VNSn@bhH93n3
+R6
+32
+R185
+!i10b 1
+R186
+R405
+R406
+!i113 1
+R11
+R12
+Exor_n
+Z407 w1472766410
+R14
+R16
+R17
+R2
+R3
+R0
+Z408 8C:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd
+Z409 FC:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd
+l0
+L8
+V?]gHK70`<Dh53B8397?eM1
+!s100 ;XbMH^0<bJL@mon[G;dEj1
+R6
+32
+R185
+!i10b 1
+R186
+Z410 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd|
+Z411 !s107 C:/Modeltech_pe_edu_10.4a/ALU/xor_n.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R16
+R17
+R2
+R3
+DEx4 work 5 xor_n 0 22 ?]gHK70`<Dh53B8397?eM1
+l22
+L19
+VdA>0=YBn3AiLR5Kh9GOne2
+!s100 Cc^2P0j5<5O3e9N6CbZSM1
+R6
+32
+R185
+!i10b 1
+R186
+R410
+R411
+!i113 1
+R11
+R12
+Exor_reg
+Z412 w1472766394
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+R0
+Z413 8C:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd
+Z414 FC:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd
+l0
+L30
+VkmY_PO=EaAC_>U72TSFTP0
+!s100 QJY=40ZY>Y7EdHXE3ZBQ]3
+R6
+32
+R185
+!i10b 1
+R186
+Z415 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd|
+Z416 !s107 C:/Modeltech_pe_edu_10.4a/ALU/xor_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R23
+R24
+R14
+R16
+R17
+R2
+R3
+DEx4 work 7 xor_reg 0 22 kmY_PO=EaAC_>U72TSFTP0
+l61
+L43
+V@hGGgHhl[nFVDhB[]Xln<3
+!s100 U1lCYJJb?NMSLR64J@?2>0
+R6
+32
+R185
+!i10b 1
+R186
+R415
+R416
+!i113 1
+R11
+R12

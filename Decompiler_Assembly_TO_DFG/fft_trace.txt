@@ -1,0 +1,72 @@
+136525500: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136526000: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136526500: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136527000: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136527500: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136528000: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136528500: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136529500: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136530000: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136530500: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136531000: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136531500: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 
+136532000: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136532500: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136533000: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136533500: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136534000: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136534500: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136535000: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136536000: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136536500: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136537000: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136537500: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136538000: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 
+136538500: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136539000: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136539500: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136540000: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136540500: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136541000: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136541500: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136542500: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136543000: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136543500: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136544000: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136544500: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 
+136545000: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136545500: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136546000: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136546500: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136547000: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136547500: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136548000: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136549000: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136549500: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136550000: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136550500: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136551000: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 
+136551500: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136552000: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136552500: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136553000: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136553500: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136554000: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136554500: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136555500: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136556000: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136556500: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136557000: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136557500: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 
+136558000: system.cpu T0 : @ReverseBits+32.0  :   MOV_R_R : mov   r8d, r8d, edi : IntAlu :  D=0x0000000000000000
+136558500: system.cpu T0 : @ReverseBits+35.0  :   ADD_R_R : add   ebx, ebx, ebx : IntAlu :  D=0x0000000000000000
+136559000: system.cpu T0 : @ReverseBits+37.0  :   ADD_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136559500: system.cpu T0 : @ReverseBits+37.1  :   ADD_R_I : add   ecx, ecx, t1d : IntAlu :  D=0x0000000000000000
+136560000: system.cpu T0 : @ReverseBits+40.0  :   AND_R_I : limm   t1d, 0x1 : IntAlu :  D=0x0000000000000001
+136560500: system.cpu T0 : @ReverseBits+40.1  :   AND_R_I : and   r8d, r8d, t1d : IntAlu :  D=0x0000000000000000
+136561000: system.cpu T0 : @ReverseBits+44.0  :   SHR_1_R : srli   edi, edi, 0x1 : IntAlu :  D=0x0000000000000000
+136562000: system.cpu T0 : @ReverseBits+46.0  :   OR_R_R : or   ebx, ebx, r8d : IntAlu :  D=0x0000000000000000
+136562500: system.cpu T0 : @ReverseBits+49.0  :   CMP_R_R : sub   t0d, ecx, esi : IntAlu :  D=0x0000000000000001
+136563000: system.cpu T0 : @ReverseBits+51.0  :   JNZ_I : rdip   t1, %ctrl153,  : IntAlu :  D=0x0000000000401555
+136563500: system.cpu T0 : @ReverseBits+51.1  :   JNZ_I : limm   t2, 0xffffffffffffffeb : IntAlu :  D=0xffffffffffffffeb
+136564000: system.cpu T0 : @ReverseBits+51.2  :   JNZ_I : wrip   , t1, t2  : IntAlu : 

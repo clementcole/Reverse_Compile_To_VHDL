@@ -1,0 +1,73 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Wed Aug 03 19:51:12 2016
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:c_addsub:11.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = xc4vfx12
+SET devicefamily = virtex4
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = ff668
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -10
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Adder_Subtracter xilinx.com:ip:c_addsub:11.0
+# END Select
+# BEGIN Parameters
+CSET a_type=Unsigned
+CSET a_width=32
+CSET add_mode=Add_Subtract
+CSET ainit_value=0
+CSET b_constant=false
+CSET b_type=Unsigned
+CSET b_value=00000000000000000000000000000000
+CSET b_width=32
+CSET borrow_sense=Active_Low
+CSET bypass=false
+CSET bypass_ce_priority=CE_Overrides_Bypass
+CSET bypass_sense=Active_High
+CSET c_in=false
+CSET c_out=false
+CSET ce=false
+CSET component_name=add_sub_32
+CSET implementation=DSP48
+CSET latency=0
+CSET latency_configuration=Manual
+CSET out_width=32
+CSET sclr=false
+CSET sinit=false
+CSET sinit_value=0
+CSET sset=false
+CSET sync_ce_priority=Sync_Overrides_CE
+CSET sync_ctrl_priority=Reset_Overrides_Set
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-07-22T10:35:41Z
+# END Extra information
+GENERATE
+# CRC: b7a79408

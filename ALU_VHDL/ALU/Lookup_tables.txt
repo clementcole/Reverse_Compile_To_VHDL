@@ -1,0 +1,54 @@
+Here are the XML files for the histogram and word_count benchmarks.  I have also included the DFG for the benchmarks.  The 2nd page of the word_count DFG has LUT blocks that do not show connectivity as it clutters the diagram.  However, you can see the connections in the XML file.
+
+The XML file basically has the standard XML overhead and allows comments.  The main elements name one of the DFPIM block types in all CAPS, such as IALU, LD, LUT, etc.  The next attribute should always be ‘instance’ and be provided with a unique instance name.  You can see the instance names of each block on the DFG.  The remainder of the attributes depend on the block being described.  For example, the IALU includes a size attribute: 8, 16, or 32 (default 32) bits; a latency attribute of 0-3 clocks for the output to be valid (0 clocks is combinatorial output, not clocked), a data_in0 attribute whose value must be the output of another DFG block in the syntax “instance_name.output_name”.  If an ‘immed' attribute is used, that means that the second input to the IALU is the immediate value of the ‘dimmed’ attribute.  The ‘funct’ attribute indicates the operation the IALU is to perform and the ‘cond’ attribute indicates a test condition.
+
+The LUT element is a 6-input lookup table with two combinatorial outputs: y_out, z_out and two registered outputs: yq_out and zq_out.  The ‘y_table' and ‘z_table’ specify the lookup table contents.
+
+Here is a list of inputs and outputs of each DFPIM block currently defined:  (ignore the 'omap nix’ column, it is DFPIM simulator implementation details)
+
+INPUTS:
+
+DLY    data_in, eod_in, ready_in, reset
+FIFO   data_in, eod_in, ready_in, put, reset, take
+FADD   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+FMUL   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+IALU   data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+LD     ready_in, reset
+LUT    ctrl_in0, ctrl_in1, ctrl_in2, ctrl_in3, ctrl_in4, ctrl_in5, ctrl_in, reset
+MEM    rd0_adrs, rd0_eod_in, rd0_rdy_in, rd1_adrs, rd1_eod_in, rd1_rdy_in, 
+       wr0_adrs, wr0_data, wr0_eod_in, wr0_rdy_in, wr1_adrs, wr1_data, wr1_eod_in, wr1_rdy_in
+SLCT   select, data_in0, data_in1, ready_in0, ready_in1, eod_in, reset
+STMAC  ctrl_in0, ctrl_in1, ctrl_in2, ctrl_in3, ready_in, reset
+
+
+
+OUTPUTS:
+       DLY, FADD,
+omap   FMUL, IALU,
+ndx    LD, SLCT           MEM                STMAC              LUT              FIFO
+----   ----------------   ----------------   ----------------   --------------   ----------
+ 0:    data_out           rd0_data           data_out0          y_out            data_out
+ 1:    eod_out            rd0_eod_out        ctrl_out0          yq_out           eod_out
+ 2:    ready_out          rd0_rdy_out        ctrl_out1          z_out            ready_out
+ 3:    flag (IALU, FADD)                     ctrl_out2          zq_out           empty
+ 4:                       rd1_data           data_out1                           quarter
+ 5:                       rd1_eod_out        ctrl_out3                           half
+ 6:                       rd1_rdy_out        ready_out                           quarter3
+ 7:                       wr0_eod_out        state0                              full
+ 8:                       wr0_rdy_out        state1                              chain_out
+ 9:                       wr1_eod_out        state2                              not_empty
+10:                       wr1_rdy_out        state3
+11:                                          state4
+12:                                          state5
+13:                                          state6
+14:                                          state7
+15:                                          state8
+16:                                          state9
+17:                                          state10
+18:                                          state11
+19:                                          state12
+20:                                          state13
+21:                                          state14
+22:                                          state15
+23:
+24:

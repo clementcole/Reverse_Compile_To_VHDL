@@ -1,0 +1,184 @@
+C:/Modeltech_pe_edu_10.4a/ALU/alu_main_32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\ALU\ALU_MAIN_32_tb.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity alu_32_tb
+-- Compiling architecture testbench of alu_32_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity math_expression_2_tb
+-- Compiling architecture testbench of math_expression_2_tb
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(58): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(75): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(76): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(77): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(78): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(79): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+** Warning: C:\Modeltech_pe_edu_10.4a\ALU\Math_Expression_2_tb.vhd(80): (vcom-1143) Ambiguous parameter type to function 'To_StdLogicVector'.
+
+  Expression is illegal VHDL-1993 but legal VHDL-1987.
+
+  Suggest use of qualified expressions or VHDL-1987.
+
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/add_sub_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity add_sub_n
+-- Compiling architecture behave of add_sub_n
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/opcodes.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\ALU\opcodes.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling package opcodes
+-- Compiling package body opcodes
+-- Loading package opcodes
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/mult.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mult
+-- Compiling architecture mult_a of mult
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package mult_gen_pkg_v11_2
+-- Loading entity mult_gen_v11_2
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fp_add
+-- Compiling architecture fp_add_a of fp_add
+-- Loading package std_logic_arith
+-- Loading package floating_point_v5_0_consts
+-- Loading package NUMERIC_STD
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package floating_point_pkg_v5_0
+-- Loading entity FLOATING_POINT_V5_0
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_add.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module fp_add
+-- Compiling module glbl
+
+Top level modules:
+	fp_add
+	glbl
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_sub.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fp_sub
+-- Compiling architecture fp_sub_a of fp_sub
+-- Loading package std_logic_arith
+-- Loading package floating_point_v5_0_consts
+-- Loading package NUMERIC_STD
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package floating_point_pkg_v5_0
+-- Loading entity FLOATING_POINT_V5_0
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/ipcore_dir/fp_mult.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fp_mult
+-- Compiling architecture fp_mult_a of fp_mult
+-- Loading package std_logic_arith
+-- Loading package floating_point_v5_0_consts
+-- Loading package NUMERIC_STD
+-- Loading package bip_utils_pkg_v2_0
+-- Loading package floating_point_pkg_v5_0
+-- Loading entity FLOATING_POINT_V5_0
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package opcodes
+-- Compiling entity math_expression_2
+-- Compiling architecture nodes of math_expression_2
+-- Loading entity AlU_MAIN_32
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(34): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(46): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(58): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(70): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(82): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(94): (vcom-1484) Unknown formal identifier "reset".
+
+** Error: C:/Modeltech_pe_edu_10.4a/ALU/Math_Expression_2.vhd(100): VHDL Compiler exiting
+
+} {15.0 16.0 17.0 18.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0} {}}
